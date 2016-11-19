@@ -14,7 +14,6 @@ module Muscat
       logger.info("#{host}: Size of collection --> #{collection.size}")
       collection.each do |e|
         process.call(e)
-        logger.info("#{host}: #{e.id} updated.")
         bar.increment!
       end
     end

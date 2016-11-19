@@ -3,11 +3,11 @@
 require_relative "lib/maintenance"
 
 collection = Source.where("id like ?", "456055%").where(:wf_stage => 1)
+maintenance = Muscat::Maintenance.new(collection)
 
 process = Proc.new do |record|
   record.update(:wf_stage => 'inprogress')
+  maintenance.logger.info("#{maintenance.host}: #{record.id} updated to publish.")
 end
 
-
-maintenance = Muscat::Maintenance.new(collection)
 maintenance.execute process
