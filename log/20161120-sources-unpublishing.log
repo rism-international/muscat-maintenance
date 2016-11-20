@@ -2166,3 +2166,6 @@ I, [2016-11-20T09:28:44.766502 #10584]  INFO -- : lab.rism: 456055429 updated to
 I, [2016-11-20T09:28:44.766526 #10584]  INFO -- : lab.rism: 456055430 updated to publish.
 I, [2016-11-20T09:28:44.766550 #10584]  INFO -- : lab.rism: 456055431 updated to publish.
 I, [2016-11-20T09:28:44.766589 #10584]  INFO -- : lab.rism: 456055432 updated to publish.
+I, [2016-11-20T14:21:08.496903 #1975]  INFO -- : lab.rism: Size of collection --> 0
+I, [2016-11-20T14:23:31.648071 #2288]  INFO -- : lab.rism: Size of collection --> 0
+I, [2016-11-20T14:24:17.473541 #2384]  INFO -- : lab.rism: Size of collection --> 432
