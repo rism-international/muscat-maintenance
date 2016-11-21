@@ -1,6 +1,5 @@
 # encoding: UTF-8
-# ISSUE #4: Correct short title with false further title in 210 - adding to 240
-# Expected collection size: 56
+# ISSUE #2: Set dropped records to unpublish and ownership StHi
 #
 require_relative "lib/maintenance"
 
