@@ -1,6 +1,10 @@
 # encoding: UTF-8
-# ISSUE #2: Set dropped records to unpublish and ownership StHi
-#
+puts "##################################################################################################"
+puts "############ISSUE #2: Set dropped records to unpublish and ownership StHi#########################"
+puts "############                Expected size: 300                           #########################"
+puts "##################################################################################################"
+puts " "
+
 require_relative "lib/maintenance"
 
 yaml = Muscat::Maintenance.yaml

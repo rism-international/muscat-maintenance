@@ -1,7 +1,10 @@
 # encoding: UTF-8
-# ISSUE #4: Correct short title with false further title in 210 - adding to 240
-# Expected collection size: 56
-#
+puts "##################################################################################################"
+puts "####### ISSUE #4: Correct short title with false further title in 210 - adding to 240 ############"
+puts "#####################   Expected collection size: 56   ###########################################"
+puts "##################################################################################################"
+puts ""
+
 require_relative "lib/maintenance"
 
 catalogues = Catalogue.where("name like ?", "%; %")
