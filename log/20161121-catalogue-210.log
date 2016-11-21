@@ -1,0 +1,67 @@
+# Logfile created on 2016-11-21 09:15:48 +0100 by logger.rb/44203
+I, [2016-11-21T09:15:48.405387 #24869]  INFO -- : lab.rism: Size of collection --> 31
+I, [2016-11-21T09:17:04.187198 #25050]  INFO -- : lab.rism: Size of collection --> 31
+I, [2016-11-21T09:18:11.588793 #25210]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:22:32.660255 #25815]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:23:00.168029 #25881]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:27:00.933420 #26425]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:31:30.347201 #27010]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:31:50.843098 #27062]  INFO -- : lab.rism: Size of collection --> 56
+I, [2016-11-21T09:31:51.626221 #27062]  INFO -- : lab.rism: Catalogue 55 210 splitted.
+I, [2016-11-21T09:31:51.733755 #27062]  INFO -- : lab.rism: Catalogue 82 210 splitted.
+I, [2016-11-21T09:31:51.908819 #27062]  INFO -- : lab.rism: Catalogue 155 210 splitted.
+I, [2016-11-21T09:31:52.064235 #27062]  INFO -- : lab.rism: Catalogue 355 210 splitted.
+I, [2016-11-21T09:31:52.156797 #27062]  INFO -- : lab.rism: Catalogue 1818 210 splitted.
+I, [2016-11-21T09:31:52.248477 #27062]  INFO -- : lab.rism: Catalogue 1895 210 splitted.
+I, [2016-11-21T09:31:52.350495 #27062]  INFO -- : lab.rism: Catalogue 1986 210 splitted.
+I, [2016-11-21T09:31:52.458851 #27062]  INFO -- : lab.rism: Catalogue 2524 210 splitted.
+I, [2016-11-21T09:31:52.565185 #27062]  INFO -- : lab.rism: Catalogue 3046 210 splitted.
+I, [2016-11-21T09:31:52.756848 #27062]  INFO -- : lab.rism: Catalogue 3120 210 splitted.
+I, [2016-11-21T09:31:52.865368 #27062]  INFO -- : lab.rism: Catalogue 3175 210 splitted.
+I, [2016-11-21T09:31:52.940179 #27062]  INFO -- : lab.rism: Catalogue 3365 210 splitted.
+I, [2016-11-21T09:31:53.000597 #27062]  INFO -- : lab.rism: Catalogue 3368 210 splitted.
+I, [2016-11-21T09:31:53.081172 #27062]  INFO -- : lab.rism: Catalogue 3429 210 splitted.
+I, [2016-11-21T09:31:53.142290 #27062]  INFO -- : lab.rism: Catalogue 3446 210 splitted.
+I, [2016-11-21T09:31:53.183945 #27062]  INFO -- : lab.rism: Catalogue 3454 210 splitted.
+I, [2016-11-21T09:31:53.240300 #27062]  INFO -- : lab.rism: Catalogue 3781 210 splitted.
+I, [2016-11-21T09:31:53.298601 #27062]  INFO -- : lab.rism: Catalogue 3836 210 splitted.
+I, [2016-11-21T09:31:53.365291 #27062]  INFO -- : lab.rism: Catalogue 3875 210 splitted.
+I, [2016-11-21T09:31:53.415295 #27062]  INFO -- : lab.rism: Catalogue 5232 210 splitted.
+I, [2016-11-21T09:31:53.507005 #27062]  INFO -- : lab.rism: Catalogue 200134 210 splitted.
+I, [2016-11-21T09:31:53.598661 #27062]  INFO -- : lab.rism: Catalogue 30000105 210 splitted.
+I, [2016-11-21T09:31:53.690360 #27062]  INFO -- : lab.rism: Catalogue 30000188 210 splitted.
+I, [2016-11-21T09:31:53.784070 #27062]  INFO -- : lab.rism: Catalogue 30000189 210 splitted.
+I, [2016-11-21T09:31:53.832041 #27062]  INFO -- : lab.rism: Catalogue 30000193 210 splitted.
+I, [2016-11-21T09:31:53.882066 #27062]  INFO -- : lab.rism: Catalogue 30000200 210 splitted.
+I, [2016-11-21T09:31:53.948763 #27062]  INFO -- : lab.rism: Catalogue 30017121 210 splitted.
+I, [2016-11-21T09:31:53.990444 #27062]  INFO -- : lab.rism: Catalogue 30017149 210 splitted.
+I, [2016-11-21T09:31:54.064411 #27062]  INFO -- : lab.rism: Catalogue 30017245 210 splitted.
+I, [2016-11-21T09:31:54.142460 #27062]  INFO -- : lab.rism: Catalogue 30019835 210 splitted.
+I, [2016-11-21T09:31:54.207141 #27062]  INFO -- : lab.rism: Catalogue 30022669 210 splitted.
+I, [2016-11-21T09:31:54.292398 #27062]  INFO -- : lab.rism: Catalogue 30023547 210 splitted.
+I, [2016-11-21T09:31:54.365487 #27062]  INFO -- : lab.rism: Catalogue 30025297 210 splitted.
+I, [2016-11-21T09:31:54.510439 #27062]  INFO -- : lab.rism: Catalogue 30025677 210 splitted.
+I, [2016-11-21T09:31:54.709161 #27062]  INFO -- : lab.rism: Catalogue 30025685 210 splitted.
+I, [2016-11-21T09:31:54.750865 #27062]  INFO -- : lab.rism: Catalogue 30025764 210 splitted.
+I, [2016-11-21T09:31:54.784248 #27062]  INFO -- : lab.rism: Catalogue 30025765 210 splitted.
+I, [2016-11-21T09:31:54.925906 #27062]  INFO -- : lab.rism: Catalogue 30026011 210 splitted.
+I, [2016-11-21T09:31:55.025929 #27062]  INFO -- : lab.rism: Catalogue 30026171 210 splitted.
+I, [2016-11-21T09:31:55.109866 #27062]  INFO -- : lab.rism: Catalogue 30026539 210 splitted.
+I, [2016-11-21T09:31:55.167592 #27062]  INFO -- : lab.rism: Catalogue 30026713 210 splitted.
+I, [2016-11-21T09:31:55.215592 #27062]  INFO -- : lab.rism: Catalogue 30026780 210 splitted.
+I, [2016-11-21T09:31:55.273959 #27062]  INFO -- : lab.rism: Catalogue 30026850 210 splitted.
+I, [2016-11-21T09:31:55.357305 #27062]  INFO -- : lab.rism: Catalogue 30026924 210 splitted.
+I, [2016-11-21T09:31:55.392633 #27062]  INFO -- : lab.rism: Catalogue 30027018 210 splitted.
+I, [2016-11-21T09:31:55.465647 #27062]  INFO -- : lab.rism: Catalogue 30027333 210 splitted.
+I, [2016-11-21T09:31:55.534331 #27062]  INFO -- : lab.rism: Catalogue 30027700 210 splitted.
+I, [2016-11-21T09:31:55.609349 #27062]  INFO -- : lab.rism: Catalogue 30027905 210 splitted.
+I, [2016-11-21T09:31:55.676046 #27062]  INFO -- : lab.rism: Catalogue 30028173 210 splitted.
+I, [2016-11-21T09:31:55.757368 #27062]  INFO -- : lab.rism: Catalogue 30028472 210 splitted.
+I, [2016-11-21T09:31:55.851055 #27062]  INFO -- : lab.rism: Catalogue 30028607 210 splitted.
+I, [2016-11-21T09:31:55.934406 #27062]  INFO -- : lab.rism: Catalogue 30028789 210 splitted.
+I, [2016-11-21T09:31:55.992757 #27062]  INFO -- : lab.rism: Catalogue 30028839 210 splitted.
+I, [2016-11-21T09:31:56.051540 #27062]  INFO -- : lab.rism: Catalogue 30028840 210 splitted.
+I, [2016-11-21T09:31:56.140810 #27062]  INFO -- : lab.rism: Catalogue 30029128 210 splitted.
+I, [2016-11-21T09:31:56.209462 #27062]  INFO -- : lab.rism: Catalogue 30029485 210 splitted.
+I, [2016-11-21T09:40:18.361289 #28182]  INFO -- : lab.rism: Size of collection --> 1
+I, [2016-11-21T09:40:18.838353 #28182]  INFO -- : lab.rism: Catalogue 3120 210 splitted.
