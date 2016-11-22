@@ -1,7 +1,7 @@
 # encoding: UTF-8
 puts "##################################################################################################"
 puts "################## ISSUE #5: Adding note to 518 postmigration ####################################"
-puts "#####################   Expected collection size: 56   ###########################################"
+puts "#####################   Expected collection size: 1892  ##########################################"
 puts "##################################################################################################"
 puts ""
 
@@ -15,7 +15,6 @@ process = lambda { |record|
   modified = false
   list_affdat = yaml[record.id.to_s]
   marc = record.marc
-  #size_of_518 = marc.by_tags("518").size
 
   marc.each_by_tag("518") do |tag|
     a_tag = tag.fetch_first_by_tag("a")
