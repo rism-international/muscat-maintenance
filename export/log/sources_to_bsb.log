@@ -1,0 +1,26 @@
+# Logfile created on 2016-11-28 12:17:14 +0100 by logger.rb/44203
+I, [2016-11-28T12:17:14.510800 #4106]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T12:46:43.206736 #8035]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T15:57:23.689292 #31687]  INFO -- : lab.rism: Size of collection --> 10000
+I, [2016-11-28T16:00:08.129934 #32042]  INFO -- : lab.rism: Size of collection --> 10000
+I, [2016-11-28T16:01:31.464222 #32225]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T17:18:01.534245 #11677]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T17:38:47.314726 #17208]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T17:55:21.543176 #21397]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-28T17:58:37.847880 #22232]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-29T08:03:32.551983 #31336]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-29T08:09:19.012107 #32061]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-29T08:13:08.013434 #32566]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-29T08:17:28.896291 #710]  INFO -- : lab.rism: Size of collection --> 1000
+I, [2016-11-29T08:18:46.806235 #901]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:21:34.575471 #1278]  INFO -- : lab.rism: Size of collection --> 1070819
+I, [2016-11-29T08:28:16.076345 #2135]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:29:14.330052 #2246]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:32:13.422646 #2633]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:39:57.269468 #3612]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:46:17.250606 #4404]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:48:10.543578 #4628]  INFO -- : lab.rism: Size of collection --> 519
+I, [2016-11-29T08:49:53.767958 #4828]  INFO -- : lab.rism: Size of collection --> 1000
+I, [2016-11-29T08:50:58.366232 #4961]  INFO -- : lab.rism: Size of collection --> 1000
+I, [2016-11-29T08:52:00.649425 #5114]  INFO -- : lab.rism: Size of collection --> 290660
+I, [2016-11-29T08:53:51.188071 #5382]  INFO -- : lab.rism: Size of collection --> 290660
