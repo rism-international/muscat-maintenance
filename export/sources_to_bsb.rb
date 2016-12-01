@@ -11,7 +11,7 @@ sources = Source.where(:wf_stage => 1).order(:id).pluck(:id)
 exit unless Socket.gethostname == 'lab.rism'
 
 ofile = File.open("/tmp/sources.xml", "w")
-ofile.write('<?xml version="1.0" encoding="UTF-8"?>'+"\n"+'<collection xmlns:marc="http://www.loc.gov/MARC21/slim">'+"\n")
+ofile.write('<?xml version="1.0" encoding="UTF-8"?>'+"\n"+'<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">'+"\n")
 ofile.close
 cnt = 0
 res = []
