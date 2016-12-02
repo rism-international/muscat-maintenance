@@ -61,6 +61,22 @@ sources.each do |s|
     all_holdings = nil
   end
 
+  #TODO whe should drop the dublet entries in 500 with Digital Object Link prefix for older records
+  if !record.digital_objects.empty? && record.id >= 1001000000
+    record.digital_objects.each do |image|
+      path = image.attachment.path.gsub("/path/to/the/digital/objects/directory/", "http://muscat.rism.info/")
+      tag = Nokogiri::XML::Node.new "marc:datafield", doc_record.root
+      tag['code'] = '500'
+      tag['ind1'] = ' '
+      tag['ind2'] = ' '
+      sfa = Nokogiri::XML::Node.new "subfield", doc_record.root
+      sfa['code'] = 'a'
+      sfa.content = "#{image.description}: #{path}"
+      tag << sfa
+      doc_record.xpath("//*[@tag>'500']", NAMESPACE).first.add_previous_sibling(tag)
+    end
+  end
+
   res << (doc_record.root.to_xml :encoding => 'UTF-8')
   if cnt % 500 == 0
     afile = File.open("/tmp/sources.xml", "a+")
