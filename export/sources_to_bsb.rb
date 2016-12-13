@@ -66,10 +66,10 @@ sources.each do |s|
     record.digital_objects.each do |image|
       path = image.attachment.path.gsub("/path/to/the/digital/objects/directory/", "http://muscat.rism.info/")
       tag = Nokogiri::XML::Node.new "marc:datafield", doc_record.root
-      tag['code'] = '500'
+      tag['tag'] = '500'
       tag['ind1'] = ' '
       tag['ind2'] = ' '
-      sfa = Nokogiri::XML::Node.new "subfield", doc_record.root
+      sfa = Nokogiri::XML::Node.new "marc:subfield", doc_record.root
       sfa['code'] = 'a'
       sfa.content = "#{image.description}: #{path}"
       tag << sfa
