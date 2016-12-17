@@ -77,6 +77,28 @@ sources.each do |s|
     end
   end
 
+  # Adding WV to 240$n only if we don't have a 240$n
+  # TODO We should use namespace here later
+  node_240n = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='240']/*[local-name()='marc:subfield'][@code='n']")
+  nodes_690 = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='690']")
+  if node_240n.empty? && !nodes_690.empty?
+    if record.record_type == 1
+      node_240 = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='130']").first
+    else
+      node_240 = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='240']").first
+    end
+    if node_240
+      nodes_690.each do |node|
+        wv = node.xpath("*[local-name()='marc:subfield'][@code='a']").first.content rescue ""
+        no = node.xpath("*[local-name()='marc:subfield'][@code='n']").first.content rescue ""
+        sfn = Nokogiri::XML::Node.new "marc:subfield", doc_record.root
+        sfn['code'] = 'n'
+        sfn.content = "#{wv} #{no}"
+        node_240 << sfn
+      end
+    end
+  end
+
   res << (doc_record.root.to_xml :encoding => 'UTF-8')
   if cnt % 500 == 0
     afile = File.open("/tmp/sources.xml", "a+")
