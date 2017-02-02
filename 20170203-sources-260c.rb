@@ -38,14 +38,15 @@ process = lambda { |record|
     else
       nodes.each do |n|
         if n.fetch_first_by_tag("8").content == k
+          # This only happens with two recently changed records: 469124300 & 570010942
           n.add(MarcNode.new(Source, "c", "#{v}", nil)) if !n.fetch_first_by_tag("c")
           modified = true
         end
       end
     end
   end
-  #ecord.save if modified
-  #aintenance.logger.info("#{maintenance.host}: Source ##{record.id} added missing 260$c.")
+  record.save if modified
+  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added missing 260$c.")
 }
 
 maintenance.execute process
