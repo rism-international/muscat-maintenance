@@ -58,8 +58,7 @@ process = lambda { |record|
 
   layer_pool.each do |k,v|
     content = v.join("; ")
-    # CASE01
-    if !nodes_layers.include?(k)
+    if !nodes_layers.include?(k) # CASE01
       new_260 = MarcNode.new(Source, TAG, "", "##")
       ip = marc.get_insert_position(TAG)
       new_260.add(MarcNode.new(Source, CODE, "#{content}", nil))
@@ -69,38 +68,28 @@ process = lambda { |record|
       modified = true
     else
       nodes.each do |n|
-        # CASE02
-        if n.fetch_first_by_tag("8").content == k
+        if n.fetch_first_by_tag("8").content == k # CASE02
           existing_node = n.fetch_first_by_tag(CODE)
-          # CASE03
-          if existing_node
+          if existing_node # CASE03
             existing_content = existing_node.content rescue ""
-            # CASE04
-            if content != existing_content
-              # CASE05
-              if record.versions.empty?
+            if content != existing_content # CASE 04
+              if record.versions.empty? # CASE05
                 existing_node.content = content
                 maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' changed to '#{content}'")
                 modified = true
-              else
-                # CASE07
-                if content.start_with?(existing_content)
+              else # CASE06
+                if content.start_with?(existing_content) # CASE07
                   existing_node.content = content
                   maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' starting as and changed to '#{content}'")
                   modified = true
-                # CASE08
-                else
-                  # Do nothing and log
+                else # CASE08
                   maintenance.logger.warn("#{maintenance.host}: Source ##{record.id} has newer content '#{existing_content}' then '#{content}'")
                 end
               end
-            # CASE09
-            else
+            else # CASE 09
               # Do nothing because import content == existing content
             end
-          # CASE10
-          else
-            #Add subfield if not exist
+          else # CASE10
             n.add(MarcNode.new(Source, CODE, "#{content}", nil))
             n.sort_alphabetically
             maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added $a '#{content}'")
