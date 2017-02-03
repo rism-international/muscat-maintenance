@@ -5,10 +5,12 @@ puts "#################  Expected collection size: 18.149, to update: ca. 9.418 
 puts "##################################################################################################"
 puts ""
 require_relative "lib/maintenance"
-
+TAG="260"
+CODE="a"
 yaml = Muscat::Maintenance.yaml
 sources = Source.where(:id => yaml.keys)
 maintenance = Muscat::Maintenance.new(sources)
+
 process = lambda { |record|
   modified = false
   id = "%09d" % record.id
@@ -16,7 +18,7 @@ process = lambda { |record|
   marc = record.marc
   nodes = [] 
   nodes_layers = []
-  marc.each_by_tag("260") {|t| nodes << t}
+  marc.each_by_tag(TAG) {|t| nodes << t}
   nodes.each do |n|
     nodes_layers << n.fetch_first_by_tag("8").content rescue nil
   end
@@ -58,9 +60,9 @@ process = lambda { |record|
     content = v.join("; ")
     # CASE01
     if !nodes_layers.include?(k)
-      new_260 = MarcNode.new(Source, "260", "", "##")
-      ip = marc.get_insert_position("260")
-      new_260.add(MarcNode.new(Source, "a", "#{content}", nil))
+      new_260 = MarcNode.new(Source, TAG, "", "##")
+      ip = marc.get_insert_position(TAG)
+      new_260.add(MarcNode.new(Source, CODE, "#{content}", nil))
       new_260.add(MarcNode.new(Source, "8", "#{k}", nil))
       marc.root.children.insert(ip, new_260)
       maintenance.logger.info("#{maintenance.host}: Source ##{record.id} tag 260$a #{k} added '#{content}'")
@@ -69,7 +71,7 @@ process = lambda { |record|
       nodes.each do |n|
         # CASE02
         if n.fetch_first_by_tag("8").content == k
-          existing_node = n.fetch_first_by_tag("a")
+          existing_node = n.fetch_first_by_tag(CODE)
           # CASE03
           if existing_node
             existing_content = existing_node.content rescue ""
@@ -99,7 +101,7 @@ process = lambda { |record|
           # CASE10
           else
             #Add subfield if not exist
-            n.add(MarcNode.new(Source, "a", "#{content}", nil))
+            n.add(MarcNode.new(Source, CODE, "#{content}", nil))
             n.sort_alphabetically
             maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added $a '#{content}'")
             modified = true 
