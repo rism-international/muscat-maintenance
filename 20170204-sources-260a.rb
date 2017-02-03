@@ -4,31 +4,6 @@ puts "################################  ISSUE #13: Add missing 260a   ##########
 puts "#################  Expected collection size: 18.149, to update: ca. 9.418  #######################"
 puts "##################################################################################################"
 puts ""
-
- ##########################################################################
- ###                        PSEUDOCODE                                  ###
- ### CASES:                                                             ###
- ###  CASE1: tag 260 doesn't exist at all:                              ###
- ###           -> add tag 260                                           ###
- ###  CASE2: tag 260 does exist                                         ###
- ###  CASE3:   tag260 layer doesn't exist:                              ###
- ###             -> add tag260 with new layer                           ###
- ###  CASE4:   tag260 layer does exist:                                 ###
- ###  CASE5:     subfield $a doesn't exist:                             ###
- ###               -> add subfield $a                                   ###
- ###  CASE6:     subfield a exist:                                      ###
- ###  CASE7:       $a content == import content:                        ###
- ###                 -> do nothing                                      ###
- ###  CASE8:       $a content <> import content:                        ###
- ###  CASE9:         record hasn't changed                              ###
- ###                   -> Overwrite content with import content         ###
- ###  CASE10:        record has recently changed                        ###
- ###  CASE11:          subfield has changed                             ###
- ###                     -> Do nothing (only with about 10 records)     ###  
- ###  CASE12:          subfield starts with import content              ###
- ###                     -> Overwrite content with import content       ###
- ##########################################################################
-
 require_relative "lib/maintenance"
 
 yaml = Muscat::Maintenance.yaml
@@ -56,55 +31,79 @@ process = lambda { |record|
     end
   end
  
+ ##############################################################################
+ ###                          ## PSEUDOCODE ##                              ###
+ ###                          ################                              ###
+ ###                                                                        ###
+ ###  CASE01: if tag 260 doesn't exist or hasn't the same layer             ###
+ ###          |  then Add tag 260 with layer                                ###
+ ###  CASE02: if tag 260 same layer does exist                              ###
+ ###  CASE03: |  if subfield $a exist                                       ###
+ ###  CASE04: |  |  if existing content <> import content                   ###
+ ###  CASE05: |  |  |  if record hasn't changed                             ###
+ ###          |  |  |  |  then Overwrite content with import content        ###
+ ###  CASE06: |  |  |  else record has recently changed                     ###
+ ###  CASE07: |  |  |  |  if existing content starts with import content    ###
+ ###          |  |  |  |  |  then Overwrite content with import content     ###
+ ###  CASE08: |  |  |  |  else subfield $a has somehow changed              ###
+ ###          |  |  |  |  |  then Do nothing and Log (only ca. 10 records)  ###  
+ ###  CASE09: |  |  else existing content == import content                 ###
+ ###          |  |  |  then Do nothing                                      ###
+ ###  CASE10: |  else subfield $a doesn't exist:                            ###
+ ###          |  |  then Add subfield $a                                    ###
+ ###                                                                        ###
+ ##############################################################################
+
+
   layer_pool.each do |k,v|
     content = v.join("; ")
-    # If the material layer doesn't exist: create a new datafield with this layer
-    # CASE1
-    # CASE3
+    # CASE01
     if !nodes_keys.include?(k)
       new_260 = MarcNode.new(Source, "260", "", "##")
       ip = marc.get_insert_position("260")
       new_260.add(MarcNode.new(Source, "c", "#{content}", nil))
       new_260.add(MarcNode.new(Source, "8", "#{k}", nil))
       marc.root.children.insert(ip, new_260) #,CASE1, CASE2
+      maintenance.logger.info("#{maintenance.host}: Source ##{record.id} tag 260$a #{k} added '#{content}'")
       modified = true
-    
-    # If the materials layer exist and subfield $c not: add the subfield
     # CASE2
     else
       nodes.each do |n|
-        # CASE4
+        # CASE02
         if n.fetch_first_by_tag("8").content == k
           existing_node = n.fetch_first_by_tag("a")
-          # CASE6
+          # CASE03
           if existing_node
             existing_content = existing_node.content rescue ""
-            # CASE8
+            # CASE04
             if content != existing_content
-              # CASE9
+              # CASE05
               if record.versions.empty?
                 existing_node.content = content
+                maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' changed to '#{content}'")
                 modified = true
-              # CASE10
               else
-                # CASE12
+                # CASE07
                 if content.start_with?(existing_content)
                   existing_node.content = content
+                  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' starting as and changed to '#{content}'")
                   modified = true
-                # CASE11
+                # CASE08
                 else
-                  # Do nothing not to overwrite user changed content
+                  # Do nothing and log
+                  maintenance.logger.warn("#{maintenance.host}: Source ##{record.id} has newer content '#{existing_content}' then '#{content}'")
                 end
               end
-            # CASE7
+            # CASE09
             else
-              # do nothing because import content == existing content
+              # Do nothing because import content == existing content
             end
-          # CASE5
+          # CASE10
           else
             #Add subfield if not exist
             n.add(MarcNode.new(Source, "a", "#{content}", nil))
             n.sort_alphabetically
+            maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added $a '#{content}'")
             modified = true 
           end
         end
@@ -112,7 +111,6 @@ process = lambda { |record|
     end
   end
   record.save if modified
-  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added missing 260$c.")
 }
 
 maintenance.execute process
