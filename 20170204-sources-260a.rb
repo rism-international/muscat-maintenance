@@ -15,12 +15,11 @@ process = lambda { |record|
   layers = yaml[id]
   marc = record.marc
   nodes = [] 
-  nodes_keys = []
+  nodes_layers = []
   marc.each_by_tag("260") {|t| nodes << t}
   nodes.each do |n|
-    nodes_keys << n.fetch_first_by_tag("8").content rescue nil
+    nodes_layers << n.fetch_first_by_tag("8").content rescue nil
   end
-  #puts "#{layers.keys.sort.to_s rescue ''} <---> #{nodes_keys.sort.to_s rescue ''}"
   layer_pool  = {}
   layers.each do |l|
     k = l.keys.first
@@ -58,15 +57,14 @@ process = lambda { |record|
   layer_pool.each do |k,v|
     content = v.join("; ")
     # CASE01
-    if !nodes_keys.include?(k)
+    if !nodes_layers.include?(k)
       new_260 = MarcNode.new(Source, "260", "", "##")
       ip = marc.get_insert_position("260")
-      new_260.add(MarcNode.new(Source, "c", "#{content}", nil))
+      new_260.add(MarcNode.new(Source, "a", "#{content}", nil))
       new_260.add(MarcNode.new(Source, "8", "#{k}", nil))
-      marc.root.children.insert(ip, new_260) #,CASE1, CASE2
+      marc.root.children.insert(ip, new_260)
       maintenance.logger.info("#{maintenance.host}: Source ##{record.id} tag 260$a #{k} added '#{content}'")
       modified = true
-    # CASE2
     else
       nodes.each do |n|
         # CASE02
