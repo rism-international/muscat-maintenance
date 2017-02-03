@@ -13,7 +13,8 @@ sources = Source.where(:id => yaml.keys)
 maintenance = Muscat::Maintenance.new(sources)
 process = lambda { |record|
   modified = false
-  kallisto = yaml[record.id.to_s]
+  id = "%09d" % record.id
+  kallisto = yaml[id]
   layers = kallisto.inject(:merge)
   marc = record.marc
   nodes = [] 
@@ -22,7 +23,7 @@ process = lambda { |record|
   nodes.each do |n|
     nodes_keys << n.fetch_first_by_tag("8").content rescue nil
   end
- 
+  puts "#{layers.keys.sort.to_s rescue ''} <---> #{nodes_keys.sort.to_s rescue ''}"
   layers.each do |k,v|
 
     # If the material layer doesn't exist: create a new datafield with this layer
@@ -40,6 +41,7 @@ process = lambda { |record|
         if n.fetch_first_by_tag("8").content == k
           # This only happens with two recently changed records: 469124300 & 570010942
           n.add(MarcNode.new(Source, "c", "#{v}", nil)) if !n.fetch_first_by_tag("c")
+          n.sort_alphabetically
           modified = true
         end
       end
