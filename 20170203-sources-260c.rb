@@ -23,7 +23,6 @@ process = lambda { |record|
   nodes.each do |n|
     nodes_keys << n.fetch_first_by_tag("8").content rescue nil
   end
-  puts "#{layers.keys.sort.to_s rescue ''} <---> #{nodes_keys.sort.to_s rescue ''}"
   layers.each do |k,v|
 
     # If the material layer doesn't exist: create a new datafield with this layer
@@ -33,6 +32,7 @@ process = lambda { |record|
       new_260.add(MarcNode.new(Source, "c", "#{v}", nil))
       new_260.add(MarcNode.new(Source, "8", "#{k}", nil))
       marc.root.children.insert(ip, new_260)
+      maintenance.logger.info("#{maintenance.host}: Source ##{record.id} new tag 260$c [#{k}] with content '#{v}'")
       modified = true
     
     # If the materials layer exist and subfield $c not: add the subfield
@@ -42,13 +42,13 @@ process = lambda { |record|
           # This only happens with two recently changed records: 469124300 & 570010942
           n.add(MarcNode.new(Source, "c", "#{v}", nil)) if !n.fetch_first_by_tag("c")
           n.sort_alphabetically
+          maintenance.logger.info("#{maintenance.host}: Source ##{record.id} tag 260 added $c [#{k}] with content '#{v}'")
           modified = true
         end
       end
     end
   end
   record.save if modified
-  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added missing 260$c.")
 }
 
 maintenance.execute process

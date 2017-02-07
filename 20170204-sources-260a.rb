@@ -64,7 +64,7 @@ process = lambda { |record|
       new_260.add(MarcNode.new(Source, CODE, "#{content}", nil))
       new_260.add(MarcNode.new(Source, "8", "#{k}", nil))
       marc.root.children.insert(ip, new_260)
-      maintenance.logger.info("#{maintenance.host}: Source ##{record.id} tag 260$a #{k} added '#{content}'")
+      maintenance.logger.info("#{maintenance.host}: Source ##{record.id} CASE01 CREATE tag 260$a[#{k}]: '#{content}'")
       modified = true
     else
       nodes.each do |n|
@@ -75,15 +75,15 @@ process = lambda { |record|
             if content != existing_content # CASE 04
               if record.versions.empty? # CASE05
                 existing_node.content = content
-                maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' changed to '#{content}'")
+                maintenance.logger.info("#{maintenance.host}: Source ##{record.id} CASE05 OVERWRITE existing tag 260$a[#{k}]: '#{existing_content}' -> '#{content}'")
                 modified = true
               else # CASE06
                 if content.start_with?(existing_content) # CASE07
                   existing_node.content = content
-                  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} content '#{existing_content}' starting as and changed to '#{content}'")
+                  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} CASE07 OVERWRITE existing tag 260$a[#{k}]: '#{existing_content}' -> '#{content}'")
                   modified = true
                 else # CASE08
-                  maintenance.logger.warn("#{maintenance.host}: Source ##{record.id} has newer content '#{existing_content}' then '#{content}'")
+                  maintenance.logger.warn("#{maintenance.host}: Source ##{record.id} CASE08 NOT OVERWRITE existing tag newer 260$a[#{k}]: '#{existing_content}' remains, not '#{content}'")
                 end
               end
             else # CASE 09
@@ -92,7 +92,7 @@ process = lambda { |record|
           else # CASE10
             n.add(MarcNode.new(Source, CODE, "#{content}", nil))
             n.sort_alphabetically
-            maintenance.logger.info("#{maintenance.host}: Source ##{record.id} added $a '#{content}'")
+            maintenance.logger.info("#{maintenance.host}: Source ##{record.id} CASE10 CREATE subfield 260$a[#{k}]: '#{content}'")
             modified = true 
           end
         end
