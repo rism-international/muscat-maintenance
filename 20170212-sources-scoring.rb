@@ -35,7 +35,7 @@ process = lambda { |record|
     existent_tags.each do |tag|
       if tag.fetch_first_by_tag("a").content.start_with?("Comment on scoring")
         r_node = tag.fetch_first_by_tag("8")
-        r_node.destroy_yourself
+        r_node.destroy_yourself if r_node
         maintenance.logger.info("#{maintenance.host}: Source ##{record.id} removed subfield $8 with 'Comment on scoring'")
         modified = true
       end
