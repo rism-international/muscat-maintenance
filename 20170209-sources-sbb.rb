@@ -14,7 +14,7 @@ sources = Source.where(:wf_owner => rsh).where('created_at < ?', DateTime.parse(
 maintenance = Muscat::Maintenance.new(sources)
 
 process = lambda { |record|
-  record.update(:wf_owner => sbb)
+  record.update(:wf_owner => sbb.id)
   maintenance.logger.info("#{maintenance.host}: Source ##{record.id} ownership -> SBB.")
 }
 

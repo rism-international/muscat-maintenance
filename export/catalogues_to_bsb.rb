@@ -20,7 +20,7 @@ bar = ProgressBar.new(catalogues.size)
 catalogues.each do |s|
   record = Catalogue.find(s) rescue next
   begin
-    marc = record.marc.to_xml_record(record.updated_at, nil)
+    marc = record.marc.to_xml_record(record.updated_at, nil, false)
   rescue
     next
   end
