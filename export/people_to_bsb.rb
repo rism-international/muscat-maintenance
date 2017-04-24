@@ -21,7 +21,6 @@ people.each do |s|
   record = Person.find(s) rescue next
   begin
     marc = record.marc.to_xml_record(record.updated_at, nil, false)
-    binding.pry
   rescue
     next
   end
