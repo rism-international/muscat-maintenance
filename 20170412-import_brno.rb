@@ -33,7 +33,7 @@ end
 sx = Source.where(:id => ids)
 
 sx.each do |s|
-  s.update(:wf_stage => 0, :wf_audit => 1, :wf_owner => 81)
+  s.update(:wf_stage => 0, :wf_audit => 1, :wf_owner => 172)
   s.reindex
 end
 
