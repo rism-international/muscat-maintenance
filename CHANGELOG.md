@@ -1,4 +1,11 @@
-## 2017 February 
+### 2017 May
+- Import of 2.100 records from Brno
+- Added digitalization links #28
+- Added missing 260a without normalized #26
+- Update old DO link to Muscat path #27
+- Transfer non-integer values from 594$c #17
+
+### 2017 February 
 - Clearing Comment on scoring in 500$a #12
 - Change all "asn" relator codes in 710 to "oth" #8
 - Add missing Places in 260$a #13 
