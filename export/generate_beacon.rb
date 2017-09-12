@@ -16,7 +16,7 @@ f = File.open(cfile, "a")
 f.write("db.login=#{ENV["BEACON_USER"]}\n")
 f.write("db.password=#{ENV["BEACON_PW"]}\n")
 f.write("db.url=jdbc:mysql://127.0.0.1:3306/#{ENV["BEACON_DB"]}\n")
-f.write("mapping.file=#{prefix}/vendor/rdf/conf/mappings/person2.ttl\n")
+f.write("mapping.file=#{prefix}/vendor/rdf/conf/mappings/person_nested.ttl\n")
 f.close
 
 puts "Creating Turtle-File"
@@ -43,13 +43,13 @@ puts "Done"
 puts "Creating Beacon-File"
 rismrdf = File.expand_path(prefix + "/" + "vendor/rdf/lib") + "/rdf.rb"
 require_relative rismrdf
-p = RISM::RDF::Proxy.new
+p = RISM::RDF::Beacon.new
 p.get_data
 puts p
 puts "Done"
 
 #4 upload file to webspace
-puts "Uploading pnd-file"
-%x(rsync -avP /tmp/beacon_out.txt stephan@repo.rism.info:BSB/pnd.txt)
+#puts "Uploading pnd-file"
+#%x(rsync -avP /tmp/beacon_out.txt stephan@repo.rism.info:BSB/pnd.txt)
 
 puts "Done"
