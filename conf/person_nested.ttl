@@ -1,0 +1,64 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rism: <http://www.rism.info/> .
+@prefix rismp: <http://muscat.rism.info/admin/people/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix viaf: <http://viaf.org/viaf/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix gnd: <http://d-nb.info/gnd/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/> .
+
+#<rismid> <rism:src_count> xx(integer)
+
+rism:person rr:template "http://muscat.rism.info/admin/people/{id}" .
+
+rism:Artist a rr:TriplesMap ;
+  rr:logicalTable [rr:sqlQuery "select p.id, p.full_name, l.ext_id, l.provider from person_authorities_links l inner join people p on (l.id=p.id)"] ;
+  rr:subjectMap 
+    [rr:class foaf:Person ;
+     rr:template "http://muscat.rism.info/admin/people/{p.id}"] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:seeAlso;
+    rr:objectMap [
+      rr:template "{ext_id}";
+      rr:termType rr:BlankNode;];] .
+
+  <#authorities>
+      rr:logicalTable [ rr:sqlQuery "SELECT id, ext_id, provider from person_authorities_links"  ];
+      rr:subjectMap [
+        rr:template "{ext_id}"; 
+          rr:termType rr:BlankNode;
+      ];
+      rr:predicateObjectMap 
+        [rr:predicate    rdfs:label;
+        rr:objectMap    [  rr:column "provider" ]];
+      rr:predicateObjectMap 
+        [rr:predicate     rdaa:P50094;
+        rr:objectMap [rr:column "ext_id"]] .
+
+  #name
+  rism:label a rr:TriplesMap ;
+   rr:logicalTable [rr:sqlQuery
+      """select id, full_name from people"""] ;
+    rr:subjectMap rism:person ;
+    rr:predicateObjectMap [
+      rr:predicate foaf:name ;
+      rr:objectMap [rr:column "full_name"]] .
+
+  #sources size
+  rism:src_count a rr:TriplesMap ;
+   rr:logicalTable [rr:sqlQuery
+      """select person_id as id, count(sources_to_people.source_id) as src_count from sources_to_people inner join sources on (sources_to_people.source_id=sources.id) where sources.wf_stage!=0 group by person_id"""] ;
+    rr:subjectMap rism:person ;
+    rr:predicateObjectMap [
+      rr:predicate rism:size ;
+      rr:objectMap [rr:column "src_count"]] .
+
