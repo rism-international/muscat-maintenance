@@ -1,3 +1,8 @@
+### 2017 September
+- Adding digitalization links from B-Br
+- Repair template with record leader npd
+- Change siglum of Schoendlinger records
+
 ### 2017 May
 - Import of 2.100 records from Brno
 - Added digitalization links #28
