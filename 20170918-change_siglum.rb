@@ -8,7 +8,6 @@ puts ""
 
 require_relative "lib/maintenance"
 
-#aml = Muscat::Maintenance.yaml
 sources = Source.where(:composer => 'Schoendlinger, Anton').where(:lib_siglum => 'D-BGLidmo')
 
 maintenance = Muscat::Maintenance.new(sources)
