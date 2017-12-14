@@ -1,16 +1,16 @@
 # encoding: UTF-8
 puts "##################################################################################################"
-puts "###########################  ISSUE #28: Import Brno              #################################"
-puts "############################   Expected size: 2.300           ####################################"
+puts "###########################  ISSUE #28: Import Moravian          #################################"
+puts "############################   Expected size: 3.500           ####################################"
 puts "##################################################################################################"
 puts ""
 
 require_relative "lib/maintenance"
-%x( tar -xzvf housekeeping/maintenance/20170412-import_brno.xml.tar.gz -C /tmp/ )
+%x( tar -xzvf housekeeping/maintenance/20171214-import_moravian.xml.tar.gz -C /tmp/ )
 
-ifile = "/tmp/20170412-import_brno.xml"
+ifile = "/tmp/20171214-import_moravian.xml"
 
-yml = YAML.load_file("housekeeping/maintenance/20170412-import_brno.yml")
+yml = YAML.load_file("housekeeping/maintenance/20171214-import_moravian.yml")
 ids = yml.values
 
 Catalogue.paper_trail.disable
@@ -33,7 +33,8 @@ end
 sx = Source.where(:id => ids)
 
 sx.each do |s|
-  s.update(:wf_stage => 0, :wf_audit => 1, :wf_owner => 172)
+  s.reload
+  s.update(:wf_stage => 0, :wf_audit => 1, :wf_owner => 141)
   s.reindex
 end
 
