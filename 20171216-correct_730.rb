@@ -14,28 +14,23 @@ maintenance = Muscat::Maintenance.new(sources)
 puts sources.size
 process = lambda { |record|
   modified = false
+  rda = false
   marc = record.marc
   new_texts = yaml[ "%09d" % record.id.to_s ]
   post_semicolon = ""
   if record.id > 456082230 and record.id < 457000000
     rda = true
-  else
-    rda = false
   end
   marc.each_by_tag("730") do |tag|
     if rda
       g_tag = tag.fetch_first_by_tag("g")
       g_tag.content = "RDA"
-      binding.pry
     end
     existing_tag = tag.deep_copy
     a_tag = tag.fetch_first_by_tag("a")
-    #puts "#{a_tag.content} <<-->> #{new_texts.inspect}"
     next if new_texts.include?(a_tag.content) || !a_tag.content
-
     k_tag = tag.fetch_first_by_tag("k")
     o_tag = tag.fetch_first_by_tag("o")
-   
     if o_tag && o_tag.content
       existing_text = "#{a_tag.content}. #{o_tag.content}"
       new_texts.each do |t|
@@ -45,6 +40,7 @@ process = lambda { |record|
           o_tag.destroy_yourself
           tag.add(MarcNode.new(Source, "a", "#{t}", nil))
           tag.sort_alphabetically
+          modified = true
           next
         end
       end
@@ -58,11 +54,13 @@ process = lambda { |record|
           k_tag.destroy_yourself
           tag.add(MarcNode.new(Source, "a", "#{t}", nil))
           tag.sort_alphabetically
+          modified = true
           next
         end
       end
     elsif a_tag
       if a_tag.content == post_semicolon
+        modified = true
         tag.destroy_yourself
       end
       existing_text = "#{a_tag.content}".gsub("[", "<").gsub("]", ">")
@@ -72,6 +70,7 @@ process = lambda { |record|
           a_tag.destroy_yourself
           tag.add(MarcNode.new(Source, "a", "#{t}", nil))
           tag.sort_alphabetically
+          modified = true
           maintenance.logger.info("#{maintenance.host}: #{record.id}: #{existing_tag.to_s.strip} --> #{tag}")
           post_semicolon = t.split(";").last.strip
           next
@@ -81,18 +80,16 @@ process = lambda { |record|
           a_tag.destroy_yourself
           tag.add(MarcNode.new(Source, "a", "#{t}", nil))
           tag.sort_alphabetically
+          modified = true
           next
         end
       end
     else
-      puts "WTF"
-      binding.pry
+      puts "WTF..."
     end
     if existing_tag.to_s != tag.to_s
       maintenance.logger.info("#{maintenance.host}: #{record.id}: #{existing_tag.to_s.strip} --> #{tag}")
     end
-#        modified = true
-#    end
   end
 #  record.save if modified
 #  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} $710$4 'asn' changed to 'oth'.")
