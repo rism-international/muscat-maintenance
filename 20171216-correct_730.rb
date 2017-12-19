@@ -8,10 +8,26 @@ puts ""
 require_relative "lib/maintenance"
 
 yaml = Muscat::Maintenance.yaml
-sources = Source.where(:id => yaml.keys)
+sources = Source.where(:id => yaml.keys[1001..-1])
 maintenance = Muscat::Maintenance.new(sources)
 
-puts sources.size
+def update_730(record, tag, content, delete_tag=nil)
+  std = StandardTitle.where(title: content).take
+  unless std
+    std = StandardTitle.create(title: content)
+  end
+  id = std.id
+  zero_tag = tag.fetch_first_by_tag("0")
+  if zero_tag && zero_tag.content
+    StandardTitle.find(zero_tag.content).referring_sources.delete(record) rescue binding.pry
+  end
+  zero_tag.destroy_yourself rescue nil
+  delete_tag.destroy_yourself if delete_tag
+  tag.add_at(MarcNode.new("source", "0", id, nil), 0)
+  tag.foreign_object = std
+  tag.sort_alphabetically
+end
+
 process = lambda { |record|
   modified = false
   rda = false
@@ -35,11 +51,7 @@ process = lambda { |record|
       existing_text = "#{a_tag.content}. #{o_tag.content}"
       new_texts.each do |t|
         if t == existing_text
-          tag.fetch_first_by_tag("0").destroy_yourself rescue nil
-          a_tag.destroy_yourself
-          o_tag.destroy_yourself
-          tag.add(MarcNode.new(Source, "a", "#{t}", nil))
-          tag.sort_alphabetically
+          update_730(record, tag, t, o_tag)
           modified = true
           next
         end
@@ -49,11 +61,7 @@ process = lambda { |record|
       existing_text = "#{a_tag.content}. #{k_tag.content}"
       new_texts.each do |t|
         if t == existing_text
-          tag.fetch_first_by_tag("0").destroy_yourself rescue nil
-          a_tag.destroy_yourself
-          k_tag.destroy_yourself
-          tag.add(MarcNode.new(Source, "a", "#{t}", nil))
-          tag.sort_alphabetically
+          update_730(record, tag, t, k_tag)
           modified = true
           next
         end
@@ -66,20 +74,14 @@ process = lambda { |record|
       existing_text = "#{a_tag.content}".gsub("[", "<").gsub("]", ">")
       new_texts.each do |t|
         if t.include?(";") && t.start_with?(existing_text)
-          tag.fetch_first_by_tag("0").destroy_yourself rescue nil
-          a_tag.destroy_yourself
-          tag.add(MarcNode.new(Source, "a", "#{t}", nil))
-          tag.sort_alphabetically
+          update_730(record, tag, t)
           modified = true
           maintenance.logger.info("#{maintenance.host}: #{record.id}: #{existing_tag.to_s.strip} --> #{tag}")
           post_semicolon = t.split(";").last.strip
           next
         end
         if t == existing_text
-          tag.fetch_first_by_tag("0").destroy_yourself rescue nil
-          a_tag.destroy_yourself
-          tag.add(MarcNode.new(Source, "a", "#{t}", nil))
-          tag.sort_alphabetically
+          update_730(record, tag, t)
           modified = true
           next
         end
@@ -91,8 +93,9 @@ process = lambda { |record|
       maintenance.logger.info("#{maintenance.host}: #{record.id}: #{existing_tag.to_s.strip} --> #{tag}")
     end
   end
-#  record.save if modified
-#  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} $710$4 'asn' changed to 'oth'.")
+  record.marc = marc
+
+  record.save if modified
 }
 
 maintenance.execute process
