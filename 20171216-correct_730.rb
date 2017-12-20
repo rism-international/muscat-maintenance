@@ -8,7 +8,7 @@ puts ""
 require_relative "lib/maintenance"
 
 yaml = Muscat::Maintenance.yaml
-sources = Source.where(:id => yaml.keys[1001..-1])
+sources = Source.where(:id => yaml.keys)
 maintenance = Muscat::Maintenance.new(sources)
 
 def update_730(record, tag, content, delete_tag=nil)
