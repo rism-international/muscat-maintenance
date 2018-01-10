@@ -1,0 +1,7 @@
+# Logfile created on 2018-01-10 10:53:54 +0100 by logger.rb/44203
+I, [2018-01-10T10:53:54.967211 #9220]  INFO -- : lab.rism: Size of collection --> 432
+I, [2018-01-10T10:58:23.262229 #9332]  INFO -- : lab.rism: Size of collection --> 432
+I, [2018-01-10T11:01:47.521181 #9445]  INFO -- : lab.rism: Size of collection --> 11
+I, [2018-01-10T11:03:47.641753 #9546]  INFO -- : lab.rism: Size of collection --> 410
+I, [2018-01-10T11:11:31.712899 #9987]  INFO -- : lab.rism: Size of collection --> 0
+I, [2018-01-10T11:20:58.438710 #10461]  INFO -- : lab.rism: Size of collection --> 11
