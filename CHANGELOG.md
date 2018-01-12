@@ -1,3 +1,12 @@
+### 2018 January
+- Import 3.500 records of Moravian Foundation
+- Added 1000 digitalization links of A-SPD etc.
+- Fix 240 & 730 errors with false punctuation marks from Kallisto
+- Reassign RDA rule in some cases from Kallisto
+- Change ownership of secondary literature
+- Reimport ISBN from Kallisto into secondary literature
+- Change siglum from N-Ou to N-Onm with sources
+
 ### 2017 September
 - Adding digitalization links from B-Br
 - Repair template with record leader npd
