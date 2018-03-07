@@ -1,4 +1,2 @@
-# Logfile created on 2018-01-12 12:07:33 +0100 by logger.rb/44203
-I, [2018-01-12T12:07:33.020082 #17128]  INFO -- : lab.rism: Size of collection --> 432
-I, [2018-01-16T11:20:27.155061 #30176]  INFO -- : lab.rism: Size of collection --> 432
-I, [2018-01-17T09:27:53.228417 #31675]  INFO -- : lab.rism: Size of collection --> 432
+# Logfile created on 2018-01-29 09:39:25 +0100 by logger.rb/54362
+I, [2018-01-29T09:39:25.127107 #28387]  INFO -- : lab.rism: Size of collection --> 432
