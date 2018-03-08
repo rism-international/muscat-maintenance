@@ -35,11 +35,11 @@ process = lambda { |record|
     end
     record.lib_siglum = new_siglum
   end
-  record.save if modified
+  record.save if modified rescue next
   if record.is_a?(Holding)
     record.source.index!
   else
-    record.index!
+    record.index! rescue next
   end
 }
 
