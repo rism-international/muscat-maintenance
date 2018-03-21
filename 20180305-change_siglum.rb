@@ -37,7 +37,7 @@ process = lambda { |record|
   end
   record.save if modified rescue next
   if record.is_a?(Holding)
-    record.source.index!
+    record.source.index! rescue next
   else
     record.index! rescue next
   end
