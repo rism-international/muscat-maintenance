@@ -9321,3 +9321,5 @@ I, [2018-03-21T11:08:41.173611 #16755]  INFO -- : lab.rism: Source #243480 with 
 I, [2018-03-21T11:08:41.304521 #16755]  INFO -- : lab.rism: Source #243481 with moravian shelfmark 'LCM 53 Beth ms'
 I, [2018-03-21T11:08:41.405177 #16755]  INFO -- : lab.rism: Source #243483 with moravian shelfmark 'L 53[B] Beth ms'
 I, [2018-03-21T11:08:41.485641 #16755]  INFO -- : lab.rism: Source #243484 with moravian shelfmark 'L [334a] Beth ms'
+I, [2018-03-21T13:28:23.571244 #29709]  INFO -- : lab.rism: Size of collection --> 3299
+I, [2018-03-21T13:28:31.253785 #29709]  INFO -- : lab.rism: Source #241210 with moravian shelfmark 'SCM [5] Salem ms'
