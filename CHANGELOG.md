@@ -1,3 +1,9 @@
+### 2018 March
+- Import ca 2.200 records of series B/I
+- Change siglum from I-Rvat to V-CVba
+- Removed wrong 775 with two records
+- Adding missing shelfmark with records from Moravian
+
 ### 2018 January
 - Import 3.500 records of Moravian Foundation
 - Added 1000 digitalization links of A-SPD etc.
