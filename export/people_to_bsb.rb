@@ -27,6 +27,17 @@ people.each do |s|
   doc_record = Nokogiri::XML.parse(marc) do |config|
       config.noblanks
   end
+  
+  tag = Nokogiri::XML::Node.new "marc:controlfield", doc_record.root
+  tag['tag'] = '008'
+  created_at = record.created_at.strftime("%y%m%d")
+  tag.content = "#{created_at}n|||||||a|||              a"
+
+  begin 
+    doc_record.xpath("//*[@tag>'005']", NAMESPACE).first.add_previous_sibling(tag)
+  rescue
+    doc_record.xpath("//*[@tag>'003']", NAMESPACE).first.add_previous_sibling(tag)
+  end
 
   res << (doc_record.root.to_xml :encoding => 'UTF-8')
   if cnt % 500 == 0
