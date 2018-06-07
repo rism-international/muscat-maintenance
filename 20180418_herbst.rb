@@ -43,7 +43,10 @@ each_node("#{Rails.root}/housekeeping/maintenance/20180418_herbst.xml") do |node
     #puts "WITHOUT #{without_rism_id += 1}"
     next
   end
+  ref_id = node.xpath("//marc:controlfield[@tag='001']").first.content.gsub(/[a-z]*/, "")
+    
   record = Source.find(rismid)
+  record_type = record.record_type
   marc = record.marc
   new_245 = node.xpath("//marc:datafield[@tag='245']/marc:subfield").map{|e| e.content}.join(" ")
   begin
@@ -169,33 +172,26 @@ each_node("#{Rails.root}/housekeeping/maintenance/20180418_herbst.xml") do |node
     new_node = MarcNode.new("source", "690", "", "##")
     ip = marc.get_insert_position("690")
     e.xpath("marc:subfield").each do |subfield|
-      if subfield.attr("code")=="a"  && s_titles.include?(subfield.content)
+      if subfield.attr("code")=="a"  && s_titles.include?(subfield.content.unicode_normalize)
         existing = true
-      else
-        new_node.add_at(MarcNode.new("source", subfield.attr("code"), subfield.content, nil),0)
       end
+      new_node.add_at(MarcNode.new("source", subfield.attr("code"), subfield.content.unicode_normalize, nil),0)
     end
     marc.root.children.insert(ip, new_node) unless existing
   end
 
-  ref_id = node.xpath("//marc:controlfield[@tag='001']").first.content.gsub(/[a-z]*/, "")
 
   new_856 = MarcNode.new("holding", "856", "", "##")
   new_856.add_at(MarcNode.new("holding", "u", "https://moravianmusic.on.worldcat.org/oclc/#{ref_id}", nil), 0)
   new_856.add_at(MarcNode.new("holding", "z", "Original catalogue entry", nil), 0)
   new_856.sort_alphabetically
   marc.root.children.insert(marc.get_insert_position("856"), new_856)
-  
-
-
-
-
-
 
   import_marc = MarcSource.new(marc.to_marc)
   import_marc.load_source(false)
   import_marc.import
   record.marc = import_marc
+  record.record_type = record_type
   record.save
   bar.increment!
    
