@@ -13,7 +13,7 @@ maintenance = Muscat::Maintenance.new(sources)
 process = lambda { |record|
   modified = false
   PaperTrail.request.disable_model(Source)
-  s.marc.each_by_tag("593") do |t|
+  record.marc.each_by_tag("593") do |t|
     t.each_by_tag("a") do |tn|
       next if !(tn && tn.content)
       if tn.content == "print"
