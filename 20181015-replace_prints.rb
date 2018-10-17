@@ -7,20 +7,26 @@ puts ""
 
 require_relative "lib/maintenance"
 
-sources = Source.find_by_sql("SELECT * FROM sources s where marc_source REGEXP '=593[^\n]*\[[.$.]]a[Pp]rint'")
+sources_id = Source.find_by_sql("SELECT id FROM sources s where marc_source REGEXP '=593[^\n]*\[[.$.]]aprint'")
 
-maintenance = Muscat::Maintenance.new(sources)
+maintenance = Muscat::Maintenance.new(Source.where(id: sources_id))
 process = lambda { |record|
   modified = false
   PaperTrail.request.disable_model(Source)
-  record.marc.each_by_tag("593") do |t|
-    t.each_by_tag("a") do |tn|
-      next if !(tn && tn.content)
-      if tn.content == "print"
-        tn.content = "Print"
-        modified = true
+  begin
+    record.marc.each_by_tag("593") do |t|
+      t.each_by_tag("a") do |tn|
+        next if !(tn && tn.content)
+        if tn.content == "print"
+          tn.content = "Print"
+          modified = true
+        end
       end
     end
+  rescue => e 
+    puts e.inspect
+    puts record.id
+    next
   end
   record.save if modified rescue next
 }
