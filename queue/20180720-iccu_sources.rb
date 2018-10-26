@@ -10,11 +10,11 @@ require_relative "lib/maintenance"
 
 ifile = "/tmp/20180720-iccu_sources.xml"
 
-Catalogue.paper_trail.disable
-Holding.paper_trail.disable
-Institution.paper_trail.disable
-Person.paper_trail.disable
-Source.paper_trail.disable
+PaperTrail.request.disable_model(Catalogue)
+PaperTrail.request.disable_model(Holding)
+PaperTrail.request.disable_model(Institution)
+PaperTrail.request.disable_model(Person)
+PaperTrail.request.disable_model(Source)
 
 if File.exists?(ifile)
   import = MarcImport.new(ifile, "Source", 0)
@@ -30,7 +30,7 @@ puts "################ Updateing new imported sources   #######################"
 puts "#########################################################################"
 
 sx = Source.where('id between ? and ?', 850600000, 850900000)
-sx.update_all(:wf_stage => 0, :wf_audit => 1)
+sx.update_all(:wf_stage => 0, :wf_audit => 1, :wf_owner => 268)
 
 px = Person.where('created_at > ?', Time.now - 10.hours).where(:marc_source => nil)
 px.each do |p|

@@ -7,14 +7,14 @@ puts ""
 
 require_relative "lib/maintenance"
 %x( tar -xjvf housekeeping/maintenance/20180718-iccu_people.tar.bz2 -C /tmp/ )
-
+exit
 ifile = "/tmp/20180718-iccu_people.xml"
 
-Catalogue.paper_trail.disable
-Holding.paper_trail.disable
-Institution.paper_trail.disable
-Person.paper_trail.disable
-Source.paper_trail.disable
+PaperTrail.request.disable_model(Catalogue)
+PaperTrail.request.disable_model(Holding)
+PaperTrail.request.disable_model(Institution)
+PaperTrail.request.disable_model(Person)
+PaperTrail.request.disable_model(Source)
 
 if File.exists?(ifile)
   import = MarcImport.new(ifile, "Person", 0)
