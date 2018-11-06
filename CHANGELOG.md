@@ -7,7 +7,7 @@
 - Reimport A/I records invidual titles to 240
 - Reimport A/I records further titles to 730
 - Reimport A/I records genre to 650
-- Reimport A/I records opus to 383
+- Reimport A/I records opus to 383  
 In queue:
 - Import SBN personal names (ca.30.000)
 - Import SBN manuscript records (ca.240.000)
