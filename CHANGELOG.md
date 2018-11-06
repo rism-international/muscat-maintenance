@@ -1,3 +1,17 @@
+### 2018 November (ongoing)
+- Change siglum from D-Mcg to D-Mahg with manuscripts (900 records)
+- Remove unresolved 775 links (30 records) 
+- Add digitalization marker in 856$x (ca. 25.000 records)
+- Change partbooks etc. to parts (1.800 records)
+- Replace "print" with "Print" in 593
+- Reimport A/I records invidual titles to 240
+- Reimport A/I records further titles to 730
+- Reimport A/I records genre to 650
+- Reimport A/I records opus to 383
+In queue:
+- Import SBN personal names (ca.30.000)
+- Import SBN manuscript records (ca.240.000)
+
 ### 2018 March
 - Import ca 2.200 records of series B/I
 - Change siglum from I-Rvat to V-CVba
