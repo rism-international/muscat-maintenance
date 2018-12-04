@@ -7,7 +7,6 @@ puts ""
 
 require_relative "lib/maintenance"
 %x( tar -xjvf housekeeping/maintenance/20180718-iccu_people.tar.bz2 -C /tmp/ )
-exit
 ifile = "/tmp/20180718-iccu_people.xml"
 
 PaperTrail.request.disable_model(Catalogue)

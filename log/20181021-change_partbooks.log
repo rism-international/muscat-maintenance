@@ -1452,3 +1452,10 @@ I, [2018-10-24T14:54:27.792633 #21478]  INFO -- : lab.rism: Source #990064419 ch
 I, [2018-10-24T14:54:27.905724 #21478]  INFO -- : lab.rism: Source #990064420 changed 300$a '3 partbooks' -> '3 parts'
 I, [2018-10-24T14:54:27.965500 #21478]  INFO -- : lab.rism: Source #990064421 changed 300$a '6 partbooks' -> '6 parts'
 I, [2018-10-24T14:54:28.127527 #21478]  INFO -- : lab.rism: Source #991016518 changed 300$a '4 partbooks' -> '4 parts'
+I, [2018-11-21T23:30:53.508208 #23644]  INFO -- : lab.rism: Size of collection --> 46
+I, [2018-11-21T23:30:54.102916 #23644]  INFO -- : lab.rism: Source #990000890 changed 300$a 'partbooks' -> 'parts'
+I, [2018-11-21T23:30:54.366046 #23644]  INFO -- : lab.rism: Source #990064418 changed 300$a '5 partbooks' -> '5 parts'
+I, [2018-11-21T23:30:54.499485 #23644]  INFO -- : lab.rism: Source #990064419 changed 300$a '5 partbooks' -> '5 parts'
+I, [2018-11-21T23:30:54.615955 #23644]  INFO -- : lab.rism: Source #990064420 changed 300$a '3 partbooks' -> '3 parts'
+I, [2018-11-21T23:30:54.692622 #23644]  INFO -- : lab.rism: Source #990064421 changed 300$a '6 partbooks' -> '6 parts'
+I, [2018-11-21T23:30:54.759591 #23644]  INFO -- : lab.rism: Source #991016518 changed 300$a '4 partbooks' -> '4 parts'
