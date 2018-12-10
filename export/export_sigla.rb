@@ -6,6 +6,15 @@ puts ""
 require_relative "../lib/maintenance"
 NAMESPACE={'marc' => "http://www.loc.gov/MARC21/slim"}
 institutions = Institution.where.not(:siglum => nil).order(:id).pluck(:id)
+config = YAML.load_file("#{Rails.root}/config/editor_profiles/default/configurations/InstitutionLabels.yml")
+country_hash = {}
+config.each do |k,v| 
+  if k =~ /[A-Z]{2}\-*/
+    country_hash[k] = v["label"]["en"]
+  end
+end
+
+File.write('/tmp/country.list', country_hash.values.sort.join("\n"))
 
 # Should only run on dedicated local machine
 exit unless Socket.gethostname == 'lab.rism'
@@ -41,6 +50,9 @@ institutions.each do |s|
     doc_record.root << tag
   end
 
+  country = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='043']/*[local-name()='marc:subfield'][@code='c']").first
+  country.content = country_hash[country.text] if country
+  
   geo = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='034']")
   unless geo.empty?
     geo.each do |g|
