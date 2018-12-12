@@ -1540,3 +1540,4 @@ I, [2018-12-11T22:27:38.929476 #19420]  INFO -- : lab.rism: Source #570004997 ch
 I, [2018-12-11T22:27:39.042310 #19420]  INFO -- : lab.rism: Source #570004998 changed 300$a 'partbook' -> 'part'
 I, [2018-12-11T22:27:39.122464 #19420]  INFO -- : lab.rism: Source #570004999 changed 300$a 'partbook' -> 'part'
 I, [2018-12-11T22:27:39.244585 #19420]  INFO -- : lab.rism: Source #464122958 changed 300$a 'parts: 7 partbooks: 60, 60, 58, 62, 60, 62, 62p.' -> 'parts: 7 parts: 60, 60, 58, 62, 60, 62, 62p.'
+I, [2018-12-12T19:32:10.585939 #23188]  INFO -- : lab.rism: Size of collection --> 41
