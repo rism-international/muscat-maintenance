@@ -17,7 +17,6 @@ process = lambda { |record|
   m = MarcHolding.new(record.marc_source)
   m.load_source(false)
   m.each_by_tag(n.keys.first) do |node|
-    binding.pry if record.id == 319840
     if node.to_s.include?(n.values.first)
       node.destroy_yourself
       modified = true
