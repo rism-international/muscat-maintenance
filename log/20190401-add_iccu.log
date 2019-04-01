@@ -1,0 +1,15 @@
+# Logfile created on 2019-04-01 07:58:01 +0200 by logger.rb/56815
+I, [2019-04-01T07:58:13.544730 #24030]  INFO -- : lab.rism: Size of collection --> 217699
+I, [2019-04-01T07:59:20.096685 #24268]  INFO -- : lab.rism: Size of collection --> 217699
+I, [2019-04-01T08:02:30.301303 #24800]  INFO -- : lab.rism: Size of collection --> 10
+I, [2019-04-01T08:04:01.949879 #25083]  INFO -- : lab.rism: Size of collection --> 10
+I, [2019-04-01T08:04:09.113628 #25083]  INFO -- : lab.rism: Source #850675633 added $x Digitizalization
+I, [2019-04-01T08:04:09.582976 #25083]  INFO -- : lab.rism: Source #850709432 added $x Digitizalization
+I, [2019-04-01T08:04:09.687781 #25083]  INFO -- : lab.rism: Source #850712310 added $x Digitizalization
+I, [2019-04-01T08:04:09.745187 #25083]  INFO -- : lab.rism: Source #850719356 added $x Digitizalization
+I, [2019-04-01T08:04:09.808115 #25083]  INFO -- : lab.rism: Source #850753642 added $x Digitizalization
+I, [2019-04-01T08:04:09.993253 #25083]  INFO -- : lab.rism: Source #850783421 added $x Digitizalization
+I, [2019-04-01T08:04:10.090677 #25083]  INFO -- : lab.rism: Source #850810712 added $x Digitizalization
+I, [2019-04-01T08:04:10.177155 #25083]  INFO -- : lab.rism: Source #850811325 added $x Digitizalization
+I, [2019-04-01T08:04:10.250356 #25083]  INFO -- : lab.rism: Source #850813035 added $x Digitizalization
+I, [2019-04-01T08:04:10.313980 #25083]  INFO -- : lab.rism: Source #850813046 added $x Digitizalization
