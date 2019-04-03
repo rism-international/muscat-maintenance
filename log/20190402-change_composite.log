@@ -1,0 +1,59 @@
+# Logfile created on 2019-04-01 12:56:43 +0200 by logger.rb/56815
+I, [2019-04-01T12:56:43.211137 #12713]  INFO -- : lab.rism: Size of collection --> 10
+I, [2019-04-01T12:56:43.458306 #12713]  INFO -- : lab.rism: Source #850675633 added $g ICCU
+I, [2019-04-01T12:56:43.751091 #12713]  INFO -- : lab.rism: Source #850709432 added $g ICCU
+I, [2019-04-01T12:56:43.871924 #12713]  INFO -- : lab.rism: Source #850712310 added $g ICCU
+I, [2019-04-01T12:56:43.948925 #12713]  INFO -- : lab.rism: Source #850719356 added $g ICCU
+I, [2019-04-01T12:56:44.068885 #12713]  INFO -- : lab.rism: Source #850753642 added $g ICCU
+I, [2019-04-01T12:56:44.150344 #12713]  INFO -- : lab.rism: Source #850783421 added $g ICCU
+I, [2019-04-01T12:56:44.260734 #12713]  INFO -- : lab.rism: Source #850810712 added $g ICCU
+I, [2019-04-01T12:56:44.338323 #12713]  INFO -- : lab.rism: Source #850811325 added $g ICCU
+I, [2019-04-01T12:56:44.397034 #12713]  INFO -- : lab.rism: Source #850813035 added $g ICCU
+I, [2019-04-01T12:56:44.462377 #12713]  INFO -- : lab.rism: Source #850813046 added $g ICCU
+I, [2019-04-01T12:58:36.485573 #13081]  INFO -- : lab.rism: Size of collection --> 45
+I, [2019-04-01T12:59:00.766000 #13194]  INFO -- : lab.rism: Size of collection --> 45
+I, [2019-04-01T12:59:00.966394 #13194]  INFO -- : lab.rism: Source #240433 switched to composite template
+I, [2019-04-01T12:59:01.030045 #13194]  INFO -- : lab.rism: Source #450058729 switched to composite template
+I, [2019-04-01T12:59:01.116373 #13194]  INFO -- : lab.rism: Source #550503237 switched to composite template
+I, [2019-04-01T12:59:01.158026 #13194]  INFO -- : lab.rism: Source #550503262 switched to composite template
+I, [2019-04-01T12:59:01.199697 #13194]  INFO -- : lab.rism: Source #550503283 switched to composite template
+I, [2019-04-01T12:59:01.258016 #13194]  INFO -- : lab.rism: Source #1001013699 switched to composite template
+I, [2019-04-01T12:59:01.308024 #13194]  INFO -- : lab.rism: Source #1001056382 switched to composite template
+I, [2019-04-01T12:59:01.349727 #13194]  INFO -- : lab.rism: Source #1001056383 switched to composite template
+I, [2019-04-01T12:59:01.391473 #13194]  INFO -- : lab.rism: Source #1001056384 switched to composite template
+I, [2019-04-01T12:59:01.441656 #13194]  INFO -- : lab.rism: Source #1001056385 switched to composite template
+I, [2019-04-01T12:59:01.499085 #13194]  INFO -- : lab.rism: Source #1001056386 switched to composite template
+I, [2019-04-01T12:59:01.574864 #13194]  INFO -- : lab.rism: Source #1001056387 switched to composite template
+I, [2019-04-01T12:59:01.649900 #13194]  INFO -- : lab.rism: Source #1001056388 switched to composite template
+I, [2019-04-01T12:59:01.749836 #13194]  INFO -- : lab.rism: Source #1001056389 switched to composite template
+I, [2019-04-01T12:59:01.816481 #13194]  INFO -- : lab.rism: Source #1001056399 switched to composite template
+I, [2019-04-01T12:59:01.858181 #13194]  INFO -- : lab.rism: Source #1001056402 switched to composite template
+I, [2019-04-01T12:59:01.991606 #13194]  INFO -- : lab.rism: Source #1001057506 switched to composite template
+I, [2019-04-01T12:59:02.183207 #13194]  INFO -- : lab.rism: Source #1001057551 switched to composite template
+I, [2019-04-01T12:59:02.233173 #13194]  INFO -- : lab.rism: Source #1001058929 switched to composite template
+I, [2019-04-01T12:59:02.274874 #13194]  INFO -- : lab.rism: Source #1001059612 switched to composite template
+I, [2019-04-01T12:59:02.333199 #13194]  INFO -- : lab.rism: Source #1001059864 switched to composite template
+I, [2019-04-01T12:59:02.399859 #13194]  INFO -- : lab.rism: Source #1001059872 switched to composite template
+I, [2019-04-01T12:59:02.449973 #13194]  INFO -- : lab.rism: Source #1001060681 switched to composite template
+I, [2019-04-01T12:59:02.541554 #13194]  INFO -- : lab.rism: Source #1001061319 switched to composite template
+I, [2019-04-01T12:59:02.608178 #13194]  INFO -- : lab.rism: Source #1001061687 switched to composite template
+I, [2019-04-01T12:59:02.649019 #13194]  INFO -- : lab.rism: Source #1001061690 switched to composite template
+I, [2019-04-01T12:59:02.691542 #13194]  INFO -- : lab.rism: Source #1001061695 switched to composite template
+I, [2019-04-01T12:59:02.724857 #13194]  INFO -- : lab.rism: Source #1001061704 switched to composite template
+I, [2019-04-01T12:59:02.766525 #13194]  INFO -- : lab.rism: Source #1001061782 switched to composite template
+I, [2019-04-01T12:59:02.824858 #13194]  INFO -- : lab.rism: Source #1001061918 switched to composite template
+I, [2019-04-01T12:59:02.999879 #13194]  INFO -- : lab.rism: Source #1001062390 switched to composite template
+I, [2019-04-01T12:59:03.183258 #13194]  INFO -- : lab.rism: Source #1001063971 switched to composite template
+I, [2019-04-01T12:59:03.233254 #13194]  INFO -- : lab.rism: Source #1001064173 switched to composite template
+I, [2019-04-01T12:59:03.324101 #13194]  INFO -- : lab.rism: Source #1001064491 switched to composite template
+I, [2019-04-01T12:59:03.383204 #13194]  INFO -- : lab.rism: Source #1001065736 switched to composite template
+I, [2019-04-01T12:59:03.424874 #13194]  INFO -- : lab.rism: Source #1001065921 switched to composite template
+I, [2019-04-01T12:59:03.466579 #13194]  INFO -- : lab.rism: Source #1001065943 switched to composite template
+I, [2019-04-01T12:59:03.508214 #13194]  INFO -- : lab.rism: Source #1001065978 switched to composite template
+I, [2019-04-01T12:59:03.549870 #13194]  INFO -- : lab.rism: Source #1001066344 switched to composite template
+I, [2019-04-01T12:59:03.599888 #13194]  INFO -- : lab.rism: Source #1001066499 switched to composite template
+I, [2019-04-01T12:59:03.649872 #13194]  INFO -- : lab.rism: Source #1001066531 switched to composite template
+I, [2019-04-01T12:59:03.690703 #13194]  INFO -- : lab.rism: Source #1001066813 switched to composite template
+I, [2019-04-01T12:59:03.724897 #13194]  INFO -- : lab.rism: Source #1001066990 switched to composite template
+I, [2019-04-01T12:59:03.758242 #13194]  INFO -- : lab.rism: Source #1001067089 switched to composite template
+I, [2019-04-01T12:59:03.785220 #13194]  INFO -- : lab.rism: Source #1001067096 switched to composite template
