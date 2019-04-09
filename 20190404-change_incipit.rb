@@ -1,7 +1,7 @@
 # encoding: UTF-8
 #
 puts "##################################################################################################"
-puts "###################    ISSUE: Give 031 new number schema with 'ICCU'  ############################"
+puts "#######    ISSUE: Give 031 new number schema with 'ICCU' and add 040 language  ###################"
 puts "#########################   Expected collection size: 211.000   ##################################"
 puts "##################################################################################################"
 puts ""
@@ -13,6 +13,14 @@ maintenance = Muscat::Maintenance.new(sources)
 
 process = lambda { |record|
   modified = false
+
+  record.marc.each_by_tag("040") do |tag|
+    next if tag.fetch_first_by_tag("b")
+    tag.add(MarcNode.new(Source, "b", "ita", nil))
+    tag.sort_alphabetically
+    modified = true
+  end
+
   record.marc.each_by_tag("031") do |tag|
     next if tag.fetch_first_by_tag("c")
     new_a = "1"
