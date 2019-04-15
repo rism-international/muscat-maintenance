@@ -31,4 +31,21 @@ module Muscat
       YAML.load_file("#{File.dirname($0)}/#{File.basename($0, '.rb')}.yml") rescue nil
     end
   end
+
+  class Marc < ::MarcSource
+    attr_accessor :record, :marc
+    def initialize(record)
+      @record = record
+      @marc = MarcSource.new(record.marc_source)
+      @marc.load_source(false)
+    end
+
+    def build_marc
+      import_marc = MarcSource.new(marc.to_marc)
+      import_marc.load_source(false)
+      import_marc.import
+      return import_marc
+    end
+    
+  end
 end

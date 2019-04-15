@@ -13,14 +13,13 @@ maintenance = Muscat::Maintenance.new(sources)
 
 process = lambda { |record|
   next unless record.source_id
-  if record.marc.root.fetch_first_by_tag("852")
-    next
-  end
   record_type = record.record_type
   new_marc = MarcSource.new(record.marc_source)
   new_marc.load_source(false)
-
+  next if new_marc.root.fetch_first_by_tag("852")
+  
   parent_siglum = Institution.where(siglum: Source.find(record.source_id).lib_siglum).take
+  next unless parent_siglum
 
   new_852 = MarcNode.new(Source, "852", "", "##")
   ip = new_marc.get_insert_position("852")
@@ -33,8 +32,9 @@ process = lambda { |record|
   import_marc.import
   record.marc = import_marc
   record.record_type = record_type
+  record.lib_siglum = parent_siglum.siglum
   record.save!
-  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} get siglum #{parent_siglum.id}")
+  maintenance.logger.info("#{maintenance.host}: Source ##{record.id} get siglum #{parent_siglum.siglum}")
 }
 
 maintenance.execute process
