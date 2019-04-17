@@ -21,6 +21,7 @@ process = lambda { |record|
   new_marc.load_source(false)
 
   parent_siglum = Institution.where(siglum: Source.find(record.source_id).lib_siglum).take
+  next unless parent_siglum
 
   new_852 = MarcNode.new(Source, "852", "", "##")
   ip = new_marc.get_insert_position("852")

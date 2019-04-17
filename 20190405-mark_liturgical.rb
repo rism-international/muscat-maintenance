@@ -14,6 +14,6 @@ feasts.update_all(wf_stage: "deprecated")
 
 feasts = LiturgicalFeast.where.not(wf_stage: "deprecated")
 
-feasts.update_all(wf_stage: "published", abstract: true)
+feasts.update_all(wf_stage: "published")
 
 
