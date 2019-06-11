@@ -1,3 +1,15 @@
+### 2019 June
+Drop abs as language from ICCU (45.000)
+Add digitalization links from Eichstätt (2.300)
+Change 730$g to 'ICCU' 
+Change template with composite  
+Move 240 with dots to 730 with 'ICCU'
+Give 031 new number schema with 'ICCU' and add 040 language
+Mark LiturgicalFeast from ICCU as deprecated
+Move remark to genre 'ICCU' in some cases
+Add siglum from collection parent with ICCU
+
+
 ### 2018 November (ongoing)
 - Change siglum from D-Mcg to D-Mahg with manuscripts (900 records)
 - Remove unresolved 775 links (30 records) 
