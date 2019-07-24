@@ -21,6 +21,27 @@ bar = ProgressBar.new(sources.size)
 
 sources.each do |s|
   record = Source.find(s) rescue next
+
+  # FIX to include holding.source_id at $o and description at $a with composite
+  #######################################################################
+  if record.record_type == 11
+    record.marc.each_by_tag("774") do |node|
+      holding_node = node.fetch_first_by_tag("4")
+      if holding_node
+        holding_id = node.fetch_first_by_tag("w").content rescue nil
+        holding = Holding.find(holding_id) rescue next
+        holding_source = Source.find(holding.source_id)
+        node.add(MarcNode.new(Source, "a", holding_source.name, nil))
+        node.add(MarcNode.new(Source, "o", holding_source.id, nil))
+      else
+        source_id = node.fetch_first_by_tag("w").content rescue nil
+        source = Source.find(source_id)
+        node.add(MarcNode.new(Source, "a", source.name, nil))
+      end
+    end
+  end
+  ########################################################################
+
   begin
     marc = record.marc.to_xml_record(record.updated_at, nil, true)
   rescue
@@ -50,54 +71,4 @@ res.each do |r|
 end
 afile.write("\n</marc:collection>")
 afile.close
-
-=begin
-  all_holdings = []
-  if !record.holdings.empty?
-    all_holdings = record.holdings
-  elsif record.source_id
-    all_holdings = Source.find(record.source_id).holdings rescue []
-  end
-  if record.record_type == 1
-    nodes_774 = doc_record.xpath("//*[@tag='774']", NAMESPACE)
-    nodes_774.each do |node|
-      name = Source.find(node.content).name rescue next
-      sfa = Nokogiri::XML::Node.new "marc:subfield", node
-      sfa['code'] = 'a'
-      sfa.content = name
-      node << sfa
-    end
-    nodes_774 = nil
-  end
-  unless all_holdings.empty?
-    holdings = []
-    all_holdings.each do |h|
-      doc_holding =  Nokogiri::XML.parse(h.marc.to_xml)
-      holdings << doc_holding.xpath("//marc:datafield[@tag='852']", NAMESPACE)
-    end
-    # Sort holding by sigla 
-    holdings.sort_by { |h| h.xpath("marc:subfield[@code='a']").first.content }.each do |h|
-      doc_record.root << h
-    end
-    holdings = nil
-    all_holdings = nil
-  end
-=end
-  #TODO whe should drop the dublet entries in 500 with Digital Object Link prefix for older records
-=begin
-  if !record.digital_objects.empty? && record.id >= 1001000000
-    record.digital_objects.each do |image|
-      path = image.attachment.path.gsub("/path/to/the/digital/objects/directory/", "http://muscat.rism.info/")
-      tag = Nokogiri::XML::Node.new "marc:datafield", doc_record.root
-      tag['tag'] = '500'
-      tag['ind1'] = ' '
-      tag['ind2'] = ' '
-      sfa = Nokogiri::XML::Node.new "marc:subfield", doc_record.root
-      sfa['code'] = 'a'
-      sfa.content = "#{image.description}: #{path}"
-      tag << sfa
-      doc_record.xpath("//*[@tag>'500']", NAMESPACE).first.add_previous_sibling(tag)
-    end
-  end
-=end
 
