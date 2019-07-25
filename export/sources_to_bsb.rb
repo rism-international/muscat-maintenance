@@ -54,7 +54,6 @@ sources.each do |s|
           new_785.add(MarcNode.new(Source, "a", followup_print.name, nil))
           new_785.add(MarcNode.new(Source, "w", followup_print.id, nil))
           record.marc.root.children.insert(ip, new_785)
-          binding.pry
         end
       end
     end
