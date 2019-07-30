@@ -16,7 +16,6 @@ process = lambda { |record|
   modified = false
 
   if record.marc.has_tag?("035")
-    binding.pry
     marc = record.marc
     _035 = marc.first_occurance("035")
     series_number = marc.first_occurance("035", "a").content rescue nil
@@ -30,7 +29,6 @@ process = lambda { |record|
         _035.destroy_yourself
       end
     end
-    binding.pry
   end
   maintenance.logger.info("#{maintenance.host}: https://beta.rism.info/admin/sources/#{record.id} moved '#{series_number}' to 510")
   modified = true
