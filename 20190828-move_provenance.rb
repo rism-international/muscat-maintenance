@@ -22,7 +22,7 @@ end
 res.each do |siglum, sx|
   sources = Source.where(id: sx)
   maintenance = Muscat::Maintenance.new(sources)
-  provenance = Institution.where(siglum: siglum).take
+  provenance = Institution.where('binary siglum = ?', siglum).take
   
   process = lambda { |record|
     holdings = record.holdings
