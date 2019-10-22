@@ -46,7 +46,7 @@ px = Person.where('created_at > ?', Time.now - 10.hours).where(:marc_source => n
 px.each do |p|
   p.scaffold_marc
 end
-px.update_all(wf_owner: user.id)
+px.update_all(wf_owner: user.id, wf_stage: 0)
 
 ix = Institution.where('created_at > ?', Time.now - 10.hours).where(:marc_source => nil)
 ix.each do |i|
