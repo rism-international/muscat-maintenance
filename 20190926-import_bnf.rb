@@ -5,10 +5,10 @@ puts "############################   Expected size: ca. 20.000      ############
 puts "##################################################################################################"
 puts ""
 require_relative "lib/maintenance"
-#%x( tar -xjvf housekeeping/maintenance/20180720-iccu_sources.tar.bz2 -C /tmp/  )
+%x( tar -xjvf housekeeping/maintenance/20190926-bnf_sources.tar.bz2 -C /tmp/  )
 
-#ifile = "/tmp/20180720-iccu_sources.xml"
-ifile = "/home/dev/projects/import/data/BNF/output/output.xml"
+ifile = "/tmp/20190926-bnf_sources.xml"
+#ifile = "/home/dev/projects/import/data/BNF/output/output.xml"
 PaperTrail.request.disable_model(Catalogue)
 PaperTrail.request.disable_model(Holding)
 PaperTrail.request.disable_model(Institution)
