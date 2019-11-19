@@ -63,11 +63,11 @@ process = lambda { |record|
           end
         end
       end
+      maintenance.logger.info("#{maintenance.host}: Source ##{record.id} '$z#{z_content}' added '$x#{x_content}'") if modified
     end
   end
 
   if modified
-    maintenance.logger.info("#{maintenance.host}: Source ##{record.id} '$z#{z_content}' added '$x#{x_content}'") if modified
     record.save
   end
 }
