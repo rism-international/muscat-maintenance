@@ -1,20 +1,7 @@
-# Logfile created on 2019-11-19 09:05:22 +0100 by logger.rb/56815
-I, [2019-11-19T09:05:23.002971 #12626]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:07:39.315971 #13067]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:07:43.662407 #13067]  INFO -- : lab.rism: Size of collection --> 123
-I, [2019-11-19T09:08:10.265048 #13198]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:08:46.553548 #13342]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:09:49.112029 #13609]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:09:52.974625 #13609]  INFO -- : lab.rism: Size of collection --> 123
-I, [2019-11-19T09:09:56.107894 #13609]  INFO -- : lab.rism: Size of collection --> 104
-I, [2019-11-19T09:09:58.032381 #13609]  INFO -- : lab.rism: Size of collection --> 45
-I, [2019-11-19T09:09:58.691844 #13609]  INFO -- : lab.rism: Size of collection --> 9
-I, [2019-11-19T09:09:59.008085 #13609]  INFO -- : lab.rism: Size of collection --> 194
-I, [2019-11-19T09:13:01.885602 #14179]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:16:48.444702 #14843]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:28:07.360559 #16999]  INFO -- : lab.rism: Size of collection --> 842
-I, [2019-11-19T09:30:19.840521 #16999]  INFO -- : lab.rism: Size of collection --> 123
-I, [2019-11-19T09:30:55.064476 #16999]  INFO -- : lab.rism: Size of collection --> 104
-I, [2019-11-19T09:31:10.896935 #16999]  INFO -- : lab.rism: Size of collection --> 45
-I, [2019-11-19T09:31:14.745794 #16999]  INFO -- : lab.rism: Size of collection --> 9
-I, [2019-11-19T09:31:16.344132 #16999]  INFO -- : lab.rism: Size of collection --> 194
+# Logfile created on 2019-11-26 11:59:46 +0100 by logger.rb/56815
+I, [2019-11-26T11:59:46.955592 #31637]  INFO -- : lab.rism: Size of collection --> 842
+I, [2019-11-26T12:01:37.804174 #31637]  INFO -- : lab.rism: Size of collection --> 123
+I, [2019-11-26T12:02:26.930623 #31637]  INFO -- : lab.rism: Size of collection --> 104
+I, [2019-11-26T12:02:45.758065 #31637]  INFO -- : lab.rism: Size of collection --> 45
+I, [2019-11-26T12:02:52.073273 #31637]  INFO -- : lab.rism: Size of collection --> 9
+I, [2019-11-26T12:02:54.390252 #31637]  INFO -- : lab.rism: Size of collection --> 194

@@ -44,7 +44,6 @@ res.each do |siglum, sx|
           modified = true
         end
         record.save if modified
-        binding.pry
       end
 
     else
@@ -65,7 +64,6 @@ res.each do |siglum, sx|
           end
         end
         holding.save if modified
-        binding.pry
       end
     end
   }
