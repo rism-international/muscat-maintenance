@@ -36,6 +36,11 @@ institutions.each do |s|
   doc_record = Nokogiri::XML.parse(marc) do |config|
       config.noblanks
   end
+  
+  lx = doc_record.xpath("//*[local-name()='marc:datafield'][@tag='670']")
+  lx.each do |e|
+    e.remove
+  end
 
   size = Institution.count_by_sql("select count(*) from sources_to_institutions where institution_id = #{record.id}")
   if size > 0
