@@ -32,7 +32,7 @@ sources.each do |s|
       if holding_node
         holding_id = node.fetch_first_by_tag("w").content rescue nil
         holding = Holding.find(holding_id) rescue next
-        holding_source = Source.find(holding.source_id)
+        holding_source = Source.find(holding.source_id) rescue next
         node.add(MarcNode.new(Source, "a", holding_source.name, nil))
         node.add(MarcNode.new(Source, "o", holding_source.id, nil))
       else
