@@ -1,3 +1,9 @@
+### 2020 April
+- Removed multiple mastertags
+- Cleanup 593 values
+- Change composer Puccini in folder
+- Add '[no indication]' as 852$c with sources and holdings
+
 ### 2019 June
 - Drop abs as language from ICCU (45.000)
 - Add digitalization links from Eichstätt (2.300)
