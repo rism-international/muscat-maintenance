@@ -29,14 +29,29 @@ puts "#########################################################################"
 
 user = User.find(315)
 
-sx = Source.where('id between ? and ?', 857000000, 857005000)
+sx = Source.where('id between ? and ?', 857000000, 857008000)
 sx.update_all(:wf_stage => 0, :wf_audit => 1)
 
 sx.update_all(wf_owner: user.id)
 
+# Change template with prints
+sx.each do |s|
+  material = s.marc.first_occurance("593", "a").content rescue ""
+  if material =~ /[Pp]rint/
+    if s.source_id
+      s.change_template_to(3)
+    else
+      s.change_template_to(8)
+    
+    end
+
+  end
+end
+
 subentries = sx.where.not(:source_id => nil)
 bar = ProgressBar.new(subentries.size)
   
+
 subentries.each do |s|
   s.update_77x
   bar.increment!
@@ -59,3 +74,4 @@ cx.each do |c|
   c.scaffold_marc
 end
 Catalogue.where('created_at > ?', Time.now - 24.hours).where(wf_owner: 0).update_all(wf_owner: user.id)
+
