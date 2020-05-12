@@ -10,12 +10,8 @@ require_relative "lib/maintenance"
 terms = YAML.load_file("#{Rails.root}/housekeeping/maintenance/20200508-bnf_300a.yml")
 
 def replace_all(str, hash)
-  new_str = str
-  hash.each do |k,v|
-    if new_str.include?(k)
-      new_str = new_str.gsub(k,v)
-    end
-  end
+  new_str = str.dup
+  hash.each { |k, v| new_str[k] &&= v  }
   return new_str
 end
 
@@ -27,10 +23,11 @@ process = lambda { |record|
   marc = record.marc
   marc.each_by_tag("300") do |n|
     n.each_by_tag("a") do |sf|
+      old_content = sf.content
       new_content = replace_all(sf.content,terms)
-      if new_content != sf.content
+      if new_content != old_content
         modified = true
-        maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 300a: '#{sf.content.yellow}' => '#{new_content.green}'")
+        maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 300a: '#{old_content.yellow}' => '#{new_content.green}'")
         sf.content = new_content
       end
     end
@@ -39,7 +36,6 @@ process = lambda { |record|
   if modified
     record.save
   end
-
 }
 
 maintenance.execute process
