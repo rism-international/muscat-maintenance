@@ -24,10 +24,10 @@ process = lambda { |record|
 
   if modified
     tag = marc.first_occurance("240")
-    tag.add(MarcNode.new(Source, "o", "arr", nil))
+    tag.add(MarcNode.new(Source, "o", "Arr", nil))
     tag.sort_alphabetically
     record.save
-    maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 240$o: added 'arr'")
+    maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 240$o: added 'Arr'")
   end
 
 }
