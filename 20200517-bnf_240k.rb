@@ -31,7 +31,7 @@ def same_tag_in_versions?(record, node)
 end
 
 process = lambda { |record|
-  modified = false
+  to_change = false
   marc = record.marc
   content_500 = ""
   old_subfield = nil
@@ -43,17 +43,17 @@ process = lambda { |record|
     end
   end
   if old_subfield
-    modified = true if same_tag_in_versions?(record, old_subfield)
+    to_change = true if same_tag_in_versions?(record, old_subfield)
   end
 
-  if modified
+  if to_change
     new_500 = MarcNode.new(Source, "500", "", "##")
     ip = marc.get_insert_position("500")
     new_500.add(MarcNode.new(Source, "a", "Date: #{content_500}", nil))
     new_500.sort_alphabetically
     marc.root.children.insert(ip, new_500)
     maintenance.logger.info("#{maintenance.host}: Source ##{record.id} moved 240$k to 500 '#{content_500}'")
-    record.save if modified
+    record.save
   end
 
 }
