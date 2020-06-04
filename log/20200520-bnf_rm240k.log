@@ -677,3 +677,5 @@ I, [2020-06-04T10:32:52.171868 #14759]  INFO -- : lab.rism: Source #840030934 de
 I, [2020-06-04T10:32:52.245935 #14759]  INFO -- : lab.rism: Source #840030938 deleted 240$k '1796'
 I, [2020-06-04T10:32:52.321615 #14759]  INFO -- : lab.rism: Source #840031062 deleted 240$k '1668'
 I, [2020-06-04T10:32:52.416725 #14759]  INFO -- : lab.rism: Source #840031108 deleted 240$k '1668'
+I, [2020-06-04T11:46:42.540885 #28354]  INFO -- : lab.rism: Size of collection --> 260
+I, [2020-06-04T11:48:05.453138 #28629]  INFO -- : lab.rism: Size of collection --> 260
