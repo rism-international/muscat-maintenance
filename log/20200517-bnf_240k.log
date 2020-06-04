@@ -197,3 +197,21 @@ I, [2020-06-03T14:45:43.559341 #31092]  INFO -- : lab.rism: Source #840030470 mo
 I, [2020-06-03T14:45:43.632097 #31092]  INFO -- : lab.rism: Source #840031049 moved 240$k to 500 '1675'
 I, [2020-06-03T14:45:43.705596 #31092]  INFO -- : lab.rism: Source #840031147 moved 240$k to 500 '1668'
 I, [2020-06-03T14:45:43.819506 #31092]  INFO -- : lab.rism: Source #840031212 moved 240$k to 500 '1675'
+I, [2020-06-04T10:10:29.058952 #10190]  INFO -- : lab.rism: Size of collection --> 222
+I, [2020-06-04T10:12:06.847308 #10190]  INFO -- : lab.rism: Source #840020739 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:12:50.469042 #10190]  INFO -- : lab.rism: Source #840030322 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:12:52.493407 #10190]  INFO -- : lab.rism: Source #840030323 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:13:14.102628 #10713]  INFO -- : lab.rism: Size of collection --> 222
+I, [2020-06-04T10:13:38.363126 #10713]  INFO -- : lab.rism: Source #840020739 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:13:40.891762 #10713]  INFO -- : lab.rism: Source #840030322 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:13:45.243806 #10713]  INFO -- : lab.rism: Source #840030323 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:13:50.324720 #10861]  INFO -- : lab.rism: Size of collection --> 222
+I, [2020-06-04T10:14:41.747444 #10861]  INFO -- : lab.rism: Source #840020739 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:14:43.427578 #10861]  INFO -- : lab.rism: Source #840030322 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:14:46.300723 #10861]  INFO -- : lab.rism: Source #840030323 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:16:19.760013 #11358]  INFO -- : lab.rism: Size of collection --> 222
+I, [2020-06-04T10:16:47.715875 #11358]  INFO -- : lab.rism: Source #840020739 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:16:48.828114 #11358]  INFO -- : lab.rism: Source #840030322 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:16:49.482606 #11358]  INFO -- : lab.rism: Source #840030323 moved 240$k to 500 'Excerpts'
+I, [2020-06-04T10:19:15.446728 #11961]  INFO -- : lab.rism: Size of collection --> 222
+I, [2020-06-04T10:20:34.516610 #12243]  INFO -- : lab.rism: Size of collection --> 222

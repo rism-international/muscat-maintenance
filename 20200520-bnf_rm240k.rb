@@ -1,13 +1,13 @@
 # encoding: UTF-8
 puts "##################################################################################################"
-puts "################    ISSUE tasks: Move 240k                                 #######################"
+puts "#############################    ISSUE tasks: Delete 240k                  #######################"
 puts "############################   Expected collection size: 200    ##################################"
 puts "##################################################################################################"
 puts ""
 
 require_relative "lib/maintenance"
 
-terms = YAML.load_file("#{Rails.root}/housekeeping/maintenance/20200517-bnf_240k.yml")
+terms = YAML.load_file("#{Rails.root}/housekeeping/maintenance/20200520-bnf_rm240k.yml")
 
 sources = Source.where(:id => terms)#.where('updated_at < ?', Time.parse("2019-12-22"))
 maintenance = Muscat::Maintenance.new(sources)
@@ -51,12 +51,7 @@ process = lambda { |record|
   end
 
   if to_change
-    new_500 = MarcNode.new(Source, "500", "", "##")
-    ip = marc.get_insert_position("500")
-    new_500.add(MarcNode.new(Source, "a", "Date: #{content_500}", nil))
-    new_500.sort_alphabetically
-    marc.root.children.insert(ip, new_500)
-    maintenance.logger.info("#{maintenance.host}: Source ##{record.id} moved 240$k to 500 '#{content_500}'")
+    maintenance.logger.info("#{maintenance.host}: Source ##{record.id} deleted 240$k '#{content_500}'")
     record.save
   end
 
