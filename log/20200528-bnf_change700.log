@@ -1,0 +1,57 @@
+# Logfile created on 2020-06-09 11:02:03 +0200 by logger.rb/56815
+I, [2020-06-09T11:02:05.475972 #20823]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:02:54.047677 #21006]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:10:23.496567 #22424]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:11:18.181618 #22653]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:14:30.850657 #23272]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:20:50.262168 #24436]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:25:13.596967 #25258]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:26:05.686307 #25463]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:27:09.161541 #25705]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:29:25.977273 #26165]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:32:49.157227 #26801]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:34:58.673556 #27289]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:35:08.573663 #27289]  INFO -- : lab.rism: Source #840014130 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:39:02.224871 #27289]  INFO -- : lab.rism: Source #840016424 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:40:43.937669 #28554]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:40:58.617762 #28554]  INFO -- : lab.rism: Source #840016424 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:41:34.146680 #28554]  INFO -- : lab.rism: Source #840016425 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:43:23.937570 #29096]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:44:54.862758 #29414]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:46:40.039024 #29414]  INFO -- : lab.rism: Source #840016497 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:02.496473 #29414]  INFO -- : lab.rism: Source #840016739 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:02.561907 #29414]  INFO -- : lab.rism: Source #840016749 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:02.605501 #29414]  INFO -- : lab.rism: Source #840016816 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:02.634461 #29414]  INFO -- : lab.rism: Source #840016842 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:02.977797 #29414]  INFO -- : lab.rism: Source #840016930 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:47:24.711236 #29904]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:47:57.232044 #29904]  INFO -- : lab.rism: Source #840016497 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:21.568469 #29904]  INFO -- : lab.rism: Source #840016739 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:21.685316 #29904]  INFO -- : lab.rism: Source #840016749 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:21.861166 #29904]  INFO -- : lab.rism: Source #840016816 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:21.994883 #29904]  INFO -- : lab.rism: Source #840016842 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:22.181410 #29904]  INFO -- : lab.rism: Source #840016930 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:22.376952 #29904]  INFO -- : lab.rism: Source #840017007 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:50.871786 #30205]  INFO -- : lab.rism: Size of collection --> 19700
+I, [2020-06-09T11:48:57.521004 #30205]  INFO -- : lab.rism: Source #840016497 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:57.923694 #30205]  INFO -- : lab.rism: Source #840016739 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:58.121204 #30205]  INFO -- : lab.rism: Source #840016749 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:58.366260 #30205]  INFO -- : lab.rism: Source #840016816 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:58.566307 #30205]  INFO -- : lab.rism: Source #840016842 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:58.865483 #30205]  INFO -- : lab.rism: Source #840016930 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:59.137914 #30205]  INFO -- : lab.rism: Source #840017007 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:59.299609 #30205]  INFO -- : lab.rism: Source #840017018 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:59.458030 #30205]  INFO -- : lab.rism: Source #840017037 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:59.633101 #30205]  INFO -- : lab.rism: Source #840017039 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:48:59.941472 #30205]  INFO -- : lab.rism: Source #840017152 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:00.329773 #30205]  INFO -- : lab.rism: Source #840017444 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:00.790637 #30205]  INFO -- : lab.rism: Source #840017596 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:00.955854 #30205]  INFO -- : lab.rism: Source #840017596 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:01.075717 #30205]  INFO -- : lab.rism: Source #840017596 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:01.254616 #30205]  INFO -- : lab.rism: Source #840017632 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:01.433070 #30205]  INFO -- : lab.rism: Source #840017633 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:01.623998 #30205]  INFO -- : lab.rism: Source #840017635 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:02.356905 #30205]  INFO -- : lab.rism: Source #840018359 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:02.733179 #30205]  INFO -- : lab.rism: Source #840018654 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:02.891511 #30205]  INFO -- : lab.rism: Source #840018655 moved 700 with 'bsl' to 710
+I, [2020-06-09T11:49:07.172419 #30205]  INFO -- : lab.rism: Source #1001115717 moved 700 with 'bsl' to 710
