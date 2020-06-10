@@ -1,7 +1,7 @@
 # encoding: UTF-8
 puts "##################################################################################################"
-puts "################    ISSUE tasks: Cleanup 300c values                       #######################"
-puts "############################   Expected collection size: 10.000 ##################################"
+puts "###########################      ISSUE tasks: Remove 245a pipes            #######################"
+puts "############################   Expected collection size: 1.000  ##################################"
 puts "##################################################################################################"
 puts ""
 
@@ -33,7 +33,7 @@ process = lambda { |record|
       new_content = replace_pipe(sf.content)
       if new_content != old_content
         modified = true
-        maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 300$c: '#{old_content.yellow}' => '#{new_content.green}'")
+        maintenance.logger.info("#{maintenance.host}: Source ##{record.id} 245$a: '#{old_content.yellow}' => '#{new_content.green}'")
         sf.content = new_content
       end
     end
