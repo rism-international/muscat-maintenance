@@ -27,19 +27,23 @@ sources.each do |s|
   #
   # FIX to include holding.source_id at $o and description at $a with composite
   if record.record_type == 11
-    record.marc.each_by_tag("774") do |node|
-      holding_node = node.fetch_first_by_tag("4")
-      if holding_node
-        holding_id = node.fetch_first_by_tag("w").content rescue nil
-        holding = Holding.find(holding_id) rescue next
-        holding_source = Source.find(holding.source_id) rescue next
-        node.add(MarcNode.new(Source, "a", holding_source.name, nil))
-        node.add(MarcNode.new(Source, "o", holding_source.id, nil))
-      else
-        source_id = node.fetch_first_by_tag("w").content rescue nil
-        source = Source.find(source_id)
-        node.add(MarcNode.new(Source, "a", source.name, nil))
+    begin
+      record.marc.each_by_tag("774") do |node|
+        holding_node = node.fetch_first_by_tag("4")
+        if holding_node
+          holding_id = node.fetch_first_by_tag("w").content rescue nil
+          holding = Holding.find(holding_id) rescue next
+          holding_source = Source.find(holding.source_id) rescue next
+          node.add(MarcNode.new(Source, "a", holding_source.name, nil))
+          node.add(MarcNode.new(Source, "o", holding_source.id, nil))
+        else
+          source_id = node.fetch_first_by_tag("w").content rescue nil
+          source = Source.find(source_id)
+          node.add(MarcNode.new(Source, "a", source.name, nil))
+        end
       end
+    rescue 
+      next
     end
   end
 
