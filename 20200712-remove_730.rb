@@ -32,7 +32,6 @@ process = lambda { |record|
       record.save! 
       maintenance.logger.info("#{maintenance.host}: Source ##{record.id} removed 730")
     rescue 
-      binding.pry
       maintenance.logger.info("#{maintenance.host} ERROR:  Source ##{record.id} removed 730")
     end
   end
