@@ -10,7 +10,9 @@ module Muscat
     def initialize(collection)
       @collection = collection
       @host = Socket.gethostname
-      @logger = Logger.new("#{File.dirname($0)}/log/#{File.basename($0, '.rb')}.log")
+      logfile = "#{File.dirname($0)}/log/#{File.basename($0, '.rb')}.log"
+      File.delete(logfile) if File.exist?(logfile)
+      @logger = Logger.new(logfile)
       @bar = ProgressBar.new(collection.size)
     end
 
