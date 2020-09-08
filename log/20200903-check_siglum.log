@@ -1,0 +1,333 @@
+# Logfile created on 2020-09-08 13:48:29 +0200 by logger.rb/56815
+I, [2020-09-08T13:48:31.578654 #25585]  INFO -- : lab.rism: ICCU 850600002 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.579233 #25585]  INFO -- : lab.rism: ICCU 850600007 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.579740 #25585]  INFO -- : lab.rism: ICCU 850600013 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.580301 #25585]  INFO -- : lab.rism: ICCU 850600017 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.581942 #25585]  INFO -- : lab.rism: ICCU 850600023 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.582498 #25585]  INFO -- : lab.rism: ICCU 850600042 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:31.583009 #25585]  INFO -- : lab.rism: ICCU 850600063 collection-siglum I-MERCbms, I-Vlevi <> entry-siglum I-Vlevi
+I, [2020-09-08T13:48:52.823723 #25585]  INFO -- : lab.rism: ICCU 850659715 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.824215 #25585]  INFO -- : lab.rism: ICCU 850659716 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.824692 #25585]  INFO -- : lab.rism: ICCU 850659717 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.856246 #25585]  INFO -- : lab.rism: ICCU 850659869 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.856785 #25585]  INFO -- : lab.rism: ICCU 850659870 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.857321 #25585]  INFO -- : lab.rism: ICCU 850659871 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.857857 #25585]  INFO -- : lab.rism: ICCU 850659872 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.858398 #25585]  INFO -- : lab.rism: ICCU 850659873 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:52.858935 #25585]  INFO -- : lab.rism: ICCU 850659874 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.446564 #25585]  INFO -- : lab.rism: ICCU 850668715 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.447094 #25585]  INFO -- : lab.rism: ICCU 850668716 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.493457 #25585]  INFO -- : lab.rism: ICCU 850668887 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.493953 #25585]  INFO -- : lab.rism: ICCU 850668888 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.494451 #25585]  INFO -- : lab.rism: ICCU 850668889 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.494948 #25585]  INFO -- : lab.rism: ICCU 850668890 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.495441 #25585]  INFO -- : lab.rism: ICCU 850668891 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.495931 #25585]  INFO -- : lab.rism: ICCU 850668892 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.496424 #25585]  INFO -- : lab.rism: ICCU 850668893 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.496913 #25585]  INFO -- : lab.rism: ICCU 850668894 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.497407 #25585]  INFO -- : lab.rism: ICCU 850668895 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:48:55.497896 #25585]  INFO -- : lab.rism: ICCU 850668896 collection-siglum I-Fn <> entry-siglum I-Rrostirolla
+I, [2020-09-08T13:49:17.755927 #25585]  INFO -- : lab.rism: ICCU 850721571 collection-siglum I-Vnm, I-Vc <> entry-siglum I-Vc
+I, [2020-09-08T13:49:17.756441 #25585]  INFO -- : lab.rism: ICCU 850721572 collection-siglum I-Vnm, I-Vc <> entry-siglum I-Vc
+I, [2020-09-08T13:49:18.096738 #25585]  INFO -- : lab.rism: ICCU 850722431 collection-siglum I-VIb <> entry-siglum I-Vnm
+I, [2020-09-08T13:49:23.269580 #25585]  INFO -- : lab.rism: ICCU 850730434 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.270099 #25585]  INFO -- : lab.rism: ICCU 850730435 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.271059 #25585]  INFO -- : lab.rism: ICCU 850730437 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.271551 #25585]  INFO -- : lab.rism: ICCU 850730438 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.272500 #25585]  INFO -- : lab.rism: ICCU 850730440 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.272993 #25585]  INFO -- : lab.rism: ICCU 850730441 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.274431 #25585]  INFO -- : lab.rism: ICCU 850730444 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.493735 #25585]  INFO -- : lab.rism: ICCU 850730869 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:23.494322 #25585]  INFO -- : lab.rism: ICCU 850730870 collection-siglum I-Vc <> entry-siglum I-Vnm, I-Vc
+I, [2020-09-08T13:49:34.159273 #25585]  INFO -- : lab.rism: ICCU 850781020 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:34.432264 #25585]  INFO -- : lab.rism: ICCU 850781925 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:34.432702 #25585]  INFO -- : lab.rism: ICCU 850781926 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:34.742293 #25585]  INFO -- : lab.rism: ICCU 850782656 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:34.780720 #25585]  INFO -- : lab.rism: ICCU 850782753 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:34.781252 #25585]  INFO -- : lab.rism: ICCU 850782754 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:37.583592 #25585]  INFO -- : lab.rism: ICCU 850783335 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:37.585332 #25585]  INFO -- : lab.rism: ICCU 850783339 collection-siglum I-PAc <> entry-siglum 
+I, [2020-09-08T13:49:38.383978 #25585]  INFO -- : lab.rism: ICCU 850787979 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.384529 #25585]  INFO -- : lab.rism: ICCU 850787980 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.385073 #25585]  INFO -- : lab.rism: ICCU 850787981 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.385610 #25585]  INFO -- : lab.rism: ICCU 850787982 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.386156 #25585]  INFO -- : lab.rism: ICCU 850787983 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.386725 #25585]  INFO -- : lab.rism: ICCU 850787984 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.387278 #25585]  INFO -- : lab.rism: ICCU 850787985 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.387829 #25585]  INFO -- : lab.rism: ICCU 850787986 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.388382 #25585]  INFO -- : lab.rism: ICCU 850787987 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.388937 #25585]  INFO -- : lab.rism: ICCU 850787988 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.389487 #25585]  INFO -- : lab.rism: ICCU 850787989 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.390074 #25585]  INFO -- : lab.rism: ICCU 850787994 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.390636 #25585]  INFO -- : lab.rism: ICCU 850787995 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.391718 #25585]  INFO -- : lab.rism: ICCU 850787997 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.392272 #25585]  INFO -- : lab.rism: ICCU 850787998 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.392825 #25585]  INFO -- : lab.rism: ICCU 850787999 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.393376 #25585]  INFO -- : lab.rism: ICCU 850788000 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.393939 #25585]  INFO -- : lab.rism: ICCU 850788001 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.394504 #25585]  INFO -- : lab.rism: ICCU 850788002 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.395058 #25585]  INFO -- : lab.rism: ICCU 850788003 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.395618 #25585]  INFO -- : lab.rism: ICCU 850788004 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.396706 #25585]  INFO -- : lab.rism: ICCU 850788007 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.397261 #25585]  INFO -- : lab.rism: ICCU 850788008 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.397813 #25585]  INFO -- : lab.rism: ICCU 850788009 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.406494 #25585]  INFO -- : lab.rism: ICCU 850788069 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.407048 #25585]  INFO -- : lab.rism: ICCU 850788070 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.407600 #25585]  INFO -- : lab.rism: ICCU 850788071 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.408155 #25585]  INFO -- : lab.rism: ICCU 850788072 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.408706 #25585]  INFO -- : lab.rism: ICCU 850788073 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.409246 #25585]  INFO -- : lab.rism: ICCU 850788074 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.409805 #25585]  INFO -- : lab.rism: ICCU 850788075 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.410357 #25585]  INFO -- : lab.rism: ICCU 850788076 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.410915 #25585]  INFO -- : lab.rism: ICCU 850788077 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.411466 #25585]  INFO -- : lab.rism: ICCU 850788078 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.412523 #25585]  INFO -- : lab.rism: ICCU 850788083 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.413589 #25585]  INFO -- : lab.rism: ICCU 850788085 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.414142 #25585]  INFO -- : lab.rism: ICCU 850788086 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.414710 #25585]  INFO -- : lab.rism: ICCU 850788087 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.415259 #25585]  INFO -- : lab.rism: ICCU 850788088 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.415792 #25585]  INFO -- : lab.rism: ICCU 850788089 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.437900 #25585]  INFO -- : lab.rism: ICCU 850788283 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.438918 #25585]  INFO -- : lab.rism: ICCU 850788285 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.439441 #25585]  INFO -- : lab.rism: ICCU 850788286 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.439961 #25585]  INFO -- : lab.rism: ICCU 850788287 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.440489 #25585]  INFO -- : lab.rism: ICCU 850788288 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.441011 #25585]  INFO -- : lab.rism: ICCU 850788289 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.441529 #25585]  INFO -- : lab.rism: ICCU 850788290 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.442047 #25585]  INFO -- : lab.rism: ICCU 850788291 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.442569 #25585]  INFO -- : lab.rism: ICCU 850788292 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.443571 #25585]  INFO -- : lab.rism: ICCU 850788296 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.444096 #25585]  INFO -- : lab.rism: ICCU 850788297 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.445097 #25585]  INFO -- : lab.rism: ICCU 850788311 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.445626 #25585]  INFO -- : lab.rism: ICCU 850788312 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.446145 #25585]  INFO -- : lab.rism: ICCU 850788314 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.447168 #25585]  INFO -- : lab.rism: ICCU 850788316 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.447671 #25585]  INFO -- : lab.rism: ICCU 850788317 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.449572 #25585]  INFO -- : lab.rism: ICCU 850788321 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.451017 #25585]  INFO -- : lab.rism: ICCU 850788324 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.451525 #25585]  INFO -- : lab.rism: ICCU 850788325 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.452029 #25585]  INFO -- : lab.rism: ICCU 850788326 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.453033 #25585]  INFO -- : lab.rism: ICCU 850788335 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.455427 #25585]  INFO -- : lab.rism: ICCU 850788366 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.458282 #25585]  INFO -- : lab.rism: ICCU 850788385 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.461203 #25585]  INFO -- : lab.rism: ICCU 850788387 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.461724 #25585]  INFO -- : lab.rism: ICCU 850788388 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.462246 #25585]  INFO -- : lab.rism: ICCU 850788389 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.462765 #25585]  INFO -- : lab.rism: ICCU 850788390 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.463278 #25585]  INFO -- : lab.rism: ICCU 850788391 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.463791 #25585]  INFO -- : lab.rism: ICCU 850788392 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.464304 #25585]  INFO -- : lab.rism: ICCU 850788393 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.464816 #25585]  INFO -- : lab.rism: ICCU 850788394 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.466272 #25585]  INFO -- : lab.rism: ICCU 850788398 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.466802 #25585]  INFO -- : lab.rism: ICCU 850788399 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.467792 #25585]  INFO -- : lab.rism: ICCU 850788414 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.468301 #25585]  INFO -- : lab.rism: ICCU 850788415 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.468808 #25585]  INFO -- : lab.rism: ICCU 850788416 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.469319 #25585]  INFO -- : lab.rism: ICCU 850788417 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.469828 #25585]  INFO -- : lab.rism: ICCU 850788418 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.470335 #25585]  INFO -- : lab.rism: ICCU 850788419 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.470856 #25585]  INFO -- : lab.rism: ICCU 850788420 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.472304 #25585]  INFO -- : lab.rism: ICCU 850788423 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.472812 #25585]  INFO -- : lab.rism: ICCU 850788424 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.473317 #25585]  INFO -- : lab.rism: ICCU 850788425 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.473826 #25585]  INFO -- : lab.rism: ICCU 850788426 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.476309 #25585]  INFO -- : lab.rism: ICCU 850788431 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.479279 #25585]  INFO -- : lab.rism: ICCU 850788445 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.479828 #25585]  INFO -- : lab.rism: ICCU 850788446 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.480373 #25585]  INFO -- : lab.rism: ICCU 850788447 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.480921 #25585]  INFO -- : lab.rism: ICCU 850788448 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.483503 #25585]  INFO -- : lab.rism: ICCU 850788477 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.484555 #25585]  INFO -- : lab.rism: ICCU 850788482 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.486637 #25585]  INFO -- : lab.rism: ICCU 850788500 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.487214 #25585]  INFO -- : lab.rism: ICCU 850788501 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.487760 #25585]  INFO -- : lab.rism: ICCU 850788502 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.488306 #25585]  INFO -- : lab.rism: ICCU 850788503 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.489378 #25585]  INFO -- : lab.rism: ICCU 850788505 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.489923 #25585]  INFO -- : lab.rism: ICCU 850788506 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.490985 #25585]  INFO -- : lab.rism: ICCU 850788508 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.491538 #25585]  INFO -- : lab.rism: ICCU 850788509 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.492086 #25585]  INFO -- : lab.rism: ICCU 850788510 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.492629 #25585]  INFO -- : lab.rism: ICCU 850788511 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:38.493180 #25585]  INFO -- : lab.rism: ICCU 850788514 collection-siglum I-Namco <> entry-siglum I-GOl
+I, [2020-09-08T13:49:39.615256 #25585]  INFO -- : lab.rism: ICCU 850791503 collection-siglum I-Fn, I-Fc <> entry-siglum I-Fc
+I, [2020-09-08T13:49:39.625476 #25585]  INFO -- : lab.rism: ICCU 850791529 collection-siglum I-Fn, I-Fc <> entry-siglum I-Fc
+I, [2020-09-08T13:49:39.625937 #25585]  INFO -- : lab.rism: ICCU 850791530 collection-siglum I-Fn, I-Fc <> entry-siglum I-Fc
+I, [2020-09-08T13:49:39.626430 #25585]  INFO -- : lab.rism: ICCU 850791531 collection-siglum I-Fn, I-Fc <> entry-siglum I-Fc
+I, [2020-09-08T13:49:40.894927 #25585]  INFO -- : lab.rism: ICCU 850803844 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.895687 #25585]  INFO -- : lab.rism: ICCU 850803854 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.896435 #25585]  INFO -- : lab.rism: ICCU 850803872 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.897185 #25585]  INFO -- : lab.rism: ICCU 850803876 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.897898 #25585]  INFO -- : lab.rism: ICCU 850803877 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.898644 #25585]  INFO -- : lab.rism: ICCU 850803878 collection-siglum I-BGgbs <> entry-siglum I-BGi
+I, [2020-09-08T13:49:40.899371 #25585]  INFO -- : lab.rism: ICCU 850803919 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.900151 #25585]  INFO -- : lab.rism: ICCU 850803921 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.900861 #25585]  INFO -- : lab.rism: ICCU 850803922 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.901605 #25585]  INFO -- : lab.rism: ICCU 850803929 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.902355 #25585]  INFO -- : lab.rism: ICCU 850803930 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.903087 #25585]  INFO -- : lab.rism: ICCU 850803934 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.903834 #25585]  INFO -- : lab.rism: ICCU 850803940 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.904527 #25585]  INFO -- : lab.rism: ICCU 850803948 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.905282 #25585]  INFO -- : lab.rism: ICCU 850803954 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.906039 #25585]  INFO -- : lab.rism: ICCU 850803958 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.906777 #25585]  INFO -- : lab.rism: ICCU 850803965 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.907544 #25585]  INFO -- : lab.rism: ICCU 850803971 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.908246 #25585]  INFO -- : lab.rism: ICCU 850803976 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.909000 #25585]  INFO -- : lab.rism: ICCU 850803978 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.909729 #25585]  INFO -- : lab.rism: ICCU 850803980 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.910442 #25585]  INFO -- : lab.rism: ICCU 850803984 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.911185 #25585]  INFO -- : lab.rism: ICCU 850803988 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.911881 #25585]  INFO -- : lab.rism: ICCU 850803996 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.912613 #25585]  INFO -- : lab.rism: ICCU 850803997 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.913311 #25585]  INFO -- : lab.rism: ICCU 850803999 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.914042 #25585]  INFO -- : lab.rism: ICCU 850804017 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.914774 #25585]  INFO -- : lab.rism: ICCU 850804018 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.915472 #25585]  INFO -- : lab.rism: ICCU 850804032 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.916209 #25585]  INFO -- : lab.rism: ICCU 850804039 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.916904 #25585]  INFO -- : lab.rism: ICCU 850804052 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.917637 #25585]  INFO -- : lab.rism: ICCU 850804080 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.918362 #25585]  INFO -- : lab.rism: ICCU 850804088 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.919074 #25585]  INFO -- : lab.rism: ICCU 850804091 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.919805 #25585]  INFO -- : lab.rism: ICCU 850804092 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.920510 #25585]  INFO -- : lab.rism: ICCU 850804101 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.921243 #25585]  INFO -- : lab.rism: ICCU 850804104 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.921942 #25585]  INFO -- : lab.rism: ICCU 850804115 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.922706 #25585]  INFO -- : lab.rism: ICCU 850804117 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.923446 #25585]  INFO -- : lab.rism: ICCU 850804118 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.924160 #25585]  INFO -- : lab.rism: ICCU 850804120 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.924892 #25585]  INFO -- : lab.rism: ICCU 850804122 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.925587 #25585]  INFO -- : lab.rism: ICCU 850804127 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.926290 #25585]  INFO -- : lab.rism: ICCU 850804128 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.927032 #25585]  INFO -- : lab.rism: ICCU 850804131 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.927725 #25585]  INFO -- : lab.rism: ICCU 850804133 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.928447 #25585]  INFO -- : lab.rism: ICCU 850804140 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.929140 #25585]  INFO -- : lab.rism: ICCU 850804150 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.929862 #25585]  INFO -- : lab.rism: ICCU 850804151 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.930570 #25585]  INFO -- : lab.rism: ICCU 850804153 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.931297 #25585]  INFO -- : lab.rism: ICCU 850804159 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.932025 #25585]  INFO -- : lab.rism: ICCU 850804165 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.932724 #25585]  INFO -- : lab.rism: ICCU 850804168 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.934097 #25585]  INFO -- : lab.rism: ICCU 850804205 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.934862 #25585]  INFO -- : lab.rism: ICCU 850804221 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.935580 #25585]  INFO -- : lab.rism: ICCU 850804246 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:40.936270 #25585]  INFO -- : lab.rism: ICCU 850804259 collection-siglum I-BGi <> entry-siglum I-BGgbs
+I, [2020-09-08T13:49:41.975500 #25585]  INFO -- : lab.rism: ICCU 850807455 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.976007 #25585]  INFO -- : lab.rism: ICCU 850807459 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.976500 #25585]  INFO -- : lab.rism: ICCU 850807467 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.976990 #25585]  INFO -- : lab.rism: ICCU 850807468 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.977477 #25585]  INFO -- : lab.rism: ICCU 850807469 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.977975 #25585]  INFO -- : lab.rism: ICCU 850807476 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.978475 #25585]  INFO -- : lab.rism: ICCU 850807481 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.978972 #25585]  INFO -- : lab.rism: ICCU 850807502 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.979463 #25585]  INFO -- : lab.rism: ICCU 850807503 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.979956 #25585]  INFO -- : lab.rism: ICCU 850807505 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.980447 #25585]  INFO -- : lab.rism: ICCU 850807511 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.980937 #25585]  INFO -- : lab.rism: ICCU 850807514 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.981428 #25585]  INFO -- : lab.rism: ICCU 850807520 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.981914 #25585]  INFO -- : lab.rism: ICCU 850807521 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.982417 #25585]  INFO -- : lab.rism: ICCU 850807522 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.982913 #25585]  INFO -- : lab.rism: ICCU 850807525 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.983402 #25585]  INFO -- : lab.rism: ICCU 850807526 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.983897 #25585]  INFO -- : lab.rism: ICCU 850807534 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.984385 #25585]  INFO -- : lab.rism: ICCU 850807542 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.984878 #25585]  INFO -- : lab.rism: ICCU 850807543 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.985365 #25585]  INFO -- : lab.rism: ICCU 850807556 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.985852 #25585]  INFO -- : lab.rism: ICCU 850807567 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.986341 #25585]  INFO -- : lab.rism: ICCU 850807568 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.986834 #25585]  INFO -- : lab.rism: ICCU 850807578 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.987322 #25585]  INFO -- : lab.rism: ICCU 850807579 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.987807 #25585]  INFO -- : lab.rism: ICCU 850807584 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.988294 #25585]  INFO -- : lab.rism: ICCU 850807585 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.988781 #25585]  INFO -- : lab.rism: ICCU 850807586 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.989269 #25585]  INFO -- : lab.rism: ICCU 850807587 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.989757 #25585]  INFO -- : lab.rism: ICCU 850807588 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.990241 #25585]  INFO -- : lab.rism: ICCU 850807599 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.990729 #25585]  INFO -- : lab.rism: ICCU 850807600 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.991215 #25585]  INFO -- : lab.rism: ICCU 850807601 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.991700 #25585]  INFO -- : lab.rism: ICCU 850807609 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.992184 #25585]  INFO -- : lab.rism: ICCU 850807613 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.992679 #25585]  INFO -- : lab.rism: ICCU 850807614 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.993169 #25585]  INFO -- : lab.rism: ICCU 850807616 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.993657 #25585]  INFO -- : lab.rism: ICCU 850807622 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.994146 #25585]  INFO -- : lab.rism: ICCU 850807627 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.994647 #25585]  INFO -- : lab.rism: ICCU 850807628 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.995175 #25585]  INFO -- : lab.rism: ICCU 850807641 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.995691 #25585]  INFO -- : lab.rism: ICCU 850807659 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.996209 #25585]  INFO -- : lab.rism: ICCU 850807664 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.996723 #25585]  INFO -- : lab.rism: ICCU 850807667 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.997240 #25585]  INFO -- : lab.rism: ICCU 850807668 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.997754 #25585]  INFO -- : lab.rism: ICCU 850807674 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.998271 #25585]  INFO -- : lab.rism: ICCU 850807686 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.998798 #25585]  INFO -- : lab.rism: ICCU 850807696 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.999321 #25585]  INFO -- : lab.rism: ICCU 850807701 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:41.999840 #25585]  INFO -- : lab.rism: ICCU 850807702 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.000360 #25585]  INFO -- : lab.rism: ICCU 850807703 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.000876 #25585]  INFO -- : lab.rism: ICCU 850807705 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.001402 #25585]  INFO -- : lab.rism: ICCU 850807713 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.001920 #25585]  INFO -- : lab.rism: ICCU 850807724 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.002446 #25585]  INFO -- : lab.rism: ICCU 850807725 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.003436 #25585]  INFO -- : lab.rism: ICCU 850807739 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.003951 #25585]  INFO -- : lab.rism: ICCU 850807744 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.004469 #25585]  INFO -- : lab.rism: ICCU 850807745 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.004987 #25585]  INFO -- : lab.rism: ICCU 850807747 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.005500 #25585]  INFO -- : lab.rism: ICCU 850807748 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.006019 #25585]  INFO -- : lab.rism: ICCU 850807750 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.006548 #25585]  INFO -- : lab.rism: ICCU 850807757 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.007069 #25585]  INFO -- : lab.rism: ICCU 850807758 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.007582 #25585]  INFO -- : lab.rism: ICCU 850807765 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.008098 #25585]  INFO -- : lab.rism: ICCU 850807766 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.008613 #25585]  INFO -- : lab.rism: ICCU 850807770 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.009132 #25585]  INFO -- : lab.rism: ICCU 850807771 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.009645 #25585]  INFO -- : lab.rism: ICCU 850807772 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.010160 #25585]  INFO -- : lab.rism: ICCU 850807776 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.010692 #25585]  INFO -- : lab.rism: ICCU 850807781 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.011203 #25585]  INFO -- : lab.rism: ICCU 850807786 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.011717 #25585]  INFO -- : lab.rism: ICCU 850807797 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.012226 #25585]  INFO -- : lab.rism: ICCU 850807803 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.012737 #25585]  INFO -- : lab.rism: ICCU 850807806 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.013250 #25585]  INFO -- : lab.rism: ICCU 850807807 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.013761 #25585]  INFO -- : lab.rism: ICCU 850807818 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.014275 #25585]  INFO -- : lab.rism: ICCU 850807819 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.014795 #25585]  INFO -- : lab.rism: ICCU 850807820 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.015306 #25585]  INFO -- : lab.rism: ICCU 850807821 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.015814 #25585]  INFO -- : lab.rism: ICCU 850807822 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.016323 #25585]  INFO -- : lab.rism: ICCU 850807824 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.018757 #25585]  INFO -- : lab.rism: ICCU 850807877 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.019267 #25585]  INFO -- : lab.rism: ICCU 850807882 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.019780 #25585]  INFO -- : lab.rism: ICCU 850807883 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.020296 #25585]  INFO -- : lab.rism: ICCU 850807884 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.020816 #25585]  INFO -- : lab.rism: ICCU 850807888 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.021329 #25585]  INFO -- : lab.rism: ICCU 850807897 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.021842 #25585]  INFO -- : lab.rism: ICCU 850807903 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.022355 #25585]  INFO -- : lab.rism: ICCU 850807904 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.022874 #25585]  INFO -- : lab.rism: ICCU 850807911 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.023387 #25585]  INFO -- : lab.rism: ICCU 850807912 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.023896 #25585]  INFO -- : lab.rism: ICCU 850807926 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.024410 #25585]  INFO -- : lab.rism: ICCU 850807932 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.024923 #25585]  INFO -- : lab.rism: ICCU 850807936 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.025432 #25585]  INFO -- : lab.rism: ICCU 850807937 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.025944 #25585]  INFO -- : lab.rism: ICCU 850807944 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.026461 #25585]  INFO -- : lab.rism: ICCU 850807945 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.026987 #25585]  INFO -- : lab.rism: ICCU 850807946 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.027495 #25585]  INFO -- : lab.rism: ICCU 850807947 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.028004 #25585]  INFO -- : lab.rism: ICCU 850807956 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.028513 #25585]  INFO -- : lab.rism: ICCU 850807974 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.029035 #25585]  INFO -- : lab.rism: ICCU 850807984 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.029545 #25585]  INFO -- : lab.rism: ICCU 850807990 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.030055 #25585]  INFO -- : lab.rism: ICCU 850807997 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.030577 #25585]  INFO -- : lab.rism: ICCU 850807998 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.031086 #25585]  INFO -- : lab.rism: ICCU 850807999 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.031601 #25585]  INFO -- : lab.rism: ICCU 850808000 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.032115 #25585]  INFO -- : lab.rism: ICCU 850808004 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.032628 #25585]  INFO -- : lab.rism: ICCU 850808005 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.033614 #25585]  INFO -- : lab.rism: ICCU 850808014 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.034124 #25585]  INFO -- : lab.rism: ICCU 850808018 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.034637 #25585]  INFO -- : lab.rism: ICCU 850808019 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.035159 #25585]  INFO -- : lab.rism: ICCU 850808020 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.035668 #25585]  INFO -- : lab.rism: ICCU 850808026 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.036181 #25585]  INFO -- : lab.rism: ICCU 850808027 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.036691 #25585]  INFO -- : lab.rism: ICCU 850808028 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.037199 #25585]  INFO -- : lab.rism: ICCU 850808037 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.037711 #25585]  INFO -- : lab.rism: ICCU 850808038 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.038233 #25585]  INFO -- : lab.rism: ICCU 850808040 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.038750 #25585]  INFO -- : lab.rism: ICCU 850808054 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
+I, [2020-09-08T13:49:42.039258 #25585]  INFO -- : lab.rism: ICCU 850808063 collection-siglum I-PSbsg, I-MTc <> entry-siglum I-PSbsg
