@@ -25,14 +25,14 @@ process = lambda { |record|
         old_content = sf.content
         new_content = sf.content.gsub("Mus. pr.", "Mus.pr.").gsub(/Mus\.pr\.([0-9])/, 'Mus.pr. \1' )
         sf.content = new_content
-        modified = true
+        modified = true if old_content != new_content
       end
     end
   end
   
   if modified
     maintenance.logger.info("#{maintenance.host}: #{record.class} #{id} changed shelfmark '#{old_content}' to '#{new_content}'" ) if old_content != new_content
-    #ecord.save #rescue next
+    record.save #rescue next
   end
 }
 
