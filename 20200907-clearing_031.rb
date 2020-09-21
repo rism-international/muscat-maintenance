@@ -33,6 +33,8 @@ process = lambda { |record|
     n.each_by_tag("q") do |sf|
       if sf.content == 'Taktart ermittelt'
         sf.destroy_yourself if modified
+      elsif sf.content =~ /Taktart ermittelt/
+        sf.content = sf.content.gsub("Taktart ermittelt")
       end
     end
   end
