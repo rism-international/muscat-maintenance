@@ -30,7 +30,7 @@ people.each do |s|
   
   tag = Nokogiri::XML::Node.new "marc:controlfield", doc_record.root
   tag['tag'] = '008'
-  created_at = record.created_at.strftime("%y%m%d")
+  created_at = record.created_at.strftime("%y%m%d") rescue next
   tag.content = "#{created_at}n|||||||a|||              a"
 
   begin 
