@@ -8,6 +8,60 @@ puts ""
 
 require_relative "lib/maintenance"
 
+filename = "#{File.dirname($0)}/#{File.basename($0, '.rb')}.csv"
+hash = {}
+
+CSV.foreach(filename, :headers => false) do |row|
+  id = row[0].to_i
+  incnr = row[1]
+  content = row[2].strip rescue "-"
+  if hash[id]
+    hash[id].merge!({incnr => content})
+  else
+    hash[id] = {incnr => content}
+  end
+end
+
+sources = Source.where(:id => hash.keys)
+maintenance = Muscat::Maintenance.new(sources)
+#PaperTrail.request.disable_model(Source)
+ 
+process = lambda { |record|
+  modified = false
+  record.marc.by_tags("031").each do |n|
+    inc_a = n.fetch_first_by_tag("a").content
+    inc_b = n.fetch_first_by_tag("b").content
+    inc_c = n.fetch_first_by_tag("c").content
+    inr = "#{inc_a}.#{inc_b}.#{inc_c}"
+    content = hash[record.id][inr]
+    if content
+      n.each_by_tag("q") do |sf|
+        if content == '-'
+          sf.destroy_yourself
+        else
+          sf.content = content
+        end
+        modified = true
+        maintenance.logger.info("#{maintenance.host}: Source #{record.id} #{inr} '#{content}'")
+      end
+    end
+  end
+
+  if modified
+    record.save
+  end
+
+
+  
+}
+
+maintenance.execute process
+
+ 
+
+
+
+=begin
 sql = "SELECT * FROM sources where marc_source REGEXP '=031[^\n]*\[[.$.]]o0'"
 sources = Source.find_by_sql(sql)
 maintenance = Muscat::Maintenance.new(sources)
@@ -42,7 +96,6 @@ process = lambda { |record|
     end
   end
 
-=begin
   if modified
     begin
       maintenance.logger.info("#{maintenance.host}: Source #{record.id} Taktart überprüfen: Incipits '#{incnr.join(", ")}'")
@@ -50,8 +103,8 @@ process = lambda { |record|
       maintenance.logger.info("#{maintenance.host}: Source ERROR #{record.id} Incipits")
     end
   end
-=end
 }
 
 maintenance.execute process
 
+=end
