@@ -2,7 +2,7 @@
 #
 puts "##################################################################################################"
 puts "########################    ISSUE: Concat 245 with  'ICCU'       #################################"
-puts "#########################   Expected collection size: 211.000   ##################################"
+puts "#########################   Expected collection size: 700.000   ##################################"
 puts "##################################################################################################"
 puts ""
 
@@ -24,22 +24,12 @@ bar = ProgressBar.new(size)
     modified = false
     record.suppress_reindex
     bar.increment!
-    content = []
     
-    record.marc.by_tags("245").each do |n|
-      n.fetch_all_by_tag("a").each_with_index do |sf, index|
-        content << sf.content
-        if index > 0
-          sf.destroy_yourself
-        end
+    record.marc.by_tags("031").each do |n|
+      n.each_by_tag("u") do |sf|
+        sf.destroy_yourself
+        modified = true
       end
-    end
-
-    if content.size > 1
-      tag = record.marc.root.fetch_first_by_tag("245")
-      sf = tag.fetch_first_by_tag("a")
-      sf.content = content.join("{{brk}}")
-      modified = true
     end
 
     if modified
