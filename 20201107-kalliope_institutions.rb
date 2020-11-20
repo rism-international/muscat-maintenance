@@ -20,7 +20,6 @@ process = lambda { |record|
     next if record.siglum
     record.marc.by_tags("368").each do |n|
       n.each_by_tag("a") do |sf|
-        binding.pry
         if sf.content == 'K' || sf.content =~ /K;/ || sf.content == 'B'
           folder.add_item(record)
         end
