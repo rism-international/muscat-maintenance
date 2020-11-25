@@ -14,6 +14,8 @@ institutions.each do |institution|
   address = institution.address ? institution.address : ''
   ins[:name] = name
   ins[:address] = address
+  ins[:country] = ''
+  ins[:place] = ''
   bar.increment!
   marc = institution.marc
   
