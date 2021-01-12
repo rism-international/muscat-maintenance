@@ -5,7 +5,7 @@ puts "##########################################################################
 puts ""
 require_relative "../lib/maintenance"
 NAMESPACE={'marc' => "http://www.loc.gov/MARC21/slim"}
-catalogues = Catalogue.order(:id).pluck(:id)
+catalogues = Publication.order(:id).pluck(:id)
 
 # Should only run on dedicated local machine
 exit unless Socket.gethostname == 'lab.rism'
@@ -18,7 +18,7 @@ res = []
 bar = ProgressBar.new(catalogues.size)
 
 catalogues.each do |s|
-  record = Catalogue.find(s) rescue next
+  record = Publication.find(s) rescue next
   begin
     marc = record.marc.to_xml_record(record.updated_at, nil, false)
   rescue
