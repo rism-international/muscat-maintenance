@@ -22,7 +22,7 @@ maintenance = Muscat::Maintenance.new(sources)
 process = lambda { |record|
      modified = false
      url = res[record.id]
-     if record.marc_source.include?(url)
+     if record.marc_source.include?(url.split('://').last)
        next
      end
      marc = record.marc
