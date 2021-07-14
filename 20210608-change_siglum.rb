@@ -13,6 +13,7 @@ new_siglum = "D-KA"
 new_institution = Institution.where(siglum: new_siglum).take
 provenance_id = '30035148'
 former = "Fürstlich Fürstenbergische Hofbibliothek, Donaueschingen"
+bem = "Komponisten der Donaueschinger Kammermusikaufführungen"
 
 sx = Source.where(lib_siglum: old_siglum)
 hx = Holding.where(lib_siglum: old_siglum)
@@ -24,28 +25,31 @@ process = lambda { |record|
   modified = false
   has_710 = false
   has_561 = false
+  has_bem = record.marc_source.include?(bem)
   record_class = record.class.name.demodulize.classify.constantize
   marc_class = "Marc#{record_class}".demodulize.classify.constantize
   record_type = record.record_type rescue nil
   marc = marc_class.new(record.marc_source)
   marc.load_source(false)
- 
-  marc.each_by_tag("852") do |tag|
-    a_tag = tag.fetch_first_by_tag("a")
-    if a_tag.content == old_siglum
-      tag.foreign_object = new_institution
-      x = tag.fetch_first_by_tag("x")
-      xnode = x.deep_copy
-      x.destroy_yourself
-      xnode.foreign_object=new_institution
-      xnode.content = new_institution.id
-      tag.add(xnode)
-      tag.resolve_externals
-      modified = true
+
+  unless has_bem
+    marc.each_by_tag("852") do |tag|
+      a_tag = tag.fetch_first_by_tag("a")
+      if a_tag.content == old_siglum
+        tag.foreign_object = new_institution
+        x = tag.fetch_first_by_tag("x")
+        xnode = x.deep_copy
+        x.destroy_yourself
+        xnode.foreign_object=new_institution
+        xnode.content = new_institution.id
+        tag.add(xnode)
+        tag.resolve_externals
+        modified = true
+      end
+      record.lib_siglum = new_siglum
     end
-    record.lib_siglum = new_siglum
   end
-  
+
   marc.each_by_tag("710") do |tag|
     a_tag = tag.fetch_first_by_tag("0")
     if a_tag and a_tag.content == provenance_id
@@ -59,6 +63,7 @@ process = lambda { |record|
     new_710.add(MarcNode.new(record_class, "0", provenance_id, nil))
     new_710.add(MarcNode.new(record_class, "4", "fmo", nil))
     marc.root.children.insert(ip, new_710)
+    modified = true
   end
 
   marc.each_by_tag("561") do |tag|
@@ -72,7 +77,8 @@ process = lambda { |record|
     ip = marc.get_insert_position("561")
     new_561 = MarcNode.new(record_class, "561", "", "2#")
     new_561.add(MarcNode.new(record_class, "a", former, nil))
-    marc.root.children.insert(ip, new_710)
+    marc.root.children.insert(ip, new_561)
+    modified = true
   end
 
   if modified
