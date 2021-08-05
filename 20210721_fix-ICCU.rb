@@ -33,6 +33,8 @@ rows.each do |row|
 end
 sources = Source.where(:id => res.keys)
 
+sources.update_all(wf_stage: :published)
+
 #Sunspot.index(sources)
 #Sunspot.commit
 #exit
@@ -82,7 +84,7 @@ def update_tag(marc, line)
       subfields.each do |e|
         e.each do |sf, value|
           if value.is_a? Array 
-            value.each_with_index do |v, index|
+            value.reverse.each_with_index do |v, index|
               if index == 0
                 new_tag.add(MarcNode.new(Source, sf, "#{value.first}", nil))
               else
@@ -102,15 +104,24 @@ def update_tag(marc, line)
       new_tag.sort_alphabetically
       ip = marc.get_insert_position(tag)
       marc.root.children.insert(ip, new_tag)
-      binding.pry if check
     else
-      tag = marc.root.fetch_first_by_tag(tag)
+      mtag = marc.root.fetch_first_by_tag(tag)
       subfields.each do |e|
         e.each do |sf,value|
-          tag.add(MarcNode.new(Source, sf, "#{value}", nil))
+          # Check for case sensitivity
+          if tag == "240" and sf == "a"
+            title =StandardTitle.where("BINARY title=?", value).take
+            unless title
+              title = StandardTitle.create(title: value)
+            end
+            mtag.add(MarcNode.new(Source, sf, "#{title.title}", nil))
+            mtag.add(MarcNode.new(Source, "0", "#{title.id}", nil))
+          else
+            mtag.add(MarcNode.new(Source, sf, "#{value}", nil))
+          end
         end
       end
-      tag.sort_alphabetically
+      mtag.sort_alphabetically
     end
   end
 end
@@ -138,34 +149,6 @@ process = lambda { |record|
     rescue 
       maintenance.logger.info("#{maintenance.host}: ERROR #{record.id} changed #{line}")
     end
-
-
-
-
-    #fields.each do |k,v|
-    #  update_tag(marc, k, v)
-    #end
-
 }
-
-
-
-=begin
-     url = res[record.id]
-     if record.marc_source.include?(url.split('://').last)
-       next
-     end
-     marc = record.marc
-     new_856 = MarcNode.new(Source, "856", "", "4#")
-     ip = marc.get_insert_position("856")
-     new_856.add(MarcNode.new(Source, "u", "#{url}", nil))
-     new_856.add(MarcNode.new(Source, "x", "Digitalization", nil))
-     new_856.add(MarcNode.new(Source, "z", "Digital copy", nil))
-     new_856.sort_alphabetically
-     marc.root.children.insert(ip, new_856)
-     maintenance.logger.info("#{maintenance.host}: Source ##{record.id} new digitizalization with content '#{url}'")
-     modified = true
-     record.save if modified
-=end
 
 maintenance.execute process
