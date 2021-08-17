@@ -81,36 +81,51 @@ def update_tag(marc, line)
   line.each do |tag, subfields|
     if !marc.has_tag?(tag)
       new_tag = MarcNode.new(Source, tag, "", "##")
+      tag_new = true
+      ip = marc.get_insert_position(tag)
       subfields.each do |e|
+        multiple = false
         e.each do |sf, value|
+
+
           if value.is_a? Array 
-            value.reverse.each_with_index do |v, index|
+            multiple = true# if value.size > 1
+            value.each_with_index do |v, index|
               if index == 0
                 new_tag.add(MarcNode.new(Source, sf, "#{value.first}", nil))
+                marc.root.children.insert(ip + index, new_tag)
+                tag_new = false
               else
                 add_tag = MarcNode.new(Source, tag, "", "##")
                 add_tag.add(MarcNode.new(Source, sf, "#{v}", nil))
                 add_tag.sort_alphabetically
-                ip = marc.get_insert_position(tag)
-                marc.root.children.insert(ip, add_tag)
+                #ip = marc.get_insert_position(tag)
+                marc.root.children.insert(ip + index, add_tag)
                 check = true
               end
             end
+
+
+
           else
             new_tag.add(MarcNode.new(Source, sf, "#{value}", nil))
           end
+
+
         end
       end
-      new_tag.sort_alphabetically
-      ip = marc.get_insert_position(tag)
-      marc.root.children.insert(ip, new_tag)
+      if tag_new
+        new_tag.sort_alphabetically
+        #ip = marc.get_insert_position(tag)
+        marc.root.children.insert(ip, new_tag)
+      end
     else
       mtag = marc.root.fetch_first_by_tag(tag)
       subfields.each do |e|
         e.each do |sf,value|
           # Check for case sensitivity
           if tag == "240" and sf == "a"
-            title =StandardTitle.where("BINARY title=?", value).take
+            title = StandardTitle.where("BINARY title=?", value).take
             unless title
               title = StandardTitle.create(title: value)
             end
@@ -124,6 +139,7 @@ def update_tag(marc, line)
       mtag.sort_alphabetically
     end
   end
+  #binding.pry if multiple
 end
 
 
