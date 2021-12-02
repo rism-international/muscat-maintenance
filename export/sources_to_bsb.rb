@@ -24,7 +24,12 @@ sources.each do |s|
   ###################################################################
   #######          Custom local changes for BSB             #########
   ###################################################################
-  #
+  # Adding created at 008
+  created = record.created_at.strftime("%y%m%d")
+  _008_content = "#{created}##################################"
+  tag_008 = MarcNode.new(@model, "008", _008_content, nil)
+  record.marc.root.children.insert(record.marc.get_insert_position("008"), tag_008)
+
   # FIX to include holding.source_id at $o and description at $a with composite
   if record.record_type == 11
     begin
