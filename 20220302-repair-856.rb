@@ -33,9 +33,9 @@ process = lambda { |record|
   
   end
 
-  #if modified
-  #  record.save
-  #end
+  if modified
+    record.save
+  end
 }
 
 maintenance.execute process
