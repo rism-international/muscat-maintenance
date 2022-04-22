@@ -22,6 +22,7 @@ res.each do |e|
   record = Source.where(id: e['001']).take
   holding = record.holdings.where(lib_siglum: 'GB-Lbl').take
 
+  binding.pry
   marc = holding.marc
 
   marc.each_by_tag("852") do |n|
@@ -51,6 +52,8 @@ res.each do |e|
     new_500.add(MarcNode.new(Holding, "a", "#{e['500a2']}", nil))
     marc.root.children.insert(ip, new_500)
   end
+
+  holding.save
 
 end
 
