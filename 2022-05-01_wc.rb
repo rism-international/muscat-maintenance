@@ -15,13 +15,15 @@ res = []
 data = CSV.read(filename, headers: :first_row, :col_sep => "\t")
 
 data.each do |e|
-  res << {'001' => e[0], '852a' => 'GB-Lbl', '8520' => '30001581', '852c' => e[1], '500a1' => e[2], '500a2' => e[3], '856u' => e[4], '856x' => e[5], '856z' => e[6]}
+  res << {'001' => e[0], '852c' => e[4], '856u' => e[1], '856x' => e[2], '856z' => e[3]}
 end
 
+ids = res.map{|e| e["001"]}
+sources = Source.where(id: ids)
+maintenance = Muscat::Maintenance.new(sources)
 res.each do |e|
   record = Source.where(id: e['001']).take
-  holding = record.holdings.where(lib_siglum: 'GB-Lbl').take
-
+  holding = record.holdings.where(lib_siglum: 'US-Wc').take
   marc = holding.marc
 
   marc.each_by_tag("852") do |n|
@@ -38,22 +40,9 @@ res.each do |e|
     marc.root.children.insert(ip, new_856)
   end
 
-  if e["500a1"]
-    new_500 = MarcNode.new(Holding, "500", "", "4#")
-    ip = marc.get_insert_position("500")
-    new_500.add(MarcNode.new(Holding, "a", "#{e['500a1']}", nil))
-    marc.root.children.insert(ip, new_500)
-  end
-
-  if e["500a2"]
-    new_500 = MarcNode.new(Holding, "500", "", "4#")
-    ip = marc.get_insert_position("500")
-    new_500.add(MarcNode.new(Holding, "a", "#{e['500a2']}", nil))
-    marc.root.children.insert(ip, new_500)
-  end
-
-  #binding.pry
   holding.save
+  maintenance.logger.info("#{maintenance.host}: #{record.class} ##{record.id}:Holding #{holding.id} modified")
+
 
 end
 
