@@ -1,7 +1,7 @@
 require 'csv'
 
 ofile = "#{Rails.root}/housekeeping/maintenance/report/2022-05-03_ws.csv"
-res = ["ID", "Model", "WHITESPACECHAR", "SAMPLE"]
+res = ["ID", "Model", "Unicode-Character", "Sample"]
 
 models = ["Source", "Holding", "Person", "Institution", "Publication"]
 
@@ -18,7 +18,7 @@ chars = {"TABULATOR" => "\u0009", "LINETAB" => "\u000B", "NOBREAKSPACE" => "\u00
          "BACKSPACE" => "\u0008", "ESCAPE" => "\u001b", "ALERT" => "\u0007"
 
 }
-res = []
+
 models.each do |model|
   chars.each do |desc, char |
     records = model.classify.constantize.where('marc_source like ?', "%#{char}%")
