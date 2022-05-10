@@ -1,46 +1,54 @@
 require 'pry'
 require 'csv'
 
-res = {}
-id = nil
-ary = [["ID", "Incipit-No.", "823", "824"]]
-row = []
+class Incipit
+  attr_accessor :id, :p800, :p823, :p824
+  def initialize(id=nil)
+    @id = id 
+    @p800 = ""
+    @p823 = []
+    @p824 = []
+  end
+
+  def to_s
+    "#{id}, #{p800}, #{p823.join(';')}, #{p824.join(';')}"
+  end
+
+  def has_semikolon?
+    self.p823.size > 1
+  end
+end
+
+incipit = Incipit.new
+f = File.open('./824/824.csv', 'a')
+f.write("ID,Incipitnr,PIKaDo 823,PIKaDo 824\n")
 
 File.readlines('TIT2.ASC', :encoding => 'ISO-8859-1').each do |line|
-  line = line.force_encoding('ISO-8859-1').encode('UTF-8').to_s.gsub("\n", "")
+  line = line.force_encoding('ISO-8859-1').encode('UTF-8').to_s.strip
   if line.start_with?("###000")
-    tmp_id = line[3..-1].to_i
-    if tmp_id != id
-      if res[id]
-        res[id].each do |field|
-          if field.start_with?("824")
-            #File.write("./824/#{id}.txt", res[id].join)# rescue binding.pry
-          end
-        end
-      end
-      res = {}
-      id = nil
-    end
-    id = tmp_id
-    res[id] = []
+    id = line[3..-1].to_i
   else
     if line.start_with?("800")
-      row = [id, line]
+      if incipit.has_semikolon?
+        puts incipit
+        f.write(incipit.to_s + "\n")
+      end
+      incipit = Incipit.new(id)
+      incipit.p800 = line[3..-1]
+      binding.pry
     end
     if line.start_with?("823")
-      row << line
+      incipit.p823 << line[3..-1]
     end 
     if line.start_with?("824")
-      row << line
-      ary << row
-      puts row.to_s
+      incipit.p824 << line[3..-1]
     end
-    res[id] << line if res[id]#.force_encoding('ISO-8859-1').encode('UTF-8').to_s rescue next
   end
 end
 
-CSV.open("./824/824.csv", "w") do |csv|
-  ary.each do |e|
-    csv << [e[0], e[1], e[2], e[3]]
-  end
-end
+f.close
+#CSV.open("./824/824.csv", "w") do |csv|
+#  ary.each do |e|
+#    csv << [e[0], e[1], e[2], e[3]]
+#  end
+#end
