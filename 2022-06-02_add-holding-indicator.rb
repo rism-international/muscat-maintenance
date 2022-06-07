@@ -20,24 +20,26 @@ data.each do |e|
 end
 
 res.each do |e|
-  holdings = Holding.where(source_id: e['0001']).where(lib_siglum: 'GB-Lbl').where('created_at > ?', Time.parse('2022-03-01'))
+  holdings = Holding.where(source_id: e['001']).where(lib_siglum: 'GB-Lbl').where('created_at > ?', Time.parse('2022-03-01'))
   holdings.each do |holding|
     puts holding.id
     holding.marc.each_by_tag("852") do |tag|
       if tag.indicator = ""
         node = MarcNode.new("holding", "852", "", "##")
-        tag.children.each do |t|
-          node.add_at(t, nil, 0)
+        tag.children.reverse.each do |t|
+          node.add_at(t, 0)
         end
+        tag.destroy_yourself
+        ip = holding.marc.get_insert_position("852")
+        holding.marc.root.children.insert(ip, node)
       end
     end
-    binding.pry
     begin
-      #holding.save
+      holding.save
     rescue => e
       $stderr.puts"SplitHoldingRecords could not save holding record for #{source.id}"
       $stderr.puts e.message.blue
-    next
+      next
     end
   end
 end
