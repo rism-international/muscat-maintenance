@@ -1,0 +1,632 @@
+TERM,AMOUNT
+Abbess,31
+Abbot,291
+Accordionist,13
+Accountant,6
+Acoustician,4
+Acrobat,1
+Actor,928
+Actuary,2
+Administrator,30
+Adventurer,1
+Aeronaut,1
+Aesthetician,7
+Alchemist,1
+Alpinist,6
+Alto,336
+Alto castrato,32
+Ambassador,7
+Anatomist,5
+Anthologist,3
+Anthropologist,6
+Antiquarian,102
+Archaeologist,71
+Archbishop,90
+Archdeacon,39
+Archduke,1
+Architect,83
+Archivist,184
+Arranger,3227
+Art collector,66
+Art critic,17
+Art dealer,18
+Art historian,162
+Art seller,5
+Art teacher,1
+Artist,112
+Artistic director,2
+Astrologer,3
+Astronomer,39
+Auctioneer,2
+Audio engineer,1
+Author,12500
+Autograph collector,3
+Autograph dealer,8
+Auxiliary bishop,2
+Bagpiper,3
+Bailiff,2
+Baker,9
+Balalaika player,1
+Ballet master,8
+Bandleader,15
+Bandmaster,105
+Banker,82
+Barber,2
+Baritone,237
+Barkeeper,7
+Barrister,1
+Baryton player,3
+Basketball player,1
+Bass,479
+Bass clarinettist,9
+Bass horn player,1
+Bass viol player,8
+Bass-Baritone,66
+Basset-horn player,10
+Bassist,30
+Bassoon maker,1
+Bassoon teacher,8
+Bassoonist,185
+Beekeeper,2
+Benefactor,3
+Bibliographer,75
+Biochemist,1
+Biographer,13
+Biologist,4
+Bishop,390
+Book collector,24
+Bookbinder,55
+Bookseller,481
+Botanist,45
+Bowmaker,1
+Brass instrument maker,1
+Brewer,6
+Builder,1
+Business educator,1
+Businessman,41
+Butcher,3
+Butler,1
+Cabaret artist,22
+Calligrapher,3
+Cameraman,2
+Canon,68
+Canoness,1
+Capitular,9
+Captain,1
+Cardinal,151
+Carillonneur,36
+Carpenter,9
+Cartographer,12
+Cartoonist,2
+Castrato,3
+Catholic,1
+Cavalry captain,1
+Cellist,711
+Cello teacher,42
+Censor,7
+Chamberlain,39
+Chansonnier,8
+Chapel master,1
+Chaplain,43
+Chemist,37
+Chess player,1
+Choirmaster,216
+Choral conductor,1105
+Choreographer,152
+Chronicler,35
+Church reformer,3
+Church warden,5
+Cimbalist,1
+Cinema bandmaster,1
+Cittern player,1
+Civil servant,4
+Clarinet maker,2
+Clarinet teacher,17
+Clarinettist,298
+Classical scholar,8
+Clavichord player,1
+Clergyman,1950
+Clerk,23
+Clockmaker,10
+Clown,1
+Collector,127
+Collector of folksongs,41
+Collector of musical instruments,7
+Comedian,4
+Commissioner,1
+Compiler,63
+Composer,56425
+Computer scientist,5
+Concert director,7
+Concertmaster,210
+Conductor,2649
+Conductor of military band,8
+Confectioner,1
+Conservator,14
+Consul,1
+Contralto,4
+Cook,3
+Cooper,2
+Copyist,13364
+Cornetist,1
+Cornett player,44
+Cornettist,2
+Costume designer,14
+Councillor,52
+Countertenor,19
+Court lady,1
+Court official,7
+Courtesan,1
+Courtier,11
+Craftsman,2
+Critic,139
+Csakan player,2
+Curate,4
+Curator,18
+Custos,15
+Dancer,264
+Dancing master,4
+Dancing teacher,20
+Dancing-master,51
+Deacon,74
+Deaconess,1
+Dean,61
+Dedicatee,10265
+Dentist,3
+Designer,10
+Dichtersänger,1
+Dictator,2
+Diplomat,233
+Director,197
+Director of marching band,1
+Director of museum,1
+Distributor,2
+Donor,6
+Double bass player,186
+Double bass teacher,6
+Dramatic Advisor,1
+Dramatist,565
+Dramaturge,91
+Drummer,4
+Economist,11
+Editio Medicea,1
+Editor,714
+Editor of folksongs,6
+Educator,7
+Elector,1
+Electrical engineer,1
+Employee,14
+Engineer,65
+English horn player,14
+Engraver,422
+Entomologist,8
+Entrepreneur,13
+Epic poet,2
+Eriter,1
+Essayist,40
+Etcher,41
+Ethnologist,43
+Ethnomusicologist,34
+Euphonium player,5
+Explorer,4
+Fabricant,5
+Farmer,42
+Feature writer,1
+Fiddler,1
+Film director,11
+Film maker,2
+Fisherman,1
+Flageolet player,5
+Flageolet teacher,1
+Flautist,446
+Flugelhorn player,1
+Flute maker,5
+Flute teacher,35
+Folk music collector,8
+Folklorist,18
+Forest superintendent,2
+Forester,17
+Forger,1
+Founder,3
+Freemason,117
+Friar,3
+Gallery owner,2
+Galoubet player,2
+Gambist,7
+Gardener,3
+Genealogist,16
+Geodesist,1
+Geographer,34
+Geologist,10
+Geometer,2
+Glass harmonica maker,1
+Glass harmonica player,6
+Glass merchant,1
+Glass painter,1
+Gleeman,1
+Goldsmith,4
+Governor,16
+Graphic artist,6
+Guitar maker,1
+Guitar teacher,31
+Guitarist,302
+Gunsmith,2
+Hagiographer,2
+Harmonica player,1
+Harp builder,1
+Harp maker,4
+Harp teacher,17
+Harpist,187
+Harpsichord maker,9
+Harpsichord teacher,14
+Harpsichordist,323
+Hatter,2
+Hazzan,1
+Headmaster,21
+Hebraist,1
+Historian,726
+Historiographer,8
+Hofpfeifer,1
+Horn player,289
+Horn teacher,9
+Horticulturist,1
+Host,3
+Hotelier,4
+Humanist,67
+Humourist,1
+Hunter,4
+Hymn writer,111
+Hymnologist,34
+Hymnwriter,1
+Illustrator,308
+Impresario,62
+Industrialist,22
+Innkeeper,3
+Instrument builder,2
+Instrument maker,52
+Instrumentalist,130
+Inventor,39
+Jagdpfeifer,2
+Japanologist,1
+Jew's harp player,1
+Jeweler,8
+Joiner,1
+Journalist,611
+Judge,59
+Jurist,744
+Kantor,1327
+Kapellknabe,20
+Kapellmeister,1062
+Kapellmästare,12
+Kapelmeester,9
+Kapelmistrz,23
+Kapelník,12
+Keyboard maker,1
+Keyboard player,40
+Keyboard teacher,1
+King,1
+Lady-in-waiting,4
+Laird,3
+Landlord,2
+Latinist,1
+Lawyer,289
+Lay clerk,14
+Lay-vicar,3
+Lector,1
+Lecturer,24
+Legate,1
+Lexicographer,53
+Librarian,712
+Library scientist,2
+Librettist,1271
+Limer,1
+Linguist,63
+Literary academic,202
+Literary critic,33
+Literary historian,33
+Literary theorist,1
+Lithographer,191
+Lute maker,3
+Lute teacher,6
+Lutenist,312
+Luthier,2
+Lyra viol player,1
+Lyricist,80
+Machinist,1
+Maestro de capilla,214
+Maestro di capella,5
+Maestro di capilla,1
+Maestro di cappella,861
+Magician,1
+Magister puerorum,4
+Maitre de chapelle,3
+Maître de danse‏,1
+Man of letters,1
+Mandolin player,24
+Mandolinist,2
+Mandora player,1
+Manufacturer,3
+Margrave,1
+Marimba player,1
+Martyr,4
+Mason,3
+Master builder,1
+Master of ceremonies,1
+Mathematician,97
+Matron,7
+Mayor,199
+Maître de ballet,15
+Maître de chapelle,90
+Mechanist,1
+Medievalist,20
+Meistersinger,2
+Merchant,282
+Mestre de capela,7
+Meteorologist,6
+Mezzo-soprano,111
+Mezzo-soprano castrato,5
+Military bandsman,15
+Military man,731
+Military musician,4
+Miller,6
+Mime artist,1
+Miner,3
+Mineralogist,11
+Minister,5
+Minnesinger,3
+Minnesänger,17
+Minstrel,1
+Missionary,43
+Moneyer,1
+Monk,100
+Mosaicist,1
+Mountaineer,3
+Movie director,1
+Musette maker,2
+Musette player,9
+Music collector,11
+Music critic,417
+Music director,958
+Music editor,950
+Music educator,9
+Music engraver,30
+Music ethnologist,1
+Music historian,98
+Music librarian,3
+Music pedagogue,220
+Music prefect,18
+Music printer,72
+Music publisher,632
+Music scholar,12
+Music seller,226
+Music teacher,2181
+Music theacher,1
+Music theorist,431
+Music therapist,1
+Musical saw player,1
+Musicethnologist,2
+Musician,886
+Musicologist,3479
+Musiker,1
+Mystic,16
+Mythologist,1
+Natural scientist,1
+Naturalist,10
+Neurologist,1
+Nobleman,1
+Notary,50
+Novelist,61
+Numismatic,13
+Nun,49
+Nurseryman,1
+Oboe teacher,12
+Oboist,366
+Official,121
+Opera director,17
+Ophthalmologist,1
+Optician,1
+Orator,1
+Organ builder,70
+Organ teacher,48
+Organist,5002
+Orientalist,23
+Ornithologist,1
+Other,2137
+Page,1
+Painter,586
+Palaeontologist,2
+Paleographer,2
+Paper historian,19
+Paper maker,345
+Paper seller,7
+Parson,1
+Pastor,6
+Pater Ecclesiae,2
+Patrician,3
+Patron,173
+Pedagogue,225
+Peer,9
+Peeress,1
+Percussionist,19
+Performer,10548
+Pharmacist,56
+Philanthropist,21
+Philologist,384
+Philosopher,308
+Photographer,40
+Physharmonika player,4
+Physician,463
+Physicist,37
+Pianist,2478
+Piano maker,51
+Piano seller,1
+Piano teacher,435
+Piano tuner,3
+Pietist,1
+Piston player,1
+Plainchant scribe,1
+Playwright,302
+Poet,4323
+Policeman,4
+Political scientist,2
+Politician,715
+Polyhistor,1
+Pope,49
+Possessor,8783
+Post official,1
+Postman,1
+Postmaster,2
+Potter,1
+Preacher,50
+Preceptor,8
+Prefect,18
+Prelate,34
+Presbyter,1
+President,3
+Priest,635
+Printer,691
+Printmaker,11
+Prior,75
+Producer,20
+Professor,8
+Promoter,21
+Prompter,10
+Proofreader,4
+Provost,76
+Psalmodist,15
+Psychiatrist,6
+Psychologist,10
+Publicist,3
+Publisher,1267
+Rabbi,4
+Railway-Official,1
+Reciter,1
+Recorder maker,1
+Recorder player,30
+Recorder teacher,2
+Reformer,1
+Regens chori,611
+Repetiteur,23
+Respondent,2
+Restorer,5
+Robber,1
+Romanist,2
+Ruler,347
+Sackbut player,2
+Sacristan,27
+Sailor,3
+Saint,47
+Sakristan,1
+Salterio player,2
+Sangspruchdichter,1
+Satirist,13
+Saxophonist,26
+Scholar,104
+Schoolmaster,232
+Scientist,40
+Screenwriter,92
+Sculptor,77
+Secretary,65
+Senator,9
+Serpent player,3
+Servant,5
+Sexton,9
+Shoemaker,8
+Singer,2285
+Singing master,10
+Singing teacher,732
+Smith,16
+Sociologist,11
+Soldier,2
+Songwriter,98
+Soprano,1092
+Soprano castrato,84
+Spinet player,2
+Squire,2
+Stadtpfeifer,8
+Stage designer,22
+Stage director,2
+Stage manager,6
+Statesman,30
+Stationer,1
+Story-teller,1
+String player,6
+Subprior,8
+Succentor,9
+Superintendent,5
+Surveyor,2
+Tailor,5
+Tanslator,1
+Teacher,2604
+Technician,1
+Teller of fairytales,1
+Tenor,855
+Theater director,1
+Theatre critic,3
+Theatre director,280
+Theatre historian,4
+Theatre manager,19
+Theatre official,1
+Theatre scholar,4
+Theologian,1283
+Theorbo player,24
+Theosophist,2
+Timpanist,31
+Tinsmith,1
+Titular bishop,2
+Town chronicler,1
+Trader,2
+Translator,1096
+Traveller,3
+Treasurer,6
+Trombone player,5
+Trombone teacher,1
+Trombonist,127
+Troubadour,1
+Trouvère,7
+Trumpeter,221
+Tuba player,5
+Tune book compiler,3
+Typographer,3
+Uhlan,1
+Unionist,1
+Valet,1
+Verrillon player,1
+Veterinary,4
+Vicar,89
+Vicar general,2
+Vielle player,2
+Vihuela player,1
+Vihuelist,7
+Viol maker,2
+Viol player,92
+Viol teacher,3
+Viola player,18
+Viola teacher,5
+Violin maker,21
+Violin teacher,129
+Violinist,2387
+Violist,260
+Violonist,5
+Virginalist,4
+Volcanologist,1
+Warder,10
+Weaver,4
+Wind instrument maker,1
+Wind player,10
+Wine dealer,2
+Wine seller,1
+Winegrower,3
+Woodwind instrument maker,4
+Woodwind player,1
+Writer,5128
+Writer on music,775
+Writer on scientific papers,2
+Writing master,2
+Xylographer,1
+Zangmeester,7
+Zink player,6
+Zither maker,1
+Zither player,52
+Zither teacher,10
+Zoologist,3
