@@ -10,6 +10,7 @@ CONF = { "Autograph manuscript" => { t: [1,2], a: nil,  b: "Notated music"},
 "Print with non-autograph annotations" => {t: [3,8], a: nil, b: "Notated music"},
 "Libretto, printed" => {t: [5,9], a: "Print", b: "Libretto"},
 "Treatise, printed" => {t: [7,10], a: "Print", b: "Treatise"},
+"Composite" => {t: [11], a: "Composite", b: "Mixed"},
 "Other" => {t: [0], a: nil, b: "Other"} }
 
 TEMPLATES = {
@@ -23,7 +24,7 @@ TEMPLATES = {
   8 => ["Print", "Notated music"],
   9 => ["Print", "Libretto"],
   10 => ["Print", "Treatise"],
-  11 => ["Composite", "Composite"],
+  11 => ["Composite", "Mixed"],
 }
 
 require_relative "lib/maintenance"
