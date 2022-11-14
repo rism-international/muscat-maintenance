@@ -27,11 +27,10 @@ process = lambda { |record|
     record.marc.root.children.insert(ip, new_040)
     modified = true
   end
-  binding.pry
   
   if modified
     maintenance.logger.info("#{maintenance.host}: #{record.class} #{record.id} added $bger" )
-    #record.save #rescue next
+    record.save #rescue next
   end
 
 
