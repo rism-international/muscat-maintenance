@@ -16,7 +16,7 @@ process = lambda { |record|
   ip = record.marc.get_insert_position("040")
   if record.marc.has_tag?("040")
     record.marc.by_tags("040").each do |n|
-      unless n.has_tag?("b")
+      if n.fetch_all_by_tag("b").size == 0
         n.add(MarcNode.new(Source, "b", "ger", nil))
         modified = true
       end
