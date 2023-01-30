@@ -18,6 +18,7 @@ ofile.close
 cnt = 0
 res = []
 bar = ProgressBar.new(sources.size)
+err = 0
 
 sources.each do |s|
   record = Source.find(s) rescue next
@@ -28,7 +29,12 @@ sources.each do |s|
   created = record.created_at.strftime("%y%m%d")
   _008_content = "#{created}##################################"
   tag_008 = MarcNode.new(@model, "008", _008_content, nil)
-  record.marc.root.children.insert(record.marc.get_insert_position("008"), tag_008)
+  begin
+    record.marc.root.children.insert(record.marc.get_insert_position("008"), tag_008)
+  rescue
+    puts "#{err += 1} MISSING WORK: #{record.id}"
+    next
+  end
 
   # FIX to include holding.source_id at $o and description at $a with composite
   if record.record_type == 11

@@ -13,7 +13,7 @@ exemplars = Holding.count
 people = Person.count
 institutions = Institution.count
 publications = Publication.count
-works = Work.count
+works = WorkNode.count
 
 date = DateTime.now.strftime('%Y-%m-%d')
 doc = "<html><head></head>\n"
