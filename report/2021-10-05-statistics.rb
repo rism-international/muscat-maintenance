@@ -1,6 +1,6 @@
 require 'csv'
 include ActionView::Helpers::NumberHelper
-ofile = "#{Rails.root}/housekeeping/maintenance/report/2021-10-05-statistics.csv"
+#ofile = "#{Rails.root}/housekeeping/maintenance/report/2021-10-05-statistics.csv"
 
 ms = Source.where(wf_stage: 1).where("record_type = ? or record_type = ?", 1, 2).size
 prints = Source.where(wf_stage: 1).where("record_type = ? or record_type = ?", 3, 8).size
@@ -13,7 +13,7 @@ exemplars = Holding.count
 people = Person.count
 institutions = Institution.count
 publications = Publication.count
-works = WorkNode.count
+#works = WorkNode.count
 
 date = DateTime.now.strftime('%Y-%m-%d')
 doc = "<html><head></head>\n"
@@ -64,7 +64,7 @@ doc += "<tr><td>Holdings</td><td>#{number_with_delimiter(exemplars, delimiter: "
 doc += "<tr><td>People</td><td>#{number_with_delimiter(people, delimiter: ".")}</td></tr>\n"
 doc += "<tr><td>Institutions</td><td>#{number_with_delimiter(institutions, delimiter: ".")}</td></tr>\n"
 doc += "<tr><td>Publications</td><td>#{number_with_delimiter(publications, delimiter: ".")}</td></tr>\n"
-doc += "<tr><td>Works</td><td>#{number_with_delimiter(works, delimiter: ".")}</td></tr>\n"
+#doc += "<tr><td>Works</td><td>#{number_with_delimiter(works, delimiter: ".")}</td></tr>\n"
 
 #puts "MS size: #{ms}"
 #puts "Prints size: #{prints}"
