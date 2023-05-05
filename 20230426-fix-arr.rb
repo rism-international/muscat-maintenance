@@ -1,8 +1,8 @@
 # encoding: UTF-8
 # # #
 # # puts "##################################################################################################"
-# # puts "########################    ISSUE: Add Lbl holding info           ################################"
-# # puts "#########################   Expected collection size: 1.000     ##################################"
+# # puts "########################    ISSUE: FIX 240o values                ################################"
+# # puts "#########################   Expected collection size: 100       ##################################"
 # # puts "##################################################################################################"
 # # puts ""
 
@@ -38,8 +38,8 @@ res.each do |e|
   else
     new_content = e['240o']
     tag240k = marc.first_occurance("240", "k")
-    if !tag240k 
-      if ALLOWED.include?(new_content)
+    if ALLOWED.include?(new_content)
+      if !tag240k 
         tag240 = marc.first_occurance("240")
         tag240.add(MarcNode.new(Source, "k", new_content, nil))
         tag240o.destroy_yourself
