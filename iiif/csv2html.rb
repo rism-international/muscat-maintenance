@@ -6,12 +6,14 @@ outputfile = inputfile.gsub(".csv", ".html")
 File.delete(outputfile) if File.exist?(outputfile)
 
 string = "<html>\n<head>\n<style>table, th, td {  border: 1px solid black;border-collapse: collapse;}</style>\n</head>\n<body><table>\n"
-header = "<tr><th>ID</th><th>PRINT/MS</th><th>HOLDING</th><th>TITLE</th><th>SIGLUM</th><th>MUSCAT</th><th>EXISTENT URI</th><th>MANIFEST URI</th><th>TEXT</th><th>STATUS</th><tr>\n"
+header = "<tr><th>ID</th><th>PRINT/MS</th><th>HOLDING</th><th>TITLE</th><th>SIGLUM</th><th>MUSCAT</th><th>EXISTENT URI</th><th>MANIFEST URI</th><th>TEXT</th><th>VIEWER</th><th>STATUS</th><tr>\n"
 File.write(outputfile, string, mode: 'a')
 File.write(outputfile, header, mode: 'a')
     
 CSV.foreach(inputfile) do |row|
-   string = "<tr><td>#{row[0]}</td><td>#{row[1]}</td><td>#{row[2]}</td><td>#{row[3]}</td><td>#{row[4]}</td><td><a href=\"#{row[5]}\" target=\"_blank\">Muscat</a></td><td><a href=\"#{row[6]}\" target=\"_blank\">Existent URL</a></td><td><a href=\"#{row[7]}\" target=\"_blank\">Manifest</a></td><td>#{row[8]}</td><td>#{row[9]}</td></tr>\n"
+  viewer = "<a href=\"https://uv-v4.netlify.app/#?manifest=#{row[7]}&c=&m=&cv=&xywh=-2547%2C-71%2C7360%2C3307\" target=\"_blank\">View</a>" if row[7] =~ /http/
+  missing = row[7] =~ /http/ ? "<a href=\"#{row[7]}\" target=\"_blank\">Manifest</a>" : ""
+   string = "<tr><td>#{row[0]}</td><td>#{row[1]}</td><td>#{row[2]}</td><td>#{row[3]}</td><td>#{row[4]}</td><td><a href=\"#{row[5]}\" target=\"_blank\">Muscat</a></td><td><a href=\"#{row[6]}\" target=\"_blank\">Existent URL</a></td><td>#{missing}</td><td>#{row[8]}</td><td>#{viewer}</td><td>#{row[9]}</td></tr>\n"
    #string = "| #{row[0]} | #{row[1]} | #{row[2]} | #{row[3]} | #{row[4]} | #{row[5]} | #{row[6]} | #{row[7]} | #{row[8]} | #{row[9]} |  \n"
    File.write(outputfile, string, mode: 'a')
 end
