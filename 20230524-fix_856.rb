@@ -6,8 +6,7 @@ puts "##########################################################################
 puts ""
 require_relative "lib/maintenance"
 
-records = Holding.where('marc_source like ?', "%resolving.de/%") + Source.where('marc_source like ?', "%resolving.de/%") 
-
+records = Holding.where('marc_source like ?', "%nbn-resolving%") + Source.where('marc_source like ?', "%nbn-resolving%") 
 maintenance = Muscat::Maintenance.new(records)
 
 process = lambda { |record|
@@ -17,7 +16,7 @@ process = lambda { |record|
     tag_x = tag.fetch_first_by_tag("x") 
     tag_z = tag.fetch_first_by_tag("z")
 
-    if tag_u.content.include?("nbn-resolving.de") || tag_u.content.include?("mdz-nbn-resolving.de") 
+    if tag_u.content.include?("nbn-resolving") 
       if tag_x and tag_x.content == "Digitized"
         if !tag_z
           tag.add(MarcNode.new(record.class, "z", "Digitalisat", nil))
@@ -32,7 +31,7 @@ process = lambda { |record|
       end
     end
 
-    maintenance.logger.info("#{maintenance.host}: #{record.class} ##{record.id} '$z' created 'Digitized'") if modified
+    maintenance.logger.info("#{maintenance.host}: #{record.class} ##{record.id} '$z' created 'Digitalisat'") if modified
   
   end
 
