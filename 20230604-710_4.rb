@@ -28,7 +28,7 @@ process = lambda { |record|
 
   if modified
     maintenance.logger.info("#{maintenance.host}: #{record.class} ##{record_id} '$4' added 'oth'") if modified
-#    record.save
+    record.save
   end
 }
 
