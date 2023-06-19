@@ -15,7 +15,7 @@ process = lambda { |record|
   modified = false
   record.marc.each_by_tag("593") do |tag|
     tag_a = tag.fetch_first_by_tag("a")
-    if tag_a && tag_a.content == "Print"
+    if tag_a && tag_a.content != "Composite"
       tag_a.content = "Composite"
       modified = true
     end
