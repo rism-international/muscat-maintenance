@@ -29,10 +29,12 @@ process = lambda { |record|
       tag_e.destroy_yourself
       modified = true
     else
-      message = "MOVED #{tag_e} == #{tag_a}"
+      message = "MOVED #{tag_e} => $a"
+      new_sf = tag.add(MarcNode.new(Source, "a", "#{tag_e.content}", nil))
+      tag.sort_alphabetically
       tag_e.destroy_yourself
-      tag_a = tag_e
-      tag_e.destroy_yourself
+      #tag_a = tag_e
+      #tag_e.destroy_yourself
       modified = true
     end
     maintenance.logger.info("#{maintenance.host}: #{record.class} ##{record.id} #{message}") if modified
