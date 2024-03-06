@@ -29,7 +29,7 @@ process = lambda { |record|
       url = tag.fetch_first_by_tag("u")
       x = tag.fetch_first_by_tag("x").content
       z = tag.fetch_first_by_tag("z")
-      if url && !z && x == "Other" && url.content.starts_with?("https://permalink.obvsg.at")
+      if url && !z && x == "Other" && url.content.include?("permalink.obvsg.at")
         tag.add(MarcNode.new(Holding, "z", "bibliographic record", nil))
         tag.sort_alphabetically
         maintenance.logger.info("#{maintenance.host}: Holding ##{record.id} #{tag.to_s}")
