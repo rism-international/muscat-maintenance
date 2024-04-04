@@ -13,6 +13,7 @@ exemplars = Holding.count
 people = Person.count
 institutions = Institution.count
 publications = Publication.count
+updated = Source.order(updated_at: :desc).first.updated_at
 #works = WorkNode.count
 
 date = DateTime.now.strftime('%Y-%m-%d')
@@ -79,6 +80,7 @@ doc += "<tr><td>Publications</td><td>#{number_with_delimiter(publications, delim
 #puts "Works size: #{works}"
 #
 doc += "\n</table></div></div></body></html>"
+doc += "<div style='margin-top: 20px; margin-right: 24px; padding: 10px; text-align: right'><i>Sources update: #{updated}</i><div>"
 
 File.write('/tmp/statistics.html', doc)
 command = "xvfb-run wkhtmltopdf /tmp/statistics.html /var/www/statistics-#{date}.pdf"

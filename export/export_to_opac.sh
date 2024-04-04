@@ -5,4 +5,4 @@ rails runner housekeeping/maintenance/export/people_to_bsb.rb
 rails runner housekeeping/maintenance/export/institutions_to_bsb.rb
 rails runner housekeeping/maintenance/export/catalogues_to_bsb.rb
 #rails runner housekeeping/maintenance/export/works_to_bsb.rb
-rails runner housekeeping/maintenance/export/generate_beacon.rb
+#rails runner housekeeping/maintenance/export/generate_beacon.rb

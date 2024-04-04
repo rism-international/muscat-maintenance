@@ -20,11 +20,12 @@ bar = ProgressBar.new(catalogues.size)
 catalogues.each do |s|
   record = Publication.find(s) rescue next
   begin
-    marc = record.marc.to_xml_record(record.updated_at, nil, false)
+    marc = record.marc.to_xml_record({updated_at: record.updated_at })
+    #marc = record.marc.to_xml_record(record.updated_at, nil, false)
   rescue
     next
   end
-  doc_record = Nokogiri::XML.parse(marc) do |config|
+  doc_record = Nokogiri::XML.parse(marc.to_s) do |config|
       config.noblanks
   end
 
