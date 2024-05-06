@@ -9,21 +9,18 @@ require_relative "lib/maintenance"
 ids = YAML.load_file("#{Rails.root}/housekeeping/maintenance/20240404_material.yml")
 records = Source.where(id: ids)
 maintenance = Muscat::Maintenance.new(records)
-binding.pry
-exit
-masters = %w(100 240 650 651 657 690 691 700 710 730)
+masters = %w(260 300 590 593)
 
 process = lambda { |record|
   modified = false
   masters.each do | tag_name |
     record.marc.each_by_tag(tag_name) do |tag|
-      mx = tag.fetch_all_by_tag("a")
-      mx.each_with_index do | sf, index|
-        if index >= 1
-          modified = true
-          sf.destroy_yourself
-        end
-        maintenance.logger.info("#{maintenance.host}: ##{record.id} '#{tag_name}' is multiple #{mx.size}")
+      sf = tag.fetch_first_by_tag("8")
+      unless sf
+        tag.add(MarcNode.new(Source, "8", "01", nil))
+        tag.sort_alphabetically
+        maintenance.logger.info("#{maintenance.host}: ##{record.id} '#{tag_name}' material group 01 added")
+        modified = true
       end
     end
   end
