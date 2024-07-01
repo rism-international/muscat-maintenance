@@ -21,14 +21,14 @@ def each_record(filename, &block)
   end
 end
 
-ifile = "/home/dev/projects/pdf-export/dmb.xml"
-ofile=File.open("./dmb_without_holdings.xml", "w")
-holding_id = "51062028"
+ifile = "./output.xml"
+ofile=File.open("./output_without_holdings.xml", "w")
+holding_id = "51066744"
 ofile.write('<?xml version="1.0" encoding="UTF-8"?>'+"\n"+'<collection xmlns="http://www.loc.gov/MARC21/slim">'+"\n")
 
 each_record(ifile) do | record |
   siglum = record.xpath("//marc:datafield[@tag='852']/marc:subfield[@code='a']", NAMESPACE)
-  if siglum.size == 1 && siglum.text != "D-MB"
+  if siglum.size == 1 && siglum.text != "D-Ru"
     next
   end
   holdings = record.xpath("///marc:subfield[@code='3']", NAMESPACE)
