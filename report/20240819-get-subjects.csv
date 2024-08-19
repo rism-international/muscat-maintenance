@@ -1,0 +1,1057 @@
+ID,Term,Alternativ
+25133,Masses,Messen
+25134,Requiems,""
+25135,Exsequiae,""
+25137,Litanies,Litaneien
+25138,Konzertstücke,""
+25139,Passacaglias,Passacaglien
+25140,Pasticcios,""
+25141,Melodramas,Melodramen
+25142,Zarzuelas,""
+25143,Operettas,Operetten
+25145,Hours of the Office,"Stundengebete
+Officium Divinum"
+25147,Elegies (inst./voc.),Elegien (instr./vok.)
+25148,Stage music,Bühnenwerk
+25149,Vespers,Vespern
+25150,Introits,Introitus
+25151,Communions,"Trecanum
+Transitorium
+Antiphona ad accedentes
+Koinonikon"
+25156,Tracts,Tractus
+25157,Improperia,""
+25158,Movements,Instrumentalsätze
+25159,Funeral music,Trauermusik
+25160,Operas,"Opern
+Favola in musica
+Opera scenica
+Tragedia musicale
+Opera tragicomica
+Dramma musicale
+Dramma per musica
+Opera buffa
+Opera semiseria
+Opéra comique
+Opera seria
+Dramma giocoso per musica
+Musikdrama
+Commedia in musica"
+25161,Concerti grossi,""
+25162,Divertimentos,"Cassations
+Notturnos (inst.)
+Serenades
+Trattenimenti
+Kassationen
+Serenaden"
+25167,Duets (voc.),"Duetti
+Duette"
+25169,Fugues (voc.),Fugen (vok.)
+25170,Symphonies concertantes,Konzertante Sinfonien
+25171,Solfeggios (inst./voc.),"Solfeggien (instr./vok.)
+Solfèges"
+25172,Ballets,Ballette
+25173,Capriccios (inst.),Caprices
+25174,Catches,""
+25175,Glees,""
+25176,Concertos,Konzerte
+25178,Dances,"Balletti
+Balli
+Tänze"
+25181,Duets (inst.),Duos (instr.)
+25184,Exercises (inst.),Übungsstücke (instr.)
+25185,Fantasies,"Fancies
+Fantasien
+Fantasias"
+25187,Fugues (inst.),Fugen (instr.)
+25188,Incidental music,"Curtain tunes
+Entrees
+Schauspielmusiken"
+25189,Marches,"Märsche
+Marce"
+25192,Minuets,"Menuette
+Minuette"
+25196,Overtures,"Sinfonias
+Ouvertures
+Ouvertüren"
+25199,Partitas,Partiten
+25200,Modinhas,Modas
+25202,Postludes,Postludien
+25203,Polonaises,Polonaisen
+25204,Preludes,"Präludien
+Praeambula"
+25205,Quartets (inst.),Quartette (instr.)
+25207,Ricercares (inst.),"Ricercari (inst.)
+Recercares (inst.)"
+25212,Contrapuntal studies (inst./voc.),Kontrapunkt-Studien (instr./vok.)
+25213,Sonatas,Sonaten
+25214,Suites,Suiten
+25215,Symphonies,"Sinfonias
+Symphonien
+Sinfonien
+Sinfonie"
+25216,Toccatas,Tokkaten
+25217,Trios (inst.),Trios (instr.)
+25218,Variations,"Variationen
+Variazioni"
+25219,Villancicos,""
+25220,Waltzes,"Walzer
+Valses"
+25223,Airs (inst.),Airs (instr.)
+25224,Arias (voc.),Arien (vok.)
+25225,Canons (inst.),Kanons (instr.)
+25226,Cantatas,"Cantatilles
+Kantaten"
+25227,Lieder,""
+25229,Liederspiele,""
+25230,Oratorios,"Oratorien
+Oratori"
+25233,Songs,""
+25234,Anthems,""
+25235,Antiphons,"Antiphonen
+Antiennes
+"
+25237,Chorales,Choräle
+25238,Hymns,Hymnen
+25239,Graduals,Gradualien
+25240,Motets,Motetten
+25241,Lamentations,Lamentationen
+25242,Offertories,Offertorien
+25243,Instrumental pieces,Instrumentalstücke
+25244,Terzets (voc.),"Terzette
+Terzetti"
+25246,Passions,Passionen
+25248,Responsories,Responsorien
+25249,Sequences,"Sequenzen
+Prosa"
+25250,Sacred songs,Geistliche Gesänge
+25252,Character pieces,Charakterstücke
+25254,Chorale arrangements,"Choralbearbeitungen
+Chorale preludes
+Choralvorspiele
+Chorale fugues
+Choralfugen"
+25256,Serenatas,""
+25257,Madrigals,Madrigale
+25258,Canzoni (voc.),"Kanzonen (vok.)
+Canzonas (voc.)"
+25259,Recitatives,Rezitative
+25260,Festive music,"Festa teatrale
+Festa di camera
+Gelegenheitsmusik"
+25261,Interludes,Interludien
+25262,Programme music,"Programmusik
+Program music"
+25264,Pantomimes,Pantomimen
+25265,Calendas,""
+25266,Consorts,""
+25268,Symphonic poems,Symphonische Dichtungen
+25270,Cavatinas,Kavatinen
+25271,Scenes,Szenen
+25272,National anthems,Nationalhymnen
+25273,Notturni (voc.),Notturni (vok.)
+25274,Pieces,Musikstücke
+25275,Vocal pieces,Vokalstücke
+25276,Fanfares,"Fanfaren
+Sonneries"
+25278,Chansons,Chansonettes
+25280,Ballad operas,""
+25283,Wind music,Harmoniemusik
+25285,Entr'actes,"Entreakte
+Musical interludes"
+25286,Gigues,"Jigs
+Gighe
+Jigg
+Giguen"
+25290,Folias,"Folies d'Espagne
+Follie
+Fedeles"
+25297,Tarantellas,""
+25302,Tambourins,Tembourins
+25304,Basse danses,"Bassa danze
+Baixes dances"
+25307,Loures,""
+25308,Short comic stage music,""
+25309,Courantes,"Corants
+Corantos
+English Courants"
+25311,Pasodobles,Paso doble
+25313,Folk songs,Volkslieder
+25315,Canzonettas,"Kanzonetten
+Canzonets"
+25316,Sarabandes,"Zarabandas
+Sarabanden"
+25318,Inventions,Inventionen
+25319,Exercises (voc.),Übungsstücke (vok.)
+25320,Services,""
+25321,Grounds,""
+25327,Allemandes,"Almains
+Allemanden"
+25329,Possen,Farces
+25330,Dialogues,Dialoge
+25331,Partimentos,Partimenti
+25332,Table entertainments,""
+25333,Tutors (voc.),Gesangsschulen
+25335,Rhapsodies (inst.),Rhapsodien (instr.)
+25336,Rhapsodies (voc.),Rhapsodien (vok.)
+25337,Romances (inst.),Romanzen (instr.)
+25338,Quodlibets,"Ensalada
+Fricassée
+Misticanza"
+25343,Parodies,Parodien
+25344,Masques,""
+25348,Toys,""
+25349,Intonations (voc.),Intonationen (vok.)
+25350,Intonazione (inst.),Intonationen (instr.)
+25351,Afterpieces,""
+25352,Atti di contrizione,"Actus paenitentiae
+Acto de contrición"
+25353,Janissary music,"Turkish music
+Janitscharenmusik
+Musique de turque
+Banda turca"
+25358,Canzonas (inst.),Kanzonen (instr.)
+25359,Murkies,"Mourqui
+Murckie
+Murkys
+Morqui
+Murckij"
+25362,Sacred concerts (voc.),"Geistliche Konzerte (vok.)
+Symphoniae sacrae"
+25365,Lamentos,""
+25366,Odes,Oden
+25367,Couplets,""
+25368,Vaudevilles,""
+25369,Prologues (stage),Prologe (Bühnenwerk)
+25370,Intradas,"Entrata
+Entrada
+Entrée
+Entry
+Aufzug
+Einzug
+Intraden"
+25377,Contredanses,Kontretänze
+25379,Canaries,Canarios
+25384,Bourrées,"Laboures
+Borea
+Buore
+Borries
+Borres"
+25390,Galliards,"Gaiarde
+Gagliarde
+Gaillardes
+Gallardas
+Galliarden"
+25395,Gavottes,Gavotten
+25396,Reels,Hreols
+25398,Strathspeys,Traspeys
+25400,Hornpipes,""
+25401,Voltas,"Lavolte
+Volten"
+25403,Saltarellos,Saltarelli
+25404,Ländler,"Landlerische
+Tyrolienne"
+25407,Quadrilles,"Cuadrillas
+Quadriglie
+Francia négyesek
+Quadrillen"
+25411,Polkas,""
+25413,Écossaises,Ekossaisen
+25414,Anglaises,"Inglese
+Engloises
+Englische
+Anglaisen"
+25419,Galops,"Galopades
+Gallope
+Kvapík"
+25422,Passamezzos,""
+25423,Pavans,"Pavins
+Pavanen"
+25425,Passepieds,""
+25426,Boleros,""
+25428,Seguidillas,""
+25429,Forlanas,"Friauler
+Furlane
+Frulane"
+25433,Branles,"Brandi
+Bransles
+Brawls
+Brangills"
+25438,Musettes,Muzettes
+25440,Hopser,""
+25442,Dreher,""
+25443,Fandangos,""
+25444,Rigaudons,Rigodons
+25446,Deutsche Tänze,"Tedeschi
+Allemanden"
+25448,Elevations,Elevationen
+25449,Versets (inst.),"Versos
+Versette (instr.)
+Organ versets (inst.)"
+25452,Pastoral plays,""
+25453,Ricercares (voc.),"Ricercari (voc.)
+Recercares (voc.)"
+25454,Brass music,Blechmusik
+25455,Contrafacta,Kontrafakturen
+25457,Cadenzas (voc.),Kadenzen (vok.)
+25458,Farse,"Farce
+Musical farce"
+25459,Insertions,Einlagen
+25460,Partsongs,"Part songs
+Part-songs"
+25462,Potpourris,"Mélanges
+Medleys
+Bouquets"
+25467,Sketches,Skizzen
+25469,Tenorlieder,""
+25470,Capriccios (voc.),"Capriccios (vok.)
+Caprices"
+25471,Romances (voc.),Romanzen (vok.)
+25472,Pastorales (voc.),Pastoralen (vok.)
+25473,Ballettos (voc.),"Balletti
+Ballettos (vok.)"
+25476,Frottolas,Frottole
+25477,Lections,Lesungen
+25478,Canticles,Cantica
+25479,Tonadillas,""
+25480,Mazurkas,"Mazureks
+Mazurken"
+25482,Herrnhut chorales,Herrnhuter Chorstücke
+25484,Compilations,""
+25485,Tonos,""
+25486,Singspiele,""
+25487,Canons (voc.),Kanons (vok.)
+25488,Tragédies lyriques,Tragédies en musique
+25489,Invitatories,Invitatorien
+25490,Dicta,""
+25492,Historias,""
+25493,Film music,Filmmusik
+25494,Tientos,""
+25495,Symbola,Devisen
+25497,Wedding music,Hochzeitsmusik
+25498,Versi (voc.),"Versetti
+Versus (vok.)"
+25500,Quartets (voc.),Quartette (vok.)
+25501,Schottische,"Schottisch-Walzer
+Ecossaisen-Walzer"
+25505,Langaus,""
+25506,Tangos,""
+25507,Arrangements,Bearbeitungen
+25508,Pastorales (inst.),Pastoralen (instr.)
+25509,Ballades (forme fixe),Forme fixe
+25511,Virelais (forme fixe),"Forme fixe
+Chansons ballades"
+25513,Rondeaux (forme fixe),Forme fixe
+25514,Lais,"Leich
+Leih"
+25517,Bergerettes (voc.),Bergerettes (vok.)
+25521,Voluntaries,""
+25523,Françaises,Françaisen
+25524,Schleifer,""
+25525,Springtänze,""
+25526,Paduanas,"Padovanas
+Padoane"
+25529,Chaconnes,"Ciaccone
+Chaconas
+Chaconies"
+25533,Correnti,""
+25534,Country dances,""
+25539,Krakowiaks,"Krakauer Tänze
+Cracoviennes"
+25542,Mazurs,""
+25543,Obereks,""
+25544,Kujawiaks,""
+25545,Foxtrots,"Quicksteps
+Slowfoxes
+Foxtrotts"
+25548,Ständchen,""
+25549,Rheinländer,Bayerische Polkas
+25551,March songs,Marschlieder
+25554,Ballads (voc.),Balladen (vok.)
+25555,Burlesques,Burlesken
+25558,Meditationes (Jesuit theater),""
+25559,Barcarolles (voc.),Barkarolen (vok.)
+25560,Schnadahüpfln,"Schnaderhüpferln
+Gstanzl"
+25563,Chiarentane,"Chiarenzane
+Chiaranzane
+Chiarantane
+Chirinitane
+Giaranzane"
+25569,Children's songs,"Kinderlieder
+Wiegenlieder
+Lullabies"
+25576,Album leaves,"Albumblätter
+Blätter"
+25579,Intermezzos (inst.),Intermezzi (instr.)
+25581,Solos with bc,Solos with basso
+25583,Airs (voc.),"Ayres
+Airs à boire
+Airs sérieux
+Airs de cour
+Airs (vok.)"
+25588,Tutors (inst.),"Methods
+Instrumentalschulen
+Méthodes"
+25590,Impromptus,""
+25591,Nocturnes (inst.),""
+25592,Humoresken,Humoresques
+25593,Ballades (inst.),Balladen (instr.)
+25594,Divisions,""
+25595,Airs (dances),Airs (Tänze)
+25596,Barcarolles (inst.),Barkarolen (instr.)
+2000081,Orchesterlieder,""
+3000014,Etudes (inst.),"Etüden (instr.)
+Studii (instr.)"
+3000023,Nonets (inst.),Nonette (instr.)
+3000025,Octets (inst.),Oktette (instr.)
+3000033,Quintets (inst.),Quintette (instr.)
+3000036,Rondos (inst.),""
+3000037,Septets (inst.),"Septette (instr.)
+Settimini"
+3000039,Sextets (inst.),Sextette (instr.)
+3000047,Ensembles (voc.),Vokalensembles
+3000057,Psalms,Psalmen
+3000074,Writings,Schriften
+3000084,Dancing songs,"Tanzlieder
+Chansons à danser"
+3000090,Spagnolettas,"Españoletas
+Spagnolite"
+3000091,Bergamascas,"Bergamasken
+Pargamasche
+Bergamaskertänze"
+3000099,Opéra-ballets,Ballet heroïque
+3000100,Scales (inst./voc.),Tonleiterübungen (instr./vok.)
+3000102,Arpeggios (inst.),Arpeggien (instr.)
+3000118,Cotillions,"Kotillons
+Contredanses françaises
+Cotillons"
+3000133,Scherzos (inst.),Scherzi (instr.)
+3000134,Keyboard pieces,""
+3000136,Choruses,"Chöre
+Cori"
+3000147,Jeux,Dramatische Spiele
+3000150,Verbunkos,"Verbuválás
+Werbunk"
+3000157,"Masses (cantus firmus-, paraphrase-, parody masses)","Imitation masses
+Parody masses
+Paraphrase masses
+Cantus firmus Messen
+Paraphrase Messen
+Parodiemessen
+Messen (Cantus firmus-, Paraphrase-, Parodiemessen)
+Cantus firmus masses"
+3000162,Rondos (voc.),"Rondeaux (voc.)
+Rondos (vok.)"
+3000166,Rounds (voc.),Rondes de table
+3000169,Rounds (dances),""
+3000170,In Nomine (inst.),""
+3000172,After-dances,"Proportze
+Nachtänze
+Doubles
+Proportio"
+3000174,Sicilianas (voc.),""
+3000176,Choreae,""
+3000180,Sicilianas (dances/inst.),"Siciliani
+Ciciliani
+Siciliennes"
+3000181,Battle music (voc.),"Battaglien (vok.)
+Battaglias (voc.)"
+3000184,Battle music (inst.),"Schlachtenmusik (instr.)
+Battaglien (instr.)
+Battaglias (instr.)"
+3000188,Sprüche,Sangspruchdichtung
+3000194,Redowas,"Rejdovák
+Rejdovačka"
+3000197,Csárdás,""
+3000198,Lessons,"Lezioni
+Leçons"
+3000199,Chaconnes (dances),Chaconnes (Tänze)
+3000200,Passacaglias (dances),Passacaglien (Tänze)
+3000201,Continuo tutors,Generalbaßschulen
+3000203,Theory of harmony,Harmonielehren
+3000205,Solos (inst.),""
+3000206,Mélodies,""
+3003653,Carillon music,""
+3004563,Two-steps,""
+3005240,Benedictions,Benediktionen
+3005579,Benediktinerdramen,""
+3005779,Versus alleluiatici,""
+3005848,Scherzi (voc.),Scherzi (vok.)
+3005853,Words of consecration,"Einsetzungsworte
+Verba consecrationis"
+3006033,Boogie-woogies,""
+3006036,Musicals,""
+3006172,Schlager,""
+3006204,Applausi musici,Singgedichte
+3006295,One-steps,"Turkey trot
+Grizzly bear
+Bunny hug
+Judy walk
+Castle walk
+Fish walk"
+3006395,Tiranas,""
+3006396,Masonic music,Freimaurermusik
+3006398,Bicinia,""
+3006399,Tricinia,""
+3006400,Airs variés,""
+3006401,Slovankas,Slowankas
+3006405,Villanellas,"Villanelle
+Villotte
+Villanesce
+Canzoni napolitani
+Villanelles"
+3007118,Ragtimes,""
+3008294,Polskas,"Polske dans
+Pålska"
+3008569,Schuldramen,Schulopern
+3008904,Pop songs,""
+3011416,Minnesang,""
+3011527,Rumbas,""
+3011528,Librettos,""
+3011529,Swing,""
+3011533,Intermezzos (stage),Intermezzi (stage)
+3011993,Cancans,""
+3012097,Hannakisch,Hanácké tance
+3012099,Morescas,"Moriscas
+Moriskentänze"
+3012102,Morris dances,""
+3012104,Retiradas,""
+3012106,Trezzas,""
+3012498,Rosarios,""
+3012499,Gozos,Goigs
+3012725,Farandoles,""
+3016132,Atti di speranza,Actus spei
+3016133,Atti di carità,"Actus amoris
+Actus caritatis"
+3016134,Atti di desiderio,Actus desiderii
+3016135,Atti di fede,Actus fidei
+3016251,Prefaces,"Präfationen
+Praefationes"
+3016400,Transcriptions,Transkriptionen
+3016449,Comédie-ballets,""
+3016506,Ballets de cour,""
+3016596,Ariettes,"Arietten
+Ariette"
+3016741,Lundums,""
+3016747,Christmas carols,"Kolędy
+Weihnachtslieder
+Noëls
+Koledy"
+3016804,Contemporary serious music,"Zeitgenössische ernste Musik
+Contemporary art music"
+3017272,Sousedskás,""
+3017327,Habaneras,""
+3017328,Besedas,""
+3018457,Collaborative compositions,Gemeinschaftskompositionen
+3019088,Jotas,Jotas aragonesas
+3019093,Balitaos,""
+3019096,Malagueñas,""
+3019102,Muñeiras,""
+3019103,Rondeñas,""
+3019630,Treatises,Traktate
+3020215,Tombeaux,""
+3020218,Semi-operas,Semi-Opern
+3021398,Music theory,Musiktheorie
+3021688,Giromettas,""
+3021784,Bagatelles,Bagatellen
+3022243,Jodler,""
+3022267,Banda de música,""
+3022269,Joropos,""
+3022307,Military music,Militärmusik
+3023770,Cadenzas (inst.),"Cadences (inst.)
+Kadenzen (instr.)"
+3024348,Studies,Studien
+3025143,Rants,""
+3025686,Inventories,"Repertorien
+Findbücher
+Inventare
+Finding aids"
+3025691,Catalogues,Kataloge
+3025733,Letters,Briefe
+3025818,Radio plays,Hörspiele
+3026899,Monferrinas,Manfrine
+3027781,Cabalettas,""
+3028069,Trepak,""
+3028900,Cachuchas,""
+3030257,Hauer,""
+3030269,Körtánc,""
+3030305,Kolos,""
+3030365,Shimmies,""
+3030486,Lezginkas,Lesginkas
+3030709,Bostons,"Boston waltz
+Valse Boston
+English waltz"
+3031396,Kozaki,""
+3900001,Oper,""
+3900010,Tirol,""
+3900027,Cembalo-Sonate; Sonate,""
+3900043,Tabulatur,""
+3900056,Vocal music,Vokalmusik
+3900079,Keyboard music,
+3900080,Kantate,""
+3900083,Sinfonie,""
+3900107,Passion,""
+3900116,Roma,""
+3900119,Falsi bordoni,
+3900125,Kirchenmusik,""
+3900137,Männerchor,""
+3900147,Schlesische Lieder; Volkstümliche Lieder,""
+3900150,Textsammlung,
+3900151,Messe,""
+3900153,Klaviermusik Piano,""
+3900154,Sonate,""
+3900185,Chorlied,""
+3900192,Lied,""
+3900204,Blasmusik,
+3900236,Flötenkompositionen,""
+3900238,Instrumentalmusik,""
+3900254,Volkslied,""
+3900312,Oratorium,""
+3900320,Melodram,""
+3900350,Laude,""
+3900380,Schauspiele,""
+3900472,Gambenmusik,
+3900581,Moravian music,
+3900596,Planctus,
+3900612,Ouvertüre; Sinfonie,""
+3900638,Orgelchoral,
+3900644,Women Composers,Komponistinnen
+3900710,Complete works,"Gesamtausgaben
+Œuvres complètes"
+3900750,Serenades,""
+3900792,Autographe,""
+3900847,Harpsichord Music,
+3900957,Orgelmusik,""
+3901022,Trio sonatas,"Triosonaten
+Sinfonie a tre"
+3901023,Cadences (inst.),""
+3901027,Completoria,"Complines
+Komplete
+Completas
+Compiete
+Officium divinum"
+3901031,Documents,
+3901033,Quintets (voc.),Quintette (vok.)
+3901045,Actes de ballet,""
+3901050,Chamber music,"Kammermusik
+Musique de chambre"
+3901386,Blues,""
+3901553,Improvisations,"Improvisationen
+Improvvisazioni"
+3901572,Intermèdes (stage),""
+3901573,Intermedi,Intermedien
+3901602,Chorale partitas,Choralpartiten
+3901612,Chants,"Gregorianischer Choral
+Cantus Gregorianus"
+3901615,Dumps,""
+3901617,Encyclopedias,""
+3901623,Byzantine music,"Βυζαντινή εκκλησιαστική μουσική
+Εκκλησιαστική μουσική, Βυζαντινή
+Μουσική, Βυζαντινή
+Byzantine ecclesiastical music
+Ecclesiastical music, Byzantine
+Music, Byzantine"
+3901625,Occasional print,Gelegenheitsdruck
+3901629,Lauds,Lauds (Music)
+3901630,Byzantine chants,"Βυζαντινά μέλη
+Βυζαντινοί ύμνοι
+Μέλη (Βυζαντινά)
+Chants (Byzantine)"
+3901631,Sacred vocal music,"Liturgical music
+Pastoral music (Sacred)
+Vocal music, Sacred
+Θρησκευτική φωνητική μουσική
+Λειτουργική μουσική
+Φωνητική μουσική, Θρησκευτική
+
+"
+3901632,Orthros (Music),"Όρθρος (Μουσική)
+"
+3901633,Doxastika tōn Ainōn,"Δοξαστικά των Αίνων
+Doxastichon
+Doxasticon
+Doxastikon
+Glory sticheron"
+3901634,Church music,
+3901635,Pastorales héroïques,""
+3901646,Instrumental music,""
+3901647,Patriotic music,""
+3901649,Moravian Church liturgy,
+3901665,Sextets (voc.),Sextette (vok.)
+3901676,Rock and roll,"Rock 'n' roll
+Rock & roll"
+3901678,Megalynaria,"Μεγαλυνάρια
+Μεγαλυνάριο
+Μεγαλυνάριον"
+3901679,Marian antiphons,Marianische Antiphonen
+3901683,Historical chants,Śpiewy Historyczne
+3901688,Facsimiles,""
+3901693,Christmas music,"Μουσική των Χριστουγέννων
+Χριστούγεννα--Τραγούδια και μουσική
+Χριστουγεννιάτικα τραγούδια
+Χριστουγεννιάτικη μουσική
+Christmas--Songs and music
+Christmas songs"
+3901704,Modulations,"Modulationen
+Modulazioni"
+3901705,Chansonniers,""
+3901706,Epiphany hymns,"Θεοφάνεια, Ύμνοι των
+Θεοφάνια, Ύμνοι των
+Φώτα, Ύμνοι των 
+Ύμνοι των Θεοφανείων
+Ύμνοι των Θεοφανίων
+Hymnoi tōn Theophaneiōn
+Hymnoi tōn Theophaniōn
+
+"
+3901749,Furiants,""
+3901765,Plays (theatre),"Theaterstücke
+Opere teatrali"
+3901803,Orchestral pieces,"Orchesterstücke
+Pezzi per orchestra"
+3901880,Zortzikos,"Zortzikoak
+Zorcicos"
+3901884,Entrées,""
+3901894,Marian songs,"Marienlieder
+Canciones marianas"
+3901901,Alabanzas,"Lobpreisungen des Herrn
+Praises of the Lord
+"
+3901920,Contradanzas,"Kontratänze
+Country dances"
+3901927,Dumkas,""
+3901938,min'yo (民謠),"민요, 民謠"
+3901939,Drabants,""
+3901943,Kozachoks,Kasatschoks
+3901974,Guitar music,
+3901996,Ga'gok (歌曲),"가곡, 歌曲"
+3901997,Zamacuecas,""
+3902007,Zambas,""
+3902024,Piano music,
+3902038,Septets (voc.),Septette (vok.)
+3902047,Composition exercises,Kompositionsübungen
+3902051,Piano method books,""
+3902056,chang'ga (唱歌),창가， 唱歌
+3902057,Kimigayo  君か代,
+3902060,Sih-jo (時調),"시조, 時調"
+3902064,Sacred music,
+3902066,Declamations with music,"Melodeklamationen
+Melodeklamacje
+Мелодекламации"
+3902070,First editions,"Erstausgaben
+Premières éditions
+Pierwsze wydanie
+Prime edizioni
+Primeras ediciones"
+3902071,Second editions,"Zweiten Ausgaben
+Deuxièmes éditions
+Drugie wydanie
+Seconde edizioni
+Segundas ediciones"
+3902072,Reprints,"Nachdrucke
+Réimpressions
+Przedruki
+Reissues
+Ristampe
+Reimpresiones"
+3902073,Titelauflagen,"Titelausgaben
+Wydanie tytułowe"
+3902074,Third editions,"Dritten Ausgaben
+Troisièmes éditions
+Trzecie wydanie
+Terze edizioni
+Terceras ediciones"
+3902075,First issues,"Pierwszy nakład
+Erste Abzug"
+3902077,Corrected issues,Nakład poprawiony
+3902078,Second issues,Drugi nakład
+3902079,Third issues,Trzeci nakład
+3902082,Fourth editions,"Vierten Ausgaben 
+Quatrièmes éditions 
+Czwarte wydanie 
+Quatre edizioni 
+Cuartas ediciones"
+3902083,Fifth editions,"Fünften Ausgaben 
+Cinquièmes éditions 
+Piąte wydanie 
+Quinte edizioni 
+Quintas ediciones"
+50000334,Kuhreihen,"Kuhreigen
+Chüeräie
+Chüeräige
+Lyoba
+Ranz des vaches"
+50000361,Chants révolutionnaires,"Revolutionary songs
+Revolutionary hymns
+Revolutionsgesänge
+Revolutionshymnen"
+50000545,Drinking songs,"Trinklieder
+Chansons à boire"
+50000553,Exercises in harmony,"Harmonieübungen
+Exercices d'harmonie"
+50000727,Lute music,"Lautenmusik
+Musique de luth"
+50000763,Musique révolutionnaire,Revolutionsmusik
+50000788,Brunettes (voc.),Brunetten (vok.)
+50000831,Theorbo music,"Musik für Theorbe
+Musique de théorbe"
+50000880,Threnodies,
+50000883,Performances,
+50000884,Soundscapes,
+50000885,Soundart,
+50000886,Corrected reprints,Reprint poprawiony
+50000890,Radiophonic Art,
+50000891,Video installations,Videoinstallationen
+50000904,Neumatic notation,"Neumennotation
+Казанское знамя
+Казанская нотация
+Ключевое знамя
+Крюки"
+50000905,Demestvenny polyphony,"Демество
+Демественное многоголосие
+Демественное четырехголосие
+Demestvenny polyphonic chant
+Four-part demestvo
+Demestischer Gesang"
+50000906,Prokeimenon,"Prokimenon
+Прокимен
+προκείμενον"
+50000907,Square staff notation,"Quadratische Liniennotation
+Kiever Liniennotation
+Киевская нотация
+Топорики"
+50000908,Troestrochie,"Strochnoy polyphony
+Troestročie
+Троестрочие
+Строчное многоголосие
+Строшное"
+50000915,Shanties,"Chanties
+Chanteys
+Sea shanties
+"
+50000928,Organ pieces,
+50000934,Music magazine,
+50000935,Tropes,""
+50000936,Misterios ,
+50000938,Mascarades,""
+50001185,Double quartets,Doppelquartette
+50001187,Sauteuses,Sauteusen
+50001193,Histoires sacrées,
+50001197,Nocturnes (voc.),
+50001208,Trisagium ,
+50001236,Cakewalks,
+50001246,Early editions,"Frühe Druckausgaben
+Premières éditions
+Wczesna edycja
+Prime edizioni
+Primeras ediciones"
+50001248,Later editions,"Spätere Druckausgaben 
+Późniejsze wydanie
+Éditions ultérieures"
+50001254,Pasillos,
+50001256,First critically reviewed complete editions,Erste kritische durchgesehene Gesamtausgaben
+50001268,Finales,Finale
+50001273,Bibliography,
+50001292,Dedications,Widmungstexte
+50001293,Berceuses,""
+50001300,Doxologies,Doxologien
+50001302,Sanjuanitos,
+50001303,Pasacalles,
+50001305,Polish folk dances,""
+50001307,Jazz,""
+50001308,Polish dances,""
+50001313,Collects (sacred),"Kollektengebete
+Orationen
+Collectae"
+50001316,Prayers,
+50001320,Contraddanze,""
+50001322,Pivas,""
+50001323,Calatas,""
+50001325,Early Russian polyphony,
+50001328,Kyriale,
+50001330,Tasche,""
+50001332,Responsory verses,""
+50001335,Alliluia,
+50001336,Great Compline,
+50001337,All-Night Vigil,"Всенощное бдение, Всенощноє бдѣнiє, Nachtwache, Vsēnoshtnoe bděnīe, Vsenoshnoe bdenie, Vsenoščnoe bdenie, Vsénoshchnoye bdéniye, Great Vespers, Всенощная"
+50001338,Polish national songs,
+50001339,Polyeleos,"Полиелей
+Πολυέλεος"
+50001340,Troparia,"Troparion
+Тропарь
+τρόπαριον"
+50001341,Canon refrains,
+50001342,Stichera,
+50001345,Vocalises,"Vokalisen
+Vocalizzi"
+50001346,Tonadas,""
+50001347,Albazos,
+50001348,Bombas,
+50001349,Yaravies,
+50001351,Strambottos,""
+50001352,Ballatas (voc.),Barzelettas
+50001354,Sambas,""
+50001357,Burlettas,""
+50001363,First critically reviewed  editions,
+50001371,Viol music,
+50001372,Part books,
+50001373,Paraphrases,
+50001375,Kontakia,"Kontakion
+Kondakion
+Kondak
+Кондак"
+50001377,Irmoi,"Irmos
+Heirmos
+Ирмос
+εἱρμός"
+50001378,Ikoi,"Ikos
+Oikos
+Икос
+οἶκος"
+50001379,Exapostilaria,"Exapostilarion
+Ексапостиларий
+ἐξαποστειλάριον
+Светилен"
+50001380,Ejaculations,"Ejaculatory prayers
+Stoßgebete
+Precationes iaculatoriae
+Jaculatorias"
+50001381,Stepenna,"Степенна 
+Степенный антифон
+Gradual Antiphon"
+50001383,Velikoe slavoslovie,"Великое славословие
+Greater Doxology
+Glory to God in the highest
+Angelic Hymn
+Ἡ μεγάλη δοξολογία
+Gloria in Excelsis Deo
+Große Doxologie
+Ehre sei Gott in der Höhe"
+50001384,Mnogoletie,"Многолетие
+Polychronion
+Πολυχρόνιον
+Ad multos annos"
+50001386,Stornellos,""
+50001387,Liturgija Preždeosvjaščennych Darov,"Литургия преждеосвященных Даров
+Liturgy of the Presanctified Gifts
+Liturgii͡a prezhdeosvi͡ashchennykh Darov
+Presanctified Liturgy
+Liturgie der Vorgeweihten Gaben"
+50001388,Ektenija,"Ектения
+Єктенїѧ
+Ektenii͡a
+Ectenia
+ἐκτενὴς
+Litany "
+50001389,Pričasten,"Причастен
+Prichasten
+κοινωνικός"
+50001390,Theotokia,"Богородичен
+Bogorodichen
+Bogorodičen
+Θεοτοκίον"
+50001391,Panichida,"Панихида
+Panikhida
+Memorial service
+"
+50001392,Posledovanie ischodnoe monachov,"Последование исходное монахов
+Posledovanie iskhodnoe monakhov
+Чин погребения монахов
+Burial of monks"
+50001393,Moleben,"Молебен
+Paraklesis
+Supplicatory Canon"
+50001394,Liturgija Ioanna Zlatousta,"Литургия Иоанна Златоуста
+Liturgii͡a Ioanna Zlatousta
+Liturgy of Saint John Chrysostom
+Göttliche Liturgie des heiligen Johannes Chrysostomos
+"
+50001395,Blaženny,"Beatitudes
+Makarismoi
+μακαρισμοί
+Seligpreisung
+"
+50001415,Echoes,Echos
+50001425,Letrillas,
+50001437,Piano pieces,Klavierstücke
+50001439,Military songs,
+50001453,Methods,
+50001458,Dramma per musica,""
+50001459,Revues,
+50001474,Novena,
+50001475,Harp music,""
+50001497,Flamencos,""
+50001499,Rasgos,
+50001501,Salves,
+50001503,Coplas,
+50001504,Pasos,
+50001512,Spirituals,
+50001514,Wienerlieder,""
+50001516,Salon pieces,"Salon music
+Salonstücke
+Salonmusik
+Morceaux de Salon"
+50001517,Capitula,
+50001526,Violin music,
+50001532,Jaleos,
+50001546,Marian hymns,Marienhymnen
+50001591,Scherzo comico,
+50001643,Patriotic songs,""
+50001651,History of music,Musikgeschichte
+50001652,Mandora music ,
+50001662,Music aesthetics,
+50001663,Music dictionary,
+50001674,Zapateados,""
+50001675,Ornament chart,""
+50001677,Organ accompaniment,""
+50001688,Postcommunions,
+50001693,Sixth editions,Sechsten Ausgaben Sixièmes éditions Szóste wydanie Seste edizioni Sextas ediciones
+50001699,Ocarina music,
+50001700,Solos (voc.),
+50001706,Arabesques,Arabesken
+50001707,Moments musicaux,""
+50001710,Sprechstücke,
+50001711,Rundgesänge,Rundlieder
+50001715,Musique informelle,
+50001717,Notes,""
+50001726,Cantadas,
+50001732,Solo,""
+50001734,Chormusik,""
+50001735,Ensemble,""
+50001737,Orchestral music,Orchestermusik
+50001754,Schrammelmusik,""
+50001758,Electronic music,Elektronische Musik
+50001766,Games,
+50001772,Biography,
+50001773,Liturgical music,
+50001786,Calypsos,
+50001787,Art of singing,
+50001802,Mystery plays,Mysterienspiele
+50001803,School songs,Schullieder
+50001804,Coronation music,Krönungsmusik
+50001806,Acclamations (sacred/secular),Akklamationen (sakral/weltlich)
+50001807,chang‘ge (唱歌),"changge, 唱歌"
+50001814,Fragments,Fragmente
+50001815,Composition,
+50001820,Hupfauf,"Hupfauff
+Saltarelli tedesci"
+50001825,Counterpoint,
+50001828,Organology,
+50001829,Physiology,
+50001830,Acoustics,
+50001831,Aeolian harp,
+50001832,Plainchants,Cantus plani
+50001833,Vihuela music,
+50001853,Text documents,""
+50001863,Ritornellos,"Ritornelli
+Ritornelle
+"
+50001871,Banda pieces,
+50001894,Composition treatises,
+50001895,Introductions,
+50001896,Catalogue of works,
+50001897,Unterrichtsbücher,
+50001903,Bailetes,""
+50001918,Sainetes,""
+50001919,Auto sacramental,""
