@@ -22,7 +22,7 @@ sources.each do |source|
       end
     end
     if containing == false
-      res << ["<a href=\"https://muscat.rism.info/admin/sources/#{source.id}\">#{source.id}</a>", st, holdings.join("; ")]
+      res << ["=HYPERLINK(\"\"https://muscat.rism.info/admin/sources/#{source.id}\"\", \"\"#{source.id}\"\")", st, holdings.join("; ")]
     end
   end
 end
