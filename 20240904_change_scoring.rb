@@ -14,7 +14,7 @@ CSV.foreach(filename, :headers => true) do |e|
     scoring[e[1]] = "#{e[2]}"
 end
 
-sources = Source.find_by_sql("SELECT * FROM sources where std_title REGEXP '(#{scoring.keys.join("|")})$'")
+sources = Source.find_each
 maintenance = Muscat::Maintenance.new(sources)
 
 process = lambda { |record|
