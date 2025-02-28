@@ -1,0 +1,5 @@
+# Logfile created on 2025-02-27 09:25:18 +0100 by logger.rb/v1.4.3
+I, [2025-02-27T09:25:18.595116 #6635]  INFO -- : lab.rism: Size of collection --> 3
+I, [2025-02-27T09:25:18.683289 #6635]  INFO -- : lab.rism: Publication #3828 changed | to -
+I, [2025-02-27T09:25:28.941443 #6635]  INFO -- : lab.rism: Publication #105 changed | to -
+I, [2025-02-27T09:25:33.065821 #6635]  INFO -- : lab.rism: Publication #2496 changed | to -
