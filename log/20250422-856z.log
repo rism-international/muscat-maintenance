@@ -1,0 +1,236 @@
+# Logfile created on 2025-04-24 08:40:45 +0200 by logger.rb/v1.6.2
+I, [2025-04-24T08:40:45.889825 #19864]  INFO -- : lab.rism: Size of collection --> 117
+I, [2025-04-24T08:40:46.070649 #19864]  INFO -- : lab.rism: Source #212006695 =856  40$uhttp://hofmusik.slub-dresden.de$xOther$zOther
+
+I, [2025-04-24T08:40:48.563187 #19864]  INFO -- : lab.rism: Source #212007281 =856  40$uhttp://hofmusik.slub-dresden.de$xOther$zOther
+
+I, [2025-04-24T08:40:49.212289 #19864]  INFO -- : lab.rism: Source #212007311 =856  40$uhttp://hofmusik.slub-dresden.de$xOther$zOther
+
+I, [2025-04-24T08:40:49.529531 #19864]  INFO -- : lab.rism: Source #456011359 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00095088/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:49.911464 #19864]  INFO -- : lab.rism: Source #456082144 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060924/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:50.499100 #19864]  INFO -- : lab.rism: Source #456082145 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064590/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:50.724472 #19864]  INFO -- : lab.rism: Source #456082146 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064591/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:50.921845 #19864]  INFO -- : lab.rism: Source #456082147 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00044029/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:51.145318 #19864]  INFO -- : lab.rism: Source #456082148 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060905/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:51.421009 #19864]  INFO -- : lab.rism: Source #456082149 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064634/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:51.626633 #19864]  INFO -- : lab.rism: Source #456082150 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064635/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:51.787877 #19864]  INFO -- : lab.rism: Source #456082155 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059608/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:51.983319 #19864]  INFO -- : lab.rism: Source #456082156 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059609/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:52.264300 #19864]  INFO -- : lab.rism: Source #456082158 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060657/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:52.453130 #19864]  INFO -- : lab.rism: Source #456082159 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060659/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:52.645418 #19864]  INFO -- : lab.rism: Source #456082160 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064581/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:52.787497 #19864]  INFO -- : lab.rism: Source #456082161 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064579/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:52.935430 #19864]  INFO -- : lab.rism: Source #456082162 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064578/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:53.114000 #19864]  INFO -- : lab.rism: Source #456082164 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064582/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:53.253246 #19864]  INFO -- : lab.rism: Source #456082165 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064567/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:53.438546 #19864]  INFO -- : lab.rism: Source #456082166 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00008142/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:53.649098 #19864]  INFO -- : lab.rism: Source #456082167 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00103927/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:53.795985 #19864]  INFO -- : lab.rism: Source #456082171 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060910/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.060919 #19864]  INFO -- : lab.rism: Source #456082172 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060912/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.207473 #19864]  INFO -- : lab.rism: Source #456082173 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059601/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.404404 #19864]  INFO -- : lab.rism: Source #456082174 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060911/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.548781 #19864]  INFO -- : lab.rism: Source #456082176 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060204/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.732873 #19864]  INFO -- : lab.rism: Source #456082177 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060909/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:54.949774 #19864]  INFO -- : lab.rism: Source #456082178 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060281/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.144907 #19864]  INFO -- : lab.rism: Source #456082179 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060908/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.286863 #19864]  INFO -- : lab.rism: Source #456082181 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060205/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.441143 #19864]  INFO -- : lab.rism: Source #456082182 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060206/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.605622 #19864]  INFO -- : lab.rism: Source #456082186 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060284/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.786758 #19864]  INFO -- : lab.rism: Source #456082187 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060404/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:55.946792 #19864]  INFO -- : lab.rism: Source #456082188 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064589/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:56.154015 #19864]  INFO -- : lab.rism: Source #456082198 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064565/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:56.390093 #19864]  INFO -- : lab.rism: Source #456082199 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064587/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:56.530813 #19864]  INFO -- : lab.rism: Source #456082200 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064639/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:56.688083 #19864]  INFO -- : lab.rism: Source #456082201 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060658/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:56.839924 #19864]  INFO -- : lab.rism: Source #456082223 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060282/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:57.188856 #19864]  INFO -- : lab.rism: Source #456082224 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060283/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:57.358397 #19864]  INFO -- : lab.rism: Source #456082225 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064596/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:57.534101 #19864]  INFO -- : lab.rism: Source #456082226 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00030339/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:57.740312 #19864]  INFO -- : lab.rism: Source #456082227 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00030341/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:57.896306 #19864]  INFO -- : lab.rism: Source #456082228 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00030343/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:58.110770 #19864]  INFO -- : lab.rism: Source #456082229 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00030345/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:58.245081 #19864]  INFO -- : lab.rism: Source #456082230 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060915/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:58.396135 #19864]  INFO -- : lab.rism: Source #456082235 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060913/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:58.605611 #19864]  INFO -- : lab.rism: Source #456082236 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060914/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:58.812096 #19864]  INFO -- : lab.rism: Source #456082237 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064568/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:59.037520 #19864]  INFO -- : lab.rism: Source #456082241 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064584/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:59.278854 #19864]  INFO -- : lab.rism: Source #456082242 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060660/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:59.501662 #19864]  INFO -- : lab.rism: Source #456082244 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064585/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:59.643880 #19864]  INFO -- : lab.rism: Source #456082248 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059605/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:40:59.959308 #19864]  INFO -- : lab.rism: Source #456082249 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060269/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:00.150965 #19864]  INFO -- : lab.rism: Source #456082250 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060270/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:00.310035 #19864]  INFO -- : lab.rism: Source #456082251 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060271/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:00.498246 #19864]  INFO -- : lab.rism: Source #456082252 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060272/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:00.647596 #19864]  INFO -- : lab.rism: Source #456082256 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060918/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:00.812373 #19864]  INFO -- : lab.rism: Source #456082259 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064588/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:01.005885 #19864]  INFO -- : lab.rism: Source #456082260 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064583/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:01.211209 #19864]  INFO -- : lab.rism: Source #456082272 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059602/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:01.419663 #19864]  INFO -- : lab.rism: Source #456082273 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060669/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:01.701148 #19864]  INFO -- : lab.rism: Source #456082274 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060670/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:01.852642 #19864]  INFO -- : lab.rism: Source #456082275 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060683/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.011993 #19864]  INFO -- : lab.rism: Source #456082276 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060671/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.160098 #19864]  INFO -- : lab.rism: Source #456082277 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060672/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.353355 #19864]  INFO -- : lab.rism: Source #456082278 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060673/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.509781 #19864]  INFO -- : lab.rism: Source #456082279 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060674/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.668919 #19864]  INFO -- : lab.rism: Source #456082280 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060675/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.823757 #19864]  INFO -- : lab.rism: Source #456082281 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060676/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:02.975177 #19864]  INFO -- : lab.rism: Source #456082282 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060677/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:03.148121 #19864]  INFO -- : lab.rism: Source #456082283 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060679/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:03.294007 #19864]  INFO -- : lab.rism: Source #456082284 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060680/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:03.548538 #19864]  INFO -- : lab.rism: Source #456082285 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060681/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:03.739360 #19864]  INFO -- : lab.rism: Source #456082286 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060682/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:03.951484 #19864]  INFO -- : lab.rism: Source #456082287 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060684/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:04.163980 #19864]  INFO -- : lab.rism: Source #456082288 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060703/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:04.360766 #19864]  INFO -- : lab.rism: Source #456082289 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060698/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:04.561634 #19864]  INFO -- : lab.rism: Source #456082290 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060699/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:04.785568 #19864]  INFO -- : lab.rism: Source #456082291 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060700/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:04.952391 #19864]  INFO -- : lab.rism: Source #456082292 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060701/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.131198 #19864]  INFO -- : lab.rism: Source #456082293 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060702/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.288564 #19864]  INFO -- : lab.rism: Source #456082294 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060704/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.437941 #19864]  INFO -- : lab.rism: Source #456082295 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060705/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.576707 #19864]  INFO -- : lab.rism: Source #456082296 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060706/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.756905 #19864]  INFO -- : lab.rism: Source #456082297 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060707/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:05.935306 #19864]  INFO -- : lab.rism: Source #456082300 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064571/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:06.132457 #19864]  INFO -- : lab.rism: Source #456082301 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064572/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:06.381368 #19864]  INFO -- : lab.rism: Source #456082304 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060279/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:06.643289 #19864]  INFO -- : lab.rism: Source #456082305 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060276/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:06.832499 #19864]  INFO -- : lab.rism: Source #456082306 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060277/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:06.995315 #19864]  INFO -- : lab.rism: Source #456082307 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060916/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:07.180580 #19864]  INFO -- : lab.rism: Source #456082308 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060278/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:07.453018 #19864]  INFO -- : lab.rism: Source #456082309 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00007742/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:07.628387 #19864]  INFO -- : lab.rism: Source #456082318 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00044028/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:07.839505 #19864]  INFO -- : lab.rism: Source #456082320 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064592/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.025753 #19864]  INFO -- : lab.rism: Source #456082322 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00059603/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.214807 #19864]  INFO -- : lab.rism: Source #456082323 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060919/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.386890 #19864]  INFO -- : lab.rism: Source #456082328 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060922/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.541283 #19864]  INFO -- : lab.rism: Source #456082329 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060274/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.709224 #19864]  INFO -- : lab.rism: Source #456082330 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060275/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:08.862554 #19864]  INFO -- : lab.rism: Source #456082331 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064637/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:09.028071 #19864]  INFO -- : lab.rism: Source #456082332 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00064638/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:09.176036 #19864]  INFO -- : lab.rism: Source #456082335 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060887/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:09.394767 #19864]  INFO -- : lab.rism: Source #456082336 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060892/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:09.611514 #19864]  INFO -- : lab.rism: Source #456082338 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060894/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:10.030534 #19864]  INFO -- : lab.rism: Source #456082339 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060895/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:10.298018 #19864]  INFO -- : lab.rism: Source #456082340 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060897/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:10.455771 #19864]  INFO -- : lab.rism: Source #456082341 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060900/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:10.634806 #19864]  INFO -- : lab.rism: Source #456082354 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060870/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:10.896699 #19864]  INFO -- : lab.rism: Source #456082355 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060879/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:11.267879 #19864]  INFO -- : lab.rism: Source #456082356 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060883/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:11.488109 #19864]  INFO -- : lab.rism: Source #456082359 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00105820/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:11.647702 #19864]  INFO -- : lab.rism: Source #1001039040 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00115396/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:12.013160 #19864]  INFO -- : lab.rism: Source #1001039208 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00115394/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
+I, [2025-04-24T08:41:12.403499 #19864]  INFO -- : lab.rism: Source #1001053076 =856  ##$uhttps://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00060216/manifest$xIIIF manifest (digitized source)$zIIIF manifest (digitized source)
+
