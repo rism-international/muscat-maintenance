@@ -1,8 +1,8 @@
 # encoding: UTF-8
 # #
 # puts "##################################################################################################"
-# puts "########################    ISSUE: Add Digits to BLB             #################################"
-# puts "#########################   Expected collection size: 10.000    ##################################"
+# puts "########################    ISSUE: Add 856$z                     #################################"
+# puts "#########################   Expected collection size: 100      ##################################"
 # puts "##################################################################################################"
 # puts ""
 #
@@ -23,8 +23,12 @@ process = lambda { |record|
     x = tag.fetch_first_by_tag("x").content
     z = tag.fetch_first_by_tag("z")
     if z
-      if z.content.length < 1 
-        z.content = x
+      if z.content.length < 1
+        if x == "Other"
+          z.content = "Projektwebsite"
+        else
+          z.content = x
+        end
         changed = true
       end
     else

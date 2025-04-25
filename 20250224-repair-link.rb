@@ -9,7 +9,6 @@ require_relative "lib/maintenance"
 records = Holding.where('marc_source like ?', "%http://nbn-resolving.de/urn/resolver.pl?urn%") + Source.where('marc_source like ?', "%http://nbn-resolving.de/urn/resolver.pl?urn%")
   
 maintenance = Muscat::Maintenance.new(records)
-binding.pry
 
 process = lambda { |record|
   modified = false
