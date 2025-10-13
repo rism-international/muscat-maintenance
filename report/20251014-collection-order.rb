@@ -1,7 +1,7 @@
 require 'csv'
 
 ofile = "#{Rails.root}/housekeeping/maintenance/report/20241014_check_order.csv"
-sources = Source.where(record_type: 1)
+sources = Source.where(record_type: 1).where('created_at > ?', Time.parse("2007-01-01"))
 bar = ProgressBar.new(sources.size)
 res = []
 sources.each do |record|
