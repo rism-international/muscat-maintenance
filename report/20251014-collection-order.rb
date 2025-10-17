@@ -19,13 +19,21 @@ sources.each do |record|
     end
   end
   unless sorted
-    CSV.open("t.csv", "ab") do |csv|
-      csv << [record.id]
-      binding.pry
+    marc.each_by_tag("774") do |tag|
+      tag.each_by_tag("w") do |sf|
+        sub = Source.find(sf.content) rescue next
+        submarc = sub.marc
+        _852 = sub.lib_siglum
+        _300tag = submarc.first_occurance("300", "a").content rescue ""
+        _590atag = submarc.first_occurance("590", "a").content rescue ""
+        _590btag = submarc.first_occurance("590", "b").content rescue ""
+        subres = [record.id, sub.id, _852, _300tag, _590atag, _590btag]
+        CSV.open("t.csv", "ab") do |csv|
+          csv << subres
+        end
+      end
     end
   end
-
-
 end
 
 #CSV.open(ofile, "w") do |csv|
