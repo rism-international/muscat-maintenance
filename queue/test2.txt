@@ -1,0 +1,856 @@
+993104330
+993120215
+993120315
+993120385
+993120626
+993120626
+993120757
+993121359
+993121359
+993121389
+993121389
+993121389
+993121389
+990049467
+993121467
+990049468
+1000000268
+993121701
+990063462
+993121758
+993121758
+993121758
+990048475
+993121880
+993122144
+990056041
+993120766
+993120847
+993121279
+990068474
+990002475
+990000267
+990000278
+990002920
+990000732
+990000935
+991012587
+992004299
+990003074
+990003077
+990003077
+990003949
+990003089
+990003092
+990003096
+990003102
+990003103
+990003132
+990004803
+990004806
+990003188
+990005267
+990005297
+990005298
+990005773
+990003292
+992006977
+990006379
+990006517
+990006765
+990003372
+990003384
+990003384
+990003385
+990003385
+990003387
+990003389
+990003390
+990003390
+990003391
+990003392
+990003394
+990003397
+990003400
+990003401
+990003420
+990003425
+990003428
+990003435
+990003440
+990003444
+990003018
+990007642
+990007657
+990003539
+990003555
+990003029
+990003031
+990003032
+990003683
+990003696
+990003696
+990003063
+991014067
+991013387
+991013389
+991013390
+991013394
+991029471
+991013411
+991013426
+991013430
+991013430
+990009271
+990001668
+990009481
+990009583
+990009999
+990010223
+990010560
+990010690
+990011018
+990011061
+990011064
+990011077
+990011098
+990011112
+990011133
+990011140
+990011143
+990011160
+990011164
+990011178
+990011192
+990011244
+990011254
+990011259
+990011260
+990011457
+990011498
+990011547
+990008186
+990011648
+990011654
+990011701
+990008220
+990008398
+990008593
+991015642
+991015678
+991016305
+991016513
+991016517
+990012888
+{"series"=>"D 1003 ", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+D 1003; DD 1003
+990012891
++++
+990012891
+D 1003; DD 1003
+1001251487
+D 1003; DD 1003
+1001251488
+D 1003; DD 1003
+
+990012892
+990012921
+990011961
+990013018
+990013080
+990013082
+990013359
+990013798
+990013823
+990013918
+990015043
+990015134
+990015345
+990015551
+990015552
+990015553
+990015584
+990015585
+990015673
+990016429
+990016431
+990012651
+990012696
+990016590
+991018054
+{"series"=>"EE 902 I,3", "rismid"=>nil, "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+EE 902 I,3
+654000102
++++
+654000102
+EE 902 I,3
+991018056
+EE 902 I,3
+
+
+990018857
+{"series"=>"F 48", "rismid"=>nil, "852a"=>"NL-DEta", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+F 48
+990017334
++++
+990017334
+F 48
+1001040922
+F 48
+
+
+990017856
+990017860
+990017867
+990017871
+990018029
+990018030
+990018113
+990018141
+990018185
+990020667
+990020698
+990020733
+990020736
+990020738
+990021088
+990019287
+990021410
+990021446
+990019476
+990022349
+990022572
+990022772
+990019651
+990023439
+990024235
+990025422
+990024506
+990025679
+990025683
+990025705
+990024580
+990028534
+990028771
+990028772
+990029126
+990029927
+990030072
+990030302
+990024939
+990031343
+990031964
+991020128
+
+
+{"series"=>"J 206", "rismid"=>nil, "852a"=>"B-Br ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+J 206; JJ 206
+990032284
++++
+990032284
+J 206; JJ 206
+1001036803
+J 206; JJ 206
+{"series"=>"J 206", "rismid"=>nil, "852a"=>"D-Es", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+J 206; JJ 206
+990032284
++++
+990032284
+J 206; JJ 206
+1001036803
+J 206; JJ 206
+
+
+990032319
+990032788
+990034524
+990034529
+990034562
+990034634
+990034644
+990034651
+990035020
+990035121
+990035274
+990033114
+990035659
+990035667
+990035676
+990033202
+990033230
+{"series"=>"K 634", "rismid"=>nil, "852a"=>"NL-D ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+K 634
+990033457
+{"series"=>"KK 1843a", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+KK 1843a
+991021967
+{"series"=>"KK 1843d", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+KK 1843d
+991021970
+{"series"=>"L 2149", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 2149; LL 2149
+990037901
++++
+990037901
+L 2149; LL 2149
+1001256852
+L 2149; LL 2149
+1001256853
+L 2149; LL 2149
+{"series"=>"L 340", "rismid"=>nil, "852a"=>"NL-RHkeppel", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 340
+990036170
+{"series"=>"L 343", "rismid"=>nil, "852a"=>"NL-RHkeppel", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 343
+990036173
+{"series"=>"L 387", "rismid"=>nil, "852a"=>"NL-DEta", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 387
+990036216
+{"series"=>"L 665", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 665; LL 665
+990036457
+{"series"=>"L 769", "rismid"=>nil, "852a"=>"I-VEaf  ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+L 769
+990036556
+{"series"=>"M 1164 ", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 1164; MM 1164
+990039870
+{"series"=>"M 165", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 165
+vol. 2, p. 527
+990038924
+{"series"=>"M 1781", "rismid"=>nil, "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 1781; MM 1781
+990040468
+{"series"=>"M 1874 ", "rismid"=>nil, "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 1874; MM 1874
+990040560
+{"series"=>"M 3030", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 3030
+990041677
+{"series"=>"M 391", "rismid"=>nil, "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 391; MM 391
+990039140
+{"series"=>"M 395", "rismid"=>nil, "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 395; MM 395
+990039144
+{"series"=>"M 4061", "rismid"=>nil, "852a"=>"D-LÜh", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 4061; MM 4061
+990042636
+{"series"=>"M 7768", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 7768
+990046097
+{"series"=>"M 7911", "rismid"=>nil, "852a"=>"NL-DHa ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+M 7911
+990046238
+{"series"=>"MM 1663a", "rismid"=>nil, "852a"=>"NL-RHkeppel", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+MM 1663a
+991000687
+{"series"=>"MM 3548e", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+MM 3548e
+991010580
+{"series"=>"N 409", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+N 409
+990046964
++++
+990046964
+N 409
+990070715
+AN 409
+{"series"=>"N 639 ", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+N 639; NN 639
+990047184
++++
+990047184
+N 639; NN 639
+990070877
+AN 639
+{"series"=>"N 68", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+N 68
+990046636
++++
+990046636
+N 68
+991019271
+GG 2925 III,1
+IN 68
+992003689
+AN 68
+{"series"=>"N 805", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+N 805
+990047342
++++
+990047342
+N 805
+992003869
+AN 805
+{"series"=>"O 330 ", "rismid"=>nil, "852a"=>"NL-DHa", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+O 330; OO 330
+990047634
+{"series"=>"O 53", "rismid"=>nil, "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+O 53
+990047408
+{"series"=>"P 1011", "rismid"=>nil, "852a"=>"NL-Ur ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+P 1011; PP 1011
+990048596
+{"series"=>"P 1222", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 1222; PP 1222
+p. 291
+990048791
+{"series"=>"P 3421", "rismid"=>nil, "852a"=>"NL-Areede ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3421; PP 3421
+990050845
+{"series"=>"P 3427", "rismid"=>nil, "852a"=>"NL-Areede ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3427; PP 3427
+990050851
+{"series"=>"P 3433", "rismid"=>nil, "852a"=>"NL-Areede ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3433
+990050857
+{"series"=>"P 3438", "rismid"=>nil, "852a"=>"NL-Areede", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3438
+990050862
+{"series"=>"P 3440", "rismid"=>nil, "852a"=>"NL-Areede ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3440
+990050864
+{"series"=>"P 3457", "rismid"=>nil, "852a"=>"NL-Areede ", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 3457
+990050881
+{"series"=>"P 5597", "rismid"=>nil, "852a"=>"NL-DHnmi ", "852q"=>"vl 1, vl 2, bc", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 5597; PP 5597
+990052973
+{"series"=>"P 5805", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 5805
+990053096
+{"series"=>"P 5829 ", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 5829; PP 5829
+990053115
+{"series"=>"P 5977", "rismid"=>nil, "852a"=>"NL-BUkoopman ", "852q"=>"vl 1, vl 2, vla, b", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 5977; PP 5977
+990053206
+{"series"=>"P 631", "rismid"=>nil, "852a"=>"B-Bc vollst.", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 631
+990048229
+{"series"=>"P 709", "rismid"=>nil, "852a"=>"B-Br ", "852q"=>"ohne B", "852c"=>nil, "856u"=>"http://uurl.kbr.be/1560773", "856z"=>"Digital copy", "856x"=>"Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>"Beim Digitalisat handelt es sich um ein Konvolut mit P 700, P 709 ohne Bassus, P 712 und P 716"}
+1588/9
+P 709; PP 709
+990048307
+{"series"=>"P 709", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"B, V 5", "852c"=>nil, "856u"=>"https://explora.bnc.cat/permalink/34CSUC_BC/1fpark4/alma991010330909706717", "856z"=>"LInk to record in local catalgoue", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1588/9
+P 709; PP 709
+990048307
+{"series"=>"P 709", "rismid"=>nil, "852a"=>"E-Bim", "852q"=>"S", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/22873", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1588/9
+P 709; PP 709
+990048307
+{"series"=>"P 710", "rismid"=>nil, "852a"=>"E-Bu", "852q"=>"complete", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/21778", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1594/1
+P 710; PP 710
+990048308
+{"series"=>"P 710", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"ohne T", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1594/1
+P 710; PP 710
+990048308
+{"series"=>"P 711", "rismid"=>nil, "852a"=>"I-Sac", "852q"=>"S, A, B", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 711; PP 711
+990048309
+{"series"=>"P 711", "rismid"=>nil, "852a"=>"I-Vnm", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 711; PP 711
+990048309
+{"series"=>"P 712", "rismid"=>nil, "852a"=>"B-Br ", "852q"=>"S, A, T, B, V 5, V 6 ", "852c"=>nil, "856u"=>"http://uurl.kbr.be/1560767@@http://uurl.kbr.be/1560769@@http://uurl.kbr.be/1560771@@http://uurl.kbr.be/1560773@@http://uurl.kbr.be/1560775@@http://uurl.kbr.be/1560777", "856z"=>"Digital copy (Cantus)@@Digital copy (Altus)@@Digital copy (Tenor)@@Digital copy (Bassus)@@Digital copy (Quintus)@@Digital copy (Sextus)", "856x"=>"Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>"Digitalisat (jeweils Konvolut aus P 700, P 709,P 712, P 716. Der Bassus P 712 ist handschriftlich aus dem 19. oder frühen 20. Jh.)"}
+P 712; PP 712
+990048310
+{"series"=>"P 712", "rismid"=>nil, "852a"=>"E-PAMcap", "852q"=>"S, A, B", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/22871 @@https://hispanicpolyphony.eu/source/22870 @@https://hispanicpolyphony.eu/source/22869", "856z"=>"Link to record in Books of Hispanic Polyphony@@Link to record in Books of Hispanic Polyphony@@Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige@@Sonstige@@Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 712; PP 712
+990048310
+{"series"=>"P 714", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"B, V 5", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 714
+990048312
+{"series"=>"P 716", "rismid"=>nil, "852a"=>"B-Br ", "852q"=>"vollst. (B handschriftlich)", "852c"=>"Fétis 1.712 bis A", "856u"=>"http://uurl.kbr.be/1560767@@http://uurl.kbr.be/1560769@@http://uurl.kbr.be/1560771@@http://uurl.kbr.be/1560773@@http://uurl.kbr.be/1560775", "856z"=>"Digital copy (Cantus)@@Digital copy (Altus)@@Digital copy (Tenor)@@Digital copy (Bassus)@@Digital copy (Quintus)", "856x"=>"Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat@@Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>"Digitalisat: Bassus handschriftl. 19. Jh. "}
+P 716; PP 716
+990048314
+{"series"=>"P 717", "rismid"=>nil, "852a"=>"I-Rv", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"FranchiR 2007", "691n"=>"p. 28-30", "500a"=>nil}
+P 717; PP 717
+990048315
+{"series"=>"P 717", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"ohne T", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"PedrellB 1908", "691n"=>"vol. 1, p. 295", "500a"=>nil}
+P 717; PP 717
+990048315
+{"series"=>"P 719", "rismid"=>nil, "852a"=>"E-PAMcap", "852q"=>"S, A, B", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/22871 @@https://hispanicpolyphony.eu/source/22870 @@https://hispanicpolyphony.eu/source/22869", "856z"=>"Link to record in Books of Hispanic Polyphony@@Link to record in Books of Hispanic Polyphony@@Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige@@Sonstige@@Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 719
+990048317
+{"series"=>"P 721", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"B", "852c"=>nil, "856u"=>"http://mdc.csuc.cat/cdm/compoundobject/collection/musicatedra/id/76071/rec/24", "856z"=>"Digital copy", "856x"=>"Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 721
+990048319
+{"series"=>"P 722", "rismid"=>nil, "852a"=>"I-Mc", "852q"=>"complete", "852c"=>"S. B. 107", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"BarblanM 1972", "691n"=>"p. 295f.", "500a"=>"@@Barblan gibt irrtümlich an, zum Stimmbuchsatz gehöre auch eine Orgelstimme. Diese hat sich aber als P 726 herausgestellt."}
+P 722
+990048320
+{"series"=>"P 723", "rismid"=>nil, "852a"=>"V-CVbav (Fondo Cappella Giulia)", "852q"=>"B", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"LlorensG 1971", "691n"=>"p. 136-138, 369", "500a"=>"Es ist in einem Konvolut aus fünf Stimmbuchsätzen eingebunden (nach Stimmen sortiert, für den Bassus gibt es zweiExemplare). Entgegen den Angaben in LlorensG 1971 handelt es sich beim zweiten Bassus-Exemplar nicht um P 717 wie bei den anderen Stimmbüchern, sondern um P 723."}
+P 723
+990048321
+{"series"=>"P 725", "rismid"=>nil, "852a"=>"I-TRsf", "852q"=>"org", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 725; PP 725
+990048323
+{"series"=>"P 726", "rismid"=>nil, "852a"=>"I-Mc", "852q"=>"org", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"BarblanM 1972", "691n"=>"p. 295f.", "500a"=>"Barblan wies diese org-Stimme irrtümlich P 722 zu."}
+P 726
+990048324
+{"series"=>"P 727", "rismid"=>nil, "852a"=>"E-JA", "852q"=>"S, T, B", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/17946", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 727
+990048325
+{"series"=>"P 727", "rismid"=>nil, "852a"=>"I-PCd", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 727
+990048325
+{"series"=>"P 728", "rismid"=>nil, "852a"=>"V-CVbav  ", "852q"=>"V 5", "852c"=>"Casimiri.IV.931(int.8", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 728; PP 728
+990048326
+{"series"=>"P 731", "rismid"=>nil, "852a"=>"E-JA", "852q"=>"complete", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/18249", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 731; PP 731
+990048329
+{"series"=>"P 732", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"B", "852c"=>nil, "856u"=>"http://mdc.csuc.cat/cdm/compoundobject/collection/musicatedra/id/78641/rec/25", "856z"=>"Digital copy", "856x"=>"Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 732
+990048330
+{"series"=>"P 732", "rismid"=>nil, "852a"=>"E-Bu", "852q"=>"complete", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/21782", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 732
+990048330
+{"series"=>"P 735", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"B", "852c"=>nil, "856u"=>"https://mdc.csuc.cat/digital/collection/musicatedra/id/76598", "856z"=>"Digital copy", "856x"=>"Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 735
+990048333
+{"series"=>"P 737", "rismid"=>nil, "852a"=>"I-Rsld", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"AndraeR 1985", "691n"=>"p. 120", "500a"=>nil}
+P 737; PP 737
+990048335
+{"series"=>"P 737", "rismid"=>nil, "852a"=>"I-Rsmt", "852q"=>nil, "852c"=>"st. mus. 670 B ", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"SimiBoniniM 2000", "691n"=>"p. 370", "500a"=>nil}
+P 737; PP 737
+990048335
+{"series"=>"P 737", "rismid"=>nil, "852a"=>"A-Wnh", "852q"=>nil, "852c"=>nil, "856u"=>"http://data.onb.ac.at/rec/AC09296837", "856z"=>"Link to record in OPAC ÖNB", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 737; PP 737
+990048335
+{"series"=>"P 737", "rismid"=>nil, "852a"=>"E-CU", "852q"=>"(ohne Titelblatt und die ersten 109 Folien)", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/18044", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>"Navarro-GonzaloC 1973", "691n"=>"p.332", "500a"=>"Im Katalog der Bibliothek ist es als anonymer, unbekannter Druck aufgeführt."}
+P 737; PP 737
+990048335
+{"series"=>"P 738", "rismid"=>nil, "852a"=>"CO-B", "852q"=>"T ", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"StevensonB 1962", "691n"=>"p. 308", "500a"=>nil}
+P 738
+990048336
+{"series"=>"P 738", "rismid"=>nil, "852a"=>"E-TZ", "852q"=>"unvollst.", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/13461", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 738
+990048336
+{"series"=>"P 738", "rismid"=>nil, "852a"=>"I-AOc", "852q"=>"ohne B", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"ChatrianA 1985", "691n"=>"p.  116f.", "500a"=>nil}
+P 738
+990048336
+{"series"=>"P 739", "rismid"=>nil, "852a"=>"I-FA", "852q"=>"A, B", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"MoroniM 1996", "691n"=>"p. 76", "500a"=>nil}
+P 739
+990048337
+{"series"=>"P 739", "rismid"=>nil, "852a"=>"V-CVbav ", "852q"=>"complete", "852c"=>"Stamp.Chig.IV.2244(1-5)", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 739
+990048337
+{"series"=>"P 745", "rismid"=>nil, "852a"=>"I-VCd", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 745; PP 745
+990048343
+{"series"=>"P 745", "rismid"=>nil, "852a"=>"E-Asa", "852q"=>"S, T", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>"VicenteA 1989", "691n"=>"p. 46f.", "500a"=>nil}
+P 745; PP 745
+990048343
+{"series"=>"P 748", "rismid"=>nil, "852a"=>"I-CMac", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 748
+990048346
+{"series"=>"P 749", "rismid"=>nil, "852a"=>"V-CVbav ", "852q"=>nil, "852c"=>"Stamp.Chig.IV.2243(1-5)", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 749; PP 749
+990048347
+{"series"=>"P 895", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+P 895; PP 895
+990048490
+{"series"=>"PP 5070 I,58", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+PP 5070 I,58
+991025091
+{"series"=>"PP 733a", "rismid"=>nil, "852a"=>"E-Bbc", "852q"=>"ohne A, T (ohne S. 24-32) ", "852c"=>nil, "856u"=>"http://mdc.csuc.cat/cdm/ref/collection/partiturBC/id/5542", "856z"=>"Digital copy", "856x"=>"Quellendigitalisat", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+PP 733a
+991023535
+{"series"=>"PP 745a", "rismid"=>nil, "852a"=>"I-Sac", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+PP 745a
+991010192
+{"series"=>"R 1350", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>"vl, vlc, cemb", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 1350
+990054712
+{"series"=>"R 1545", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 1545; RR 1545
+990054901
+{"series"=>"R 165", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 165; RR 165
+990053586
+{"series"=>"R 1679 ", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"Verlag Simrock, Bonn mit Etikett überklebt Theune, Amsterdam"}
+R 1679; RR 1679
+990055027
+{"series"=>"R 1861", "rismid"=>nil, "852a"=>"B-Bc  ", "852q"=>"vl 1, vl 2, bc", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 1861
+990055194
+{"series"=>"R 1961", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 1961; RR 1961
+990055294
+{"series"=>"R 2115", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 2115; RR 2115
+990055447
+{"series"=>"R 2331 ", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 2331
+990055663
+{"series"=>"R 2341 ", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 2341
+990055673
+{"series"=>"R 2559", "rismid"=>nil, "852a"=>"D-GOl", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 2559; RR 2559
+990055885
+{"series"=>"R 59", "rismid"=>nil, "852a"=>"NL-RHkeppel", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 59
+p. 181-182
+990053486
+{"series"=>"R 68", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 68; RR 68
+990053495
+{"series"=>"R 983", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 983; RR 983
+990054357
+{"series"=>"R 984", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+R 984
+990054358
+{"series"=>"RR 2308a ", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+RR 2308a
+991008798
+{"series"=>"S 1063", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 1063; SS 1063
+990057528
+{"series"=>"S 1587", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 1587
+990058029
+{"series"=>"S 1937 ", "rismid"=>nil, "852a"=>"NL-DHa ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 1937; SS 1937
+990058370
+{"series"=>"S 2183", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 2183
+990058614
+{"series"=>"S 2392", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 2392; SS 2392
+990058819
+{"series"=>"S 2739 ", "rismid"=>nil, "852a"=>"GB-Lbl ", "852q"=>"V 5, V 6, V 7", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"Zusammengebunden mit Stimmbüchern von S 2740 und S 2741"}
+S 2739; SS 2739
+990059143
+{"series"=>"S 4671", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 4671; SS 4671
+990060989
+{"series"=>"S 4673", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 4673; SS 4673
+990060991
+{"series"=>"S 4678", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 4678; SS 4678
+990060996
+{"series"=>"S 6001 ", "rismid"=>nil, "852a"=>"NL-DHa ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 6001; SS 6001
+990062302
+{"series"=>"S 698", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 698
+990057197
+{"series"=>"S 7192", "rismid"=>nil, "852a"=>"A-Kr  ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1643/5
+S 7192
+990063462
+{"series"=>"S 722", "rismid"=>nil, "852a"=>"NL-BUkoopman ", "852q"=>"vl 1, vl 2, bc", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+S 722; SS 722
+990057221
+{"series"=>"SS 6605a", "rismid"=>nil, "852a"=>"D-W", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+SS 6605a
+991003709
+{"series"=>"T 1340", "rismid"=>nil, "852a"=>"PL-Pu ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+T 1340
+990064823
+{"series"=>"V 1155", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1155; VV 1155
+990066170
+{"series"=>"V 1158", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1158
+990066173
+{"series"=>"V 1159", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1159
+990066174
+{"series"=>"V 1327 ", "rismid"=>nil, "852a"=>"B-Br ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1327; VV 1327
+990066340
+{"series"=>"V 1833", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1833; VV 1833
+990066822
+{"series"=>"V 1837", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1837
+990066826
+{"series"=>"V 1838", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1838; VV 1838
+990066827
+{"series"=>"V 1845", "rismid"=>nil, "852a"=>"NL-DHa ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 1845; VV 1845
+990066834
+{"series"=>"V 2383", "rismid"=>nil, "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 2383; VV 2383
+990067362
+{"series"=>"V 53", "rismid"=>nil, "852a"=>"B-Bc ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 53
+990065092
++++
+990065092
+V 53
+1001019523
+V 53
+{"series"=>"V 682", "rismid"=>nil, "852a"=>"NL-Ur", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+V 682
+990065702
+{"series"=>"W 1041", "rismid"=>nil, "852a"=>"US-NH ", "852q"=>"A", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1622/15
+W 1041
+990068474
+{"series"=>"W 1679 ", "rismid"=>nil, "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+W 1679; WW 1679
+990069091
+{"series"=>"W 1946", "rismid"=>nil, "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+W 1946
+990069326
+{"series"=>"WW 1700 I,1", "rismid"=>nil, "852a"=>"A-Wn", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+WW 1700 I,1
+991006853
+{"series"=>"WW 1722 II,108", "rismid"=>nil, "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"Teil 1: Impressum André, Offenbach überklebt mit Etikett L. Plattner, Rotterdam"}
+WW 1722 II,108
+991006994
+{"series"=>"YY 8a", "rismid"=>nil, "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+YY 8a
+991007317
+{"series"=>"Z 427", "rismid"=>nil, "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+Z 427; ZZ 427
+990070100
+{"series"=>"Z 65", "rismid"=>nil, "852a"=>"B-Bc  ", "852q"=>"vl 1, vl 2, bc", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+Z 65; ZZ 65
+990069754
+{"series"=>nil, "rismid"=>"990003110", "852a"=>"A-Wnh", "852q"=>nil, "852c"=>"SH.Theoretica.5", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+B 143; BB 143
+vol. 1, p. 105
+990003110
+{"series"=>nil, "rismid"=>"990003110", "852a"=>"A-Wnh", "852q"=>nil, "852c"=>"SH.Theoretica.6", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+B 143; BB 143
+vol. 1, p. 105
+990003110
+{"series"=>nil, "rismid"=>"990048313", "852a"=>"E-Bu", "852q"=>"complete", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 715; PP 715
+990048313
+{"series"=>nil, "rismid"=>"990048313", "852a"=>"E-JA", "852q"=>"A, T, B", "852c"=>nil, "856u"=>"https://hispanicpolyphony.eu/source/17945", "856z"=>"Link to record in Books of Hispanic Polyphony", "856x"=>"Sonstige", "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 715; PP 715
+990048313
+{"series"=>nil, "rismid"=>"990049472", "852a"=>"GB-Lbl ", "852q"=>"ohne bc", "852c"=>"R.M.15.f.1.(9.)", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+P 1988; PP 1988
+990049472
+{"series"=>nil, "rismid"=>"990068461", "852a"=>"D-B ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1639-12 Kant Stüx 1639
+W 1028; WW 1028
+990068461
+{"series"=>nil, "rismid"=>"991005766", "852a"=>"D-B", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1548-05 1LBl Walt 1548
+WW 174a
+991005766
+{"series"=>nil, "rismid"=>"990019634", "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+G 421; GG 421
+p. 348
+990019634
+{"series"=>nil, "rismid"=>"450059037", "852a"=>"NL-BUkoopman", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+p. 399
+450059037
+{"series"=>nil, "rismid"=>"1000000636", "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+1000000636
+{"series"=>nil, "rismid"=>"1001208697", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 78 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+1001208697
+{"series"=>nil, "rismid"=>"1001264171", "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 1, p. 262
+1001264171
+{"series"=>nil, "rismid"=>"1000000105", "852a"=>"D-HRD", "852q"=>"B ", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"Titelblatt und die ersten beiden Notenseiten fehlen"}
+1000000105
+{"series"=>nil, "rismid"=>"1001208328", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 179 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+1001208328
+{"series"=>nil, "rismid"=>"653005743", "852a"=>"D-HVl ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+653005743
+{"series"=>nil, "rismid"=>"1001229777", "852a"=>"B-Br  ", "852q"=>nil, "852c"=>"V. B. 3577 C", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 1, p. 319
+1001229777
+{"series"=>nil, "rismid"=>"1001209836", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 423 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 1, p. 454
+1001209836
+{"series"=>nil, "rismid"=>"1001209836", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 424,2 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 1, p. 454
+1001209836
+{"series"=>nil, "rismid"=>"1001208568", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 387,1 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 2, p. 543
+1001208568
+{"series"=>nil, "rismid"=>"1001206226", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 481 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 2, p. 846
+1001206226
+{"series"=>nil, "rismid"=>"1001206226", "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 2, p. 846
+1001206226
+{"series"=>nil, "rismid"=>"653005905", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"1929 A 7", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 2, p. 847
+653005905
+{"series"=>nil, "rismid"=>"653005905", "852a"=>"D-Dl ", "852q"=>nil, "852c"=>"MB 8° 611 Rara", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+vol. 2, p. 847
+653005905
+{"series"=>nil, "rismid"=>"1001098261", "852a"=>"D-KNu ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>"  "}
+1604-17 Mi Fig 1604
+1001098261
+{"series"=>nil, "rismid"=>"402006138", "852a"=>"NL-At", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+402006138
+{"series"=>nil, "rismid"=>"402006164", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"A 124", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+402006164
+{"series"=>nil, "rismid"=>"553002209", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"S 17", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+553002209
+{"series"=>nil, "rismid"=>"553005028", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"S 7", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+553005028
+{"series"=>nil, "rismid"=>"653005800", "852a"=>"B-Bc", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+653005800
+{"series"=>nil, "rismid"=>"653005872", "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+653005872
+{"series"=>nil, "rismid"=>"654000413", "852a"=>"D-LÜh  ", "852q"=>nil, "852c"=>"A 307", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+654000413
+{"series"=>nil, "rismid"=>"1000000637", "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1000000637
+{"series"=>nil, "rismid"=>"1001005205", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"S 24", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001005205
+{"series"=>nil, "rismid"=>"1001005205", "852a"=>"NL-DHnmi ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001005205
+{"series"=>nil, "rismid"=>"1001005249", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"S 24a", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001005249
+{"series"=>nil, "rismid"=>"1001044161", "852a"=>"NL-At", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001044161
+{"series"=>nil, "rismid"=>"1001044349", "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001044349
+{"series"=>nil, "rismid"=>"1001046142", "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001046142
+{"series"=>nil, "rismid"=>"1001048604", "852a"=>"NL-At", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001048604
+{"series"=>nil, "rismid"=>"1001159523", "852a"=>"A-Wnh", "852q"=>nil, "852c"=>"SH.J.S.Bach.5", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001159523
+{"series"=>nil, "rismid"=>"1001094913", "852a"=>"NL-At", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001094913
+{"series"=>nil, "rismid"=>"1001102015", "852a"=>"NL-DHa ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001102015
+{"series"=>nil, "rismid"=>"1101114441", "852a"=>"A-Wnh", "852q"=>nil, "852c"=>"SH.J.S.Bach.29", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+{"series"=>nil, "rismid"=>"1001148645", "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001148645
+{"series"=>nil, "rismid"=>"1001148849", "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001148849
+{"series"=>nil, "rismid"=>"1001151153", "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001151153
+{"series"=>nil, "rismid"=>"1001154684", "852a"=>"D-HR", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001154684
+{"series"=>nil, "rismid"=>"1001188660", "852a"=>"PL-WRu ", "852q"=>"S, A, B", "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001188660
+{"series"=>nil, "rismid"=>"1001194445", "852a"=>"NL-Uim ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001194445
+{"series"=>nil, "rismid"=>"1001199884", "852a"=>"D-LÜh ", "852q"=>nil, "852c"=>"S 8a,b,c", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001199884
+{"series"=>nil, "rismid"=>"1001200111", "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>"10 C 11", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001200111
+{"series"=>nil, "rismid"=>"1001204583", "852a"=>"A-Wnh", "852q"=>nil, "852c"=>"SH.J.S.Bach.90", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001204583
+{"series"=>nil, "rismid"=>"1001205298", "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>"10 B 34", "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001205298
+{"series"=>nil, "rismid"=>"1001251919", "852a"=>"NL-At ", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001251919
+{"series"=>nil, "rismid"=>"1001262322", "852a"=>"NL-DHnmi", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001262322
+{"series"=>nil, "rismid"=>"1001273470", "852a"=>"D-HR", "852q"=>nil, "852c"=>nil, "856u"=>nil, "856z"=>nil, "856x"=>nil, "691a"=>nil, "691n"=>nil, "500a"=>nil}
+1001273470
